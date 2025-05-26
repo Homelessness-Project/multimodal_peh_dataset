@@ -1,0 +1,7 @@
+pandas
+tqdm
+spacy
+praw
+python-dotenv
+requests
+pydeidentify
