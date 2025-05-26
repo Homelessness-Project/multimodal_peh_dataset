@@ -2,6 +2,12 @@ import spacy
 from pydeidentify import Deidentifier
 
 
+KEYWORDS = [
+    'homeless', 'homelessness', 'housing crisis',
+    'affordable housing', 'unhoused', 'houseless',
+    'housing insecurity', 'beggar', 'squatter', 'panhandler', 'soup kitchen'
+]
+
 def load_spacy_model():
     try:
         # Load English language model

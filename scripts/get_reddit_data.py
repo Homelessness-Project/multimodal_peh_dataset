@@ -4,15 +4,10 @@ import os
 from datetime import datetime, timezone, timedelta
 import time
 import praw
-from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
+from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT, KEYWORDS
 
 subreddit_name = "southbend"
 
-keywords = [
-    'homeless', 'homelessness', 'housing crisis',
-    'affordable housing', 'unhoused', 'houseless',
-    'housing insecurity', 'beggar', 'squatter', 'panhandler', 'soup kitchen'
-]
 # Prepare the output directory
 output_dir = f'data/{subreddit_name.lower()}/reddit'
 os.makedirs(output_dir, exist_ok=True)
@@ -137,4 +132,4 @@ if __name__ == "__main__":
     start_date = datetime(2015, 1, 1, tzinfo=timezone.utc)
     end_date = datetime(2025, 1, 1, tzinfo=timezone.utc)
 
-    search_posts_and_export(subreddit_name, keywords, start_date, end_date)
+    search_posts_and_export(subreddit_name, KEYWORDS, start_date, end_date)
