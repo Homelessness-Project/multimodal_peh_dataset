@@ -4,7 +4,8 @@ import os
 from datetime import datetime, timezone, timedelta
 import time
 import praw
-from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT, KEYWORDS
+from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
+from utils import KEYWORDS
 
 subreddit_name = "southbend"
 
