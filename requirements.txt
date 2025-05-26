@@ -5,3 +5,4 @@ praw
 python-dotenv
 requests
 pydeidentify
+newsapi-python
