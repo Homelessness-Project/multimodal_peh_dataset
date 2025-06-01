@@ -27,9 +27,18 @@ pip install -r requirements.txt
 REDDIT_CLIENT_ID=your_client_id_here
 REDDIT_CLIENT_SECRET=your_client_secret_here
 REDDIT_USER_AGENT=your_user_agent_here
+
+# News API credentials
+NEWS_API_KEY=your_news_api_key_here
+
+# LexisNexis API credentials
+LEXISNEXIS_API_ID=your_lexisnexis_api_id_here
+LEXISNEXIS_API_KEY=your_lexisnexis_api_key_here
 ```
 
 ## Scripts
 
 - `scripts/get_reddit_data.py`: Collects Reddit data for specified subreddits
 - `scripts/deidentify_city_comments.py`: Deidentifies collected Reddit comments
+- `scripts/get_news_api_data.py`: Collects news articles from News API
+- `scripts/get_lexisnexis_data.py`: Collects news articles from LexisNexis API
