@@ -1,5 +1,12 @@
 import spacy
 from pydeidentify import Deidentifier
+import requests
+from requests.auth import HTTPBasicAuth
+import json
+import urllib.parse
+from datetime import datetime
+from tqdm import tqdm
+import time
 
 
 KEYWORDS = [
@@ -104,3 +111,156 @@ def deidentify_text(text, nlp=None):
     deidentified = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', deidentified)
     
     return deidentified
+
+class LexisNexisAPI:
+    """
+    Class to interact with the LexisNexis API.
+    Code adapted from documentation based on work provided by Jeff Clark <jeff.clark.1@lexisnexis.com> Oct 16th, 2019 
+    as well as code from Eric Lease Morgan <emorgan@nd.edu> Nov 7th, 2019
+    """
+    def __init__(self, client_id, secret):
+        """Initialize the LexisNexis API client with credentials."""
+        self.client_id = client_id
+        self.secret = secret
+        self.token = None
+        self.headers = None
+        self._refresh_token()
+
+    def _refresh_token(selxf):
+        """Get a new authorization token."""
+        auth_url = 'https://auth-api.lexisnexis.com/oauth/v2/token'
+        payload = 'grant_type=client_credentials&scope=http%3a%2f%2foauth.lexisnexis.com%2fall'
+        headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+        r = requests.post(auth_url, auth=HTTPBasicAuth(self.client_id, self.secret), 
+                         headers=headers, data=payload)
+        self.token = r.json()['access_token']
+        self.headers = {
+            'Accept': 'application/json;odata.metadata=minimal',
+            'Connection': 'Keep-Alive',
+            'Host': 'services-api.lexisnexis.com',
+            'Authorization': f'Bearer {self.token}'
+        }
+
+    def _build_url(self, content='News', query='', skip=0, expand='Document', top=50, filter=None):
+        """Build the URL for the API request."""
+        base_url = f'https://services-api.lexisnexis.com/v1/{content}'
+        params = {
+            '$expand': expand,
+            '$search': query,
+            '$skip': str(skip),
+            '$top': str(top)
+        }
+        if filter:
+            params['$filter'] = filter
+        return f"{base_url}?{urllib.parse.urlencode(params)}"
+
+    def get_total_count(self, query, filter=None):
+        """Get the total count of articles matching the query."""
+        url = self._build_url(query=query, top=1, filter=filter)
+        response = requests.get(url, headers=self.headers)
+        return response.json().get('@odata.count', 0)
+
+    def search_articles(self, query, filter=None, batch_size=50, max_retries=3):
+        """Search for articles with pagination and retry logic."""
+        total_count = self.get_total_count(query, filter)
+        print(f"\nTotal articles available: {total_count}")
+
+        all_articles = []
+        seen_articles = set()
+        offset = 0
+
+        # Create progress bar
+        pbar = tqdm(total=total_count, desc="Fetching articles", unit="articles")
+
+        while offset < total_count:
+            retry_count = 0
+            while retry_count < max_retries:
+                try:
+                    url = self._build_url(query=query, skip=offset, top=batch_size, filter=filter)
+                    response = requests.get(url, headers=self.headers)
+                    data = response.json()
+                    batch_articles = data.get('value', [])
+
+                    if not batch_articles:
+                        break
+
+                    # Add only unique articles
+                    for article in batch_articles:
+                        title = article.get('Title', '')
+                        date = article.get('Date', '')
+                        unique_id = f"{title}|{date}"
+                        if unique_id and unique_id not in seen_articles:
+                            seen_articles.add(unique_id)
+                            all_articles.append(article)
+
+                    # Update progress bar
+                    pbar.update(len(batch_articles))
+                    pbar.set_postfix({"Unique": len(all_articles)})
+
+                    # Move to next batch
+                    offset += batch_size
+                    break  # Success, exit retry loop
+
+                except requests.exceptions.RequestException as e:
+                    retry_count += 1
+                    print(f"\nError fetching batch at offset {offset} (attempt {retry_count}/{max_retries}):")
+                    print(f"Error: {str(e)}")
+                    if retry_count == max_retries:
+                        print(f"Failed to fetch batch after {max_retries} attempts, skipping to next batch")
+                        offset += batch_size
+                    else:
+                        print("Retrying in 5 seconds...")
+                        time.sleep(5)
+                        self._refresh_token()  # Refresh token on retry
+
+                except json.JSONDecodeError as e:
+                    print(f"\nError parsing JSON response: {str(e)}")
+                    print("Raw response:", response.text)
+                    offset += batch_size
+                    break
+
+                except Exception as e:
+                    print(f"\nAn unexpected error occurred: {str(e)}")
+                    offset += batch_size
+                    break
+
+        pbar.close()
+        return all_articles
+
+    def filter_articles_by_date(self, articles, start_date=None, end_date=None):
+        """Filter articles by date range."""
+        if not start_date:
+            start_date = datetime(2015, 1, 1)
+        if not end_date:
+            end_date = datetime(2025, 1, 1)
+
+        filtered_articles = []
+        for article in articles:
+            date_str = article.get('Date', '')
+            try:
+                article_date = datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%SZ')
+                if start_date <= article_date <= end_date:
+                    filtered_articles.append(article)
+            except (ValueError, TypeError) as e:
+                print(f"Error processing date {date_str}: {str(e)}")
+                continue
+
+        return filtered_articles
+
+    def save_to_csv(self, articles, filename='search_results.csv'):
+        """Save articles to a CSV file."""
+        import csv
+        with open(filename, 'w', newline='') as csvfile:
+            fieldnames = ['Title', 'Date', 'Source', 'Summary', 'Full Text']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+
+            for article in articles:
+                writer.writerow({
+                    'Title': article.get('Title', ''),
+                    'Date': article.get('Date', ''),
+                    'Source': article.get('Source', {}).get('Name', ''),
+                    'Summary': article.get('Overview', ''),
+                    'Full Text': article.get('Document', {}).get('Content', '')
+                })
+        print(f"Results have been written to {filename}") 
