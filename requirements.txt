@@ -6,3 +6,7 @@ python-dotenv
 requests
 pydeidentify
 newsapi-python
+ beautifulsoup4
+lxml
+selenium
+webdriver-manager
