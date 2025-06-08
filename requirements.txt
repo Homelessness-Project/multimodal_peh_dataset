@@ -10,3 +10,5 @@ newsapi-python
 lxml
 selenium
 webdriver-manager
+openai-whisper
+torch
