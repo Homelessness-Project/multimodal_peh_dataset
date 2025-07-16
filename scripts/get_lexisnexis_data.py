@@ -1,4 +1,4 @@
-from utils import LexisNexisAPI
+from utils import LexisNexisAPI, CITY_MAP
 from config import LEXISNEXIS_API_ID, LEXISNEXIS_API_KEY
 import urllib.parse
 import os
@@ -145,7 +145,8 @@ def get_lexisnexis_data(city):
     print(f"Articles in date range: {len(filtered_articles)}")
     
     # Create output directory if it doesn't exist
-    output_dir = f"data/{city}/newspaper"
+    mapped_city = CITY_MAP.get(city, city)
+    output_dir = f"data/{mapped_city}/newspaper"
     os.makedirs(output_dir, exist_ok=True)
     
     # Save results to CSV

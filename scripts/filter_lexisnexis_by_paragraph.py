@@ -5,7 +5,7 @@ import argparse
 from collections import defaultdict
 from xml.etree import ElementTree as ET
 from glob import glob
-from utils import KEYWORDS
+from utils import KEYWORDS, CITY_MAP
 
 # Increase CSV field size limit
 csv.field_size_limit(2147483647)  # Maximum value for 32-bit systems
@@ -135,14 +135,11 @@ def main():
     parser = argparse.ArgumentParser(description='Filter LexisNexis CSVs by paragraph and keywords.')
     parser.add_argument('--cities', nargs='*', default=None, help='Cities to process (default: all with lexisnexis.csv)')
     parser.add_argument('--data_dir', default='data', help='Base data directory')
-    parser.add_argument('--output_dir', default='filtered_output', help='Directory for filtered CSVs')
     args = parser.parse_args()
-
-    os.makedirs(args.output_dir, exist_ok=True)
 
     # Find all lexisnexis.csv files
     if args.cities:
-        city_files = [(city, os.path.join(args.data_dir, city, 'newspaper', 'lexisnexis.csv')) for city in args.cities]
+        city_files = [(city, os.path.join(args.data_dir, CITY_MAP.get(city.lower(), city.lower()), 'newspaper', 'lexisnexis.csv')) for city in args.cities]
     else:
         city_files = []
         for path in glob(os.path.join(args.data_dir, '*', 'newspaper', 'lexisnexis.csv')):
@@ -155,7 +152,13 @@ def main():
             print(f"File not found: {input_path}")
             continue
         print(f"Processing {city}...")
-        output_path = os.path.join(args.output_dir, f'{city}_filtered.csv')
+
+        # Map city to directory name
+        city_dir = CITY_MAP.get(city.lower(), city.lower())
+        output_dir = os.path.join(args.data_dir, city_dir, 'newspaper')
+        os.makedirs(output_dir, exist_ok=True)
+        output_path = os.path.join(output_dir, f'{city_dir}_filtered.csv')
+
         process_file(city, input_path, output_path, stats)
         print(f"  Output: {output_path}")
 
@@ -171,8 +174,10 @@ def main():
         print(f"  Keyword counts: {s['keyword_counts']}")
         print()
 
-    # Write summary stats to CSV
-    summary_path = os.path.join(args.output_dir, 'summary_stats.csv')
+    # Write summary stats to CSV in data/data_summary
+    summary_dir = os.path.join(args.data_dir, 'data_summary')
+    os.makedirs(summary_dir, exist_ok=True)
+    summary_path = os.path.join(summary_dir, 'lexisnexis_paragraph_filter_summary_stats.csv')
     with open(summary_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         # Write header

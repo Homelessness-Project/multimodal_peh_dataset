@@ -3,7 +3,7 @@ import time
 import pandas as pd
 from datetime import datetime, timezone
 from tqdm import tqdm
-from utils import KEYWORDS
+from utils import KEYWORDS, CITY_MAP
 import os
 from dotenv import load_dotenv
 import sys
@@ -25,19 +25,6 @@ HEADERS = {
 START_DATE = "2015-01-01T00:00:00Z"
 END_DATE = "2025-01-01T00:00:00Z"
 
-# === City Directory Mapping ===
-CITY_MAP = {
-    'south bend': 'southbend',
-    'rockford': 'rockford',
-    'kalamazoo': 'kzoo',
-    'scranton': 'scranton',
-    'fayetteville': 'fayetteville',
-    'san francisco': 'sanfrancisco',
-    'portland': 'portland',
-    'buffalo': 'buffalo',
-    'baltimore': 'baltimore',
-    'el paso': 'elpaso',
-}
 
 # Geolocation mapping: city name (lowercase) to (longitude, latitude)
 CITY_GEO = {
