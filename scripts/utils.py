@@ -15,6 +15,19 @@ KEYWORDS = [
     'housing insecurity', 'beggar', 'squatter', 'panhandler', 'soup kitchen'
 ]
 
+CITY_MAP = {
+    'south bend': 'southbend',
+    'rockford': 'rockford',
+    'kalamazoo': 'kzoo',
+    'scranton': 'scranton',
+    'fayetteville': 'fayetteville',
+    'san francisco': 'sanfrancisco',
+    'portland': 'portland',
+    'buffalo': 'buffalo',
+    'baltimore': 'baltimore',
+    'el paso': 'elpaso',
+}
+
 def load_spacy_model():
     try:
         # Load English language model
