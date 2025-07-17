@@ -54,8 +54,8 @@ def main():
 
     rows = []
     grand_total = {k: 0 for k in fieldnames if k != 'City'}
-    for city_name, city_dir in CITY_MAP.items():
-        city_row = {'City': city_name}
+    for city_dir in CITY_MAP.values():
+        city_row = {'City': city_dir}
         # Reddit
         reddit_dir = os.path.join(base_dir, city_dir, 'reddit')
         stat_path = os.path.join(reddit_dir, 'statistics.csv')
