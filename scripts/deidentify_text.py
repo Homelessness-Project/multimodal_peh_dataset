@@ -6,7 +6,7 @@ import os
 from utils import load_spacy_model, deidentify_text
 import argparse
 
-def deidentify_file(input_file, output_file, columns_to_deidentify, nlp):
+def deidentify_file(input_file, output_file, columns_to_deidentify, nlp, n_process=1):
     if not os.path.exists(input_file):
         print(f"Skipping {input_file} - file not found")
         return
@@ -19,7 +19,21 @@ def deidentify_file(input_file, output_file, columns_to_deidentify, nlp):
         if col in df.columns:
             new_col = f"Deidentified_{col}"
             print(f"Deidentifying {col} ...")
-            df[new_col] = [deidentify_text(val, nlp) for val in tqdm(df[col])]
+            texts = df[col].astype(str).tolist()
+            n_rows = len(texts)
+            if n_rows < 500:
+                batch_size = 100
+            elif n_rows < 5000:
+                batch_size = 500
+            elif n_rows < 10000:
+                batch_size = 1000
+            else:
+                batch_size = 2000
+            print(f"Using batch_size={batch_size} for {n_rows} rows.")
+            deidentified = []
+            for doc in tqdm(nlp.pipe(texts, batch_size=batch_size, n_process=n_process), total=n_rows):
+                deidentified.append(deidentify_text(doc.text, nlp))
+            df[new_col] = deidentified
         else:
             print(f"Column {col} not found in {input_file}, skipping deidentification for this column.")
     df.to_csv(output_file, index=False)
@@ -28,6 +42,7 @@ def deidentify_file(input_file, output_file, columns_to_deidentify, nlp):
 def main():
     parser = argparse.ArgumentParser(description="Deidentify comments for specified data types.")
     parser.add_argument('--type', choices=['reddit', 'x', 'news', 'all'], default='all', help='Type of data to deidentify (reddit, x, news, or all)')
+    parser.add_argument('--n_process', type=int, default=1, help='Number of processes for spaCy nlp.pipe (parallelism)')
     args = parser.parse_args()
 
     print("Loading spaCy model...")
@@ -63,23 +78,23 @@ def main():
         for config in file_configs:
             input_file = config['input_pattern'].format(city=city)
             output_file = input_file.replace('.csv', '_deidentified.csv')
-            deidentify_file(input_file, output_file, config['columns'], nlp)
+            deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process)
 
 if __name__ == "__main__":
     """
     Example command line usage:
 
     # Deidentify all data types (default)
-    python scripts/deidentify_comments.py
-    python scripts/deidentify_comments.py --type all
+    python scripts/deidentify_text.py
+    python scripts/deidentify_text.py --type all
 
     # Deidentify only Reddit data
-    python scripts/deidentify_comments.py --type reddit
+    python scripts/deidentify_text.py --type reddit
 
     # Deidentify only X (Twitter) data
-    python scripts/deidentify_comments.py --type x
+    python scripts/deidentify_text.py --type x
 
     # Deidentify only News data
-    python scripts/deidentify_comments.py --type news
+    python scripts/deidentify_text.py --type news
     """
     main() 
