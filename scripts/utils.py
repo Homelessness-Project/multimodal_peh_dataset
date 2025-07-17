@@ -7,6 +7,7 @@ import urllib.parse
 from datetime import datetime
 from tqdm import tqdm
 import time
+import re
 
 
 KEYWORDS = [
