@@ -73,7 +73,7 @@ def main():
             'name': 'reddit',
             'input_pattern': "data/{city}/reddit/filtered_comments.csv",
             'columns': ['Submission Title', 'Comment'],
-            'exclude_columns': ['URL']
+            'exclude_columns': ['Submission URL']
         },
         {
             'name': 'x',
