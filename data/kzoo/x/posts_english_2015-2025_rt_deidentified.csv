@@ -1,175 +1,175 @@
-created_at,user_location,tweet_geo,tweet_country,place_type,is_retweet,Deidentified_text
-2024-12-31T02:22:09.000Z,"Kalamazoo, Michigan",,,,True,RT @BaptismUSA: [ORGANIZATION] bless [ORGANIZATION] for making a cash donation to @[ORGANIZATION]sKitchenofMI. Their tireless effort to fight hunger in [ORGANIZATION]…
-2024-12-30T19:38:07.000Z,"Kalamazoo, MI",,,,False,"PERSON0amp; [PERSON], Thanks for your generous donation to [ORGANIZATION]. Your Love [PERSON] will provide free dinners for the homeless and other needy souls in [ORGANIZATION] in [ORGANIZATION]. PERSON2 bless you. [URL]"
-2024-12-30T19:28:59.000Z,"Kalamazoo, MI",,,,False,"@SeelyeAutoGroup, Thanks for making a cash donation to @[ORGANIZATION]sKitchenofMI. Your tireless effort to fight hunger in [ORGANIZATION] and [ORGANIZATION] will provide free dinners for the homeless and other needy souls in [ORGANIZATION]. [ORGANIZATION] bless you. PERSON1 and [PERSON] with Rev. PERSON3. [URL]"
-2024-12-30T19:18:19.000Z,"Kalamazoo, Michigan",,,,False,[ORGANIZATION] bless [ORGANIZATION] for making a cash donation to @[ORGANIZATION]sKitchenofMI. Their tireless effort to fight hunger in [ORGANIZATION] and [ORGANIZATION] will provide free dinners for the homeless and other needy souls in [ORGANIZATION]. Thank you. PERSON1 and [PERSON] with Rev. PERSON3. [URL]
+created_at,user_location,tweet_geo,tweet_country,place_type,is_retweet,Deidentified_text,keywords_matched
+2024-12-31T02:22:09.000Z,"Kalamazoo, Michigan",,,,True,RT @BaptismUSA: [ORGANIZATION] bless [ORGANIZATION] for making a cash donation to @[ORGANIZATION]sKitchenofMI. Their tireless effort to fight hunger in [ORGANIZATION]…,
+2024-12-30T19:38:07.000Z,"Kalamazoo, MI",,,,False,"PERSON0amp; [PERSON], Thanks for your generous donation to [ORGANIZATION]. Your Love [PERSON] will provide free dinners for the homeless and other needy souls in [ORGANIZATION] in [ORGANIZATION]. PERSON2 bless you. [URL]",homeless
+2024-12-30T19:28:59.000Z,"Kalamazoo, MI",,,,False,"@SeelyeAutoGroup, Thanks for making a cash donation to @[ORGANIZATION]sKitchenofMI. Your tireless effort to fight hunger in [ORGANIZATION] and [ORGANIZATION] will provide free dinners for the homeless and other needy souls in [ORGANIZATION]. [ORGANIZATION] bless you. PERSON1 and [PERSON] with Rev. PERSON3. [URL]",homeless
+2024-12-30T19:18:19.000Z,"Kalamazoo, Michigan",,,,False,[ORGANIZATION] bless [ORGANIZATION] for making a cash donation to @[ORGANIZATION]sKitchenofMI. Their tireless effort to fight hunger in [ORGANIZATION] and [ORGANIZATION] will provide free dinners for the homeless and other needy souls in [ORGANIZATION]. Thank you. PERSON1 and [PERSON] with Rev. PERSON3. [URL],homeless
 2024-12-25T04:04:42.000Z,,,,,False,"""100 people in need find shelter &amp; community [ORGANIZATION] thanks to [ORGANIZATION] #HomeForTheHolidays""
 
-[URL]"
+[URL]",
 2024-12-24T23:43:38.000Z,,,,,False,"""[ORGANIZATION] provides hotel rooms, meals &amp; clothing to 100 unhoused individuals for [ORGANIZATION], offering a sense of [ORGANIZATION]; comfort #HomelessnessAwareness""
 
-[URL]"
+[URL]","homeless, homelessness, unhoused"
 2024-12-24T13:49:13.000Z,Midwest,,,,True,"[PERSON]: The organization aims to ensure that everybody is surrounded by comfort and joy [ORGANIZATION], according to [ORGANIZATION].
-htt…"
+htt…",
 2024-12-23T23:30:04.000Z,West Michigan,,,,False,"The organization aims to ensure that everybody is surrounded by comfort and joy [ORGANIZATION], according to [ORGANIZATION].
-[URL]"
-2024-12-22T15:47:39.000Z,NYC,,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…"
-2024-12-22T15:45:51.000Z,"Louisville, KY",,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…"
-2024-12-22T15:40:42.000Z,Tuscaloosa,,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…"
-2024-12-20T21:18:39.000Z,"Columbus, OH",,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…"
-2024-12-20T18:09:48.000Z,Chicago,,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…"
-2024-12-20T18:00:35.000Z,"DC, USA & worldwide",,,,False,"Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle housing types, and financial support and incentives. [ORGANIZATION]"
-2024-12-16T20:51:46.000Z,"Kalamazoo, MI",,,,False,"Seeking to end homelessness among jail inmates, [ORGANIZATION] ([ORGANIZATION]) receives $20K grant! [PERSON]! [URL]"
+[URL]",
+2024-12-22T15:47:39.000Z,NYC,,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…",affordable housing
+2024-12-22T15:45:51.000Z,"Louisville, KY",,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…",affordable housing
+2024-12-22T15:40:42.000Z,Tuscaloosa,,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…",affordable housing
+2024-12-20T21:18:39.000Z,"Columbus, OH",,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…",affordable housing
+2024-12-20T18:09:48.000Z,Chicago,,,,True,"RT @NewUrbanism: Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle…",affordable housing
+2024-12-20T18:00:35.000Z,"DC, USA & worldwide",,,,False,"Pre-approved plans are part of [ORGANIZATION]’s effort to promote affordable housing through regulatory reform, missing middle housing types, and financial support and incentives. [ORGANIZATION]",affordable housing
+2024-12-16T20:51:46.000Z,"Kalamazoo, MI",,,,False,"Seeking to end homelessness among jail inmates, [ORGANIZATION] ([ORGANIZATION]) receives $20K grant! [PERSON]! [URL]","homeless, homelessness"
 2024-12-16T01:56:42.000Z,A Deluxe Apartment In The Sky.,,,,False,"We need more of this across the country. Help end homeless, and encourage responsibility.
 
-[URL]"
+[URL]",homeless
 2024-12-13T00:11:01.000Z,"Mason, MI",,,,True,"[ORGANIZATION]: The tiny houses were built for people turned away by landlords due to their past convictions or substance use disorders.
-http…"
+http…",
 2024-12-12T23:30:05.000Z,West Michigan,,,,False,"The tiny houses were built for people turned away by landlords due to their past convictions or substance use disorders.
-[URL]"
-2024-12-06T17:00:23.000Z,Grand Haven & Muskegon,,,,False,"[URL] As student homelessness rises, program aims to house 150 families by [ORGANIZATION]"
+[URL]",
+2024-12-06T17:00:23.000Z,Grand Haven & Muskegon,,,,False,"[URL] As student homelessness rises, program aims to house 150 families by [ORGANIZATION]","homeless, homelessness"
 2024-12-06T14:30:49.000Z,settler colonial land in MI,,,,False,"👇🏽 @LINCrev [LOCATION] PERSON0 [ORGANIZATION] 
-As student homelessness rises, program aims to house 150 families by [ORGANIZATION] [URL]"
-2024-12-05T12:33:02.000Z,"Kalamazoo, MI",,,,False,"As student homelessness rises, program aims to house 150 families by [PERSON]"
-2024-12-05T12:20:03.000Z,Michigan,,,,False,"As student homelessness rises, program aims to house 150 families by [ORGANIZATION] [URL]"
-2024-12-03T16:23:12.000Z,United States,,,,False,"@MLive Can we do something about reducing homelessness especially right in the middle of downtown [ORGANIZATION]? If I was a business owner down there, I would be so mad I would pack up and leave."
+As student homelessness rises, program aims to house 150 families by [ORGANIZATION] [URL]","homeless, homelessness"
+2024-12-05T12:33:02.000Z,"Kalamazoo, MI",,,,False,"As student homelessness rises, program aims to house 150 families by [PERSON]","homeless, homelessness"
+2024-12-05T12:20:03.000Z,Michigan,,,,False,"As student homelessness rises, program aims to house 150 families by [ORGANIZATION] [URL]","homeless, homelessness"
+2024-12-03T16:23:12.000Z,United States,,,,False,"@MLive Can we do something about reducing homelessness especially right in the middle of downtown [ORGANIZATION]? If I was a business owner down there, I would be so mad I would pack up and leave.","homeless, homelessness"
 2024-12-02T14:00:56.000Z,,,,,False,"[ORGANIZATION] is dedicated to ending [PERSON], and to help [ORGANIZATION], we bring the resources to them. Every second [DATE], [ORGANIZATION] and our partners come to [ORGANIZATION] at 500 N. Edwards [STREET], [ORGANIZATION], [PERSON], from [TIME]
-#[ORGANIZATION] #EndingVeteranHomelessness [URL]"
-2024-11-30T16:48:29.000Z,"Kalamazoo, MI",,,,False,1. Ten new homes mark the start of an affordable housing project for low-income families near [LOCATION]. [URL]
-2024-11-27T14:00:07.000Z,Michigan,,,,False,[LOCATION]-funded mobile homes arrive for families facing homelessness [URL]
+#[ORGANIZATION] #EndingVeteranHomelessness [URL]","homeless, homelessness"
+2024-11-30T16:48:29.000Z,"Kalamazoo, MI",,,,False,1. Ten new homes mark the start of an affordable housing project for low-income families near [LOCATION]. [URL],affordable housing
+2024-11-27T14:00:07.000Z,Michigan,,,,False,[LOCATION]-funded mobile homes arrive for families facing homelessness [URL],"homeless, homelessness"
 2024-11-27T12:44:52.000Z,,,,,False,"[LOCATION]-funded mobile homes arrive for families facing homelessness 
 Source: [ORGANIZATION]
-[URL]"
-2024-11-27T12:33:03.000Z,Michigan,,,,False,[LOCATION]-funded mobile homes arrive for families facing homelessness [URL]
-2024-11-27T12:21:02.000Z,"Kalamazoo, MI",,,,False,[LOCATION]-funded mobile homes arrive for families facing homelessness [URL]
-2024-11-26T21:57:38.000Z,"Grand Rapids, Mich.",,,,False,[ORGANIZATION] is celebrating the first of ten new affordable housing units at a mobile home park near FAC0: [URL]
+[URL]","homeless, homelessness"
+2024-11-27T12:33:03.000Z,Michigan,,,,False,[LOCATION]-funded mobile homes arrive for families facing homelessness [URL],"homeless, homelessness"
+2024-11-27T12:21:02.000Z,"Kalamazoo, MI",,,,False,[LOCATION]-funded mobile homes arrive for families facing homelessness [URL],"homeless, homelessness"
+2024-11-26T21:57:38.000Z,"Grand Rapids, Mich.",,,,False,[ORGANIZATION] is celebrating the first of ten new affordable housing units at a mobile home park near FAC0: [URL],affordable housing
 2024-11-26T17:05:32.000Z,"Kalamazoo, MI",,,,False,"Asking people about challenges of finding affordable housing in [ORGANIZATION] area:
 
-""The housing situation here is beyond abysmal! I feel even worse for the poor/homeless. The county/city cant seem to get their shit together to address the problem,"" one said. [URL]"
+""The housing situation here is beyond abysmal! I feel even worse for the poor/homeless. The county/city cant seem to get their shit together to address the problem,"" one said. [URL]","homeless, affordable housing"
 2024-11-25T14:00:02.000Z,"Kalamazoo, Michigan",,,,False,"[ORGANIZATION] is [LOCATION], and [ORGANIZATION] is seeing a DATE2 high in their homeless population according to the [ORGANIZATION] count.
-[URL]"
+[URL]",homeless
 2024-11-21T16:57:24.000Z,"Kalamazoo, MI",,,,False,"LOCAL NEWS - Plans to convert [ORGANIZATION] hotel into [INSTITUTION] cancelled after lofty $5.2M pricetag goes public 
 
-[URL]"
+[URL]",
 2024-11-21T02:30:03.000Z,West Michigan,,,,False,"Plans to convert [ORGANIZATION] hotel into [INSTITUTION] being re-evaluated
-[URL]"
-2024-11-20T14:16:23.000Z,"Michigan, USA",,,,False,[ORGANIZATION] @Ally_Sammarco [ORGANIZATION] is a homeless mess.
-2024-11-19T15:12:20.000Z,Michigan,,,,False,@GrassrootArmy GPE0 It doesn't help when cities around the state put their homeless on buses and send them to [PERSON].  [ORGANIZATION] in other states does this as well.
+[URL]",
+2024-11-20T14:16:23.000Z,"Michigan, USA",,,,False,[ORGANIZATION] @Ally_Sammarco [ORGANIZATION] is a homeless mess.,homeless
+2024-11-19T15:12:20.000Z,Michigan,,,,False,@GrassrootArmy GPE0 It doesn't help when cities around the state put their homeless on buses and send them to [PERSON].  [ORGANIZATION] in other states does this as well.,homeless
 2024-11-19T04:00:04.000Z,West Michigan,,,,False,"New [ORGANIZATION] home aims to help homelessness and addiction
-[URL]"
-2024-11-18T04:00:24.000Z,,,,,True,[LOCATION] @Elevate_JRiden: Fun fact--the homeless population is growing in [ORGANIZATION] and its not just because of bad policies. Cities and towns ar…
-2024-11-18T03:52:25.000Z,Michigan,,,,False,"Fun fact--the homeless population is growing in [ORGANIZATION] and its not just because of bad policies. Cities and towns around the state send their homeless to [ORGANIZATION], as do some other states. I met a homeless mother with a teenage daughter from [PERSON]. When her home was destroyed in"
+[URL]","homeless, homelessness"
+2024-11-18T04:00:24.000Z,,,,,True,[LOCATION] @Elevate_JRiden: Fun fact--the homeless population is growing in [ORGANIZATION] and its not just because of bad policies. Cities and towns ar…,homeless
+2024-11-18T03:52:25.000Z,Michigan,,,,False,"Fun fact--the homeless population is growing in [ORGANIZATION] and its not just because of bad policies. Cities and towns around the state send their homeless to [ORGANIZATION], as do some other states. I met a homeless mother with a teenage daughter from [PERSON]. When her home was destroyed in",homeless
 2024-11-16T13:58:15.000Z,"Kalamazoo, MI",,,,False,"3[LOCATION] leaders give the green light for support in three housing projects 
 
-[URL]"
-2024-11-15T17:00:46.000Z,West Michigan,,,,False,Several new housing projects will be underway in [ORGANIZATION]. [URL]
-2024-11-15T05:42:08.000Z,"Kalamazoo, MI",,,,False,"[ORGANIZATION] increased mental health treatment using proven methods for [ORGANIZATION], especially focusing on [ORGANIZATION] and homeless folks. Also research effective and proven strategies for reducing homelessness and implement them in [ORGANIZATION], then roll them out to other cities."
-2024-11-14T18:29:25.000Z,"Grand Rapids, Mich.",,,,True,RT @nick_ponton: [ORGANIZATION] OKs support for affordable housing projects [URL]
+[URL]",
+2024-11-15T17:00:46.000Z,West Michigan,,,,False,Several new housing projects will be underway in [ORGANIZATION]. [URL],
+2024-11-15T05:42:08.000Z,"Kalamazoo, MI",,,,False,"[ORGANIZATION] increased mental health treatment using proven methods for [ORGANIZATION], especially focusing on [ORGANIZATION] and homeless folks. Also research effective and proven strategies for reducing homelessness and implement them in [ORGANIZATION], then roll them out to other cities.","homeless, homelessness"
+2024-11-14T18:29:25.000Z,"Grand Rapids, Mich.",,,,True,RT @nick_ponton: [ORGANIZATION] OKs support for affordable housing projects [URL],affordable housing
 2024-11-14T13:38:21.000Z,USA,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-14T12:56:35.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
-2024-11-14T12:49:02.000Z,Michigan,,,,False,New [INSTITUTION] project may pivot to different spot in [ORGANIZATION] [URL]
+[PERSON] ht…",homeless
+2024-11-14T12:49:02.000Z,Michigan,,,,False,New [INSTITUTION] project may pivot to different spot in [ORGANIZATION] [URL],
 2024-11-14T12:44:45.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
-2024-11-14T12:16:02.000Z,Michigan,,,,False,New [INSTITUTION] project may pivot to different spot in [ORGANIZATION] [URL]
-2024-11-14T12:10:02.000Z,"Kalamazoo, MI",,,,False,New [INSTITUTION] project may pivot to different spot in [ORGANIZATION] [URL]
+[PERSON] ht…",homeless
+2024-11-14T12:16:02.000Z,Michigan,,,,False,New [INSTITUTION] project may pivot to different spot in [ORGANIZATION] [URL],
+2024-11-14T12:10:02.000Z,"Kalamazoo, MI",,,,False,New [INSTITUTION] project may pivot to different spot in [ORGANIZATION] [URL],
 2024-11-14T06:45:38.000Z,Rug city,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-14T02:00:26.000Z,"St Clair Shores, MI",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-14T00:17:31.000Z,"San Angelo, TX",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T19:41:57.000Z,"Dallas, GA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T19:36:23.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
-2024-11-13T18:49:11.000Z,"Kalamazoo, MI",,,,False,[ORGANIZATION] OKs support for affordable housing projects [URL]
+[PERSON] ht…",homeless
+2024-11-13T18:49:11.000Z,"Kalamazoo, MI",,,,False,[ORGANIZATION] OKs support for affordable housing projects [URL],affordable housing
 2024-11-13T18:45:39.000Z,"Grand Rapids, Mich.",,,,False,"[ORGANIZATION] OKs support for affordable housing projects:
-[URL]"
+[URL]",affordable housing
 2024-11-13T18:36:20.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T18:35:55.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
-2024-11-13T18:10:40.000Z,West Michigan,"Kalamazoo, MI",United States,city,False,"DATE0 with staff at [ORGANIZATION], GPE0GPE1, [ORGANIZATION], off and running! A common issue at many GPE0PublicTransportation motor pools and maintenance bays are GPE0Homeless people who trespass and loiter. How do you approach with personal safety in mind? [URL]"
+[PERSON] ht…",homeless
+2024-11-13T18:10:40.000Z,West Michigan,"Kalamazoo, MI",United States,city,False,"DATE0 with staff at [ORGANIZATION], GPE0GPE1, [ORGANIZATION], off and running! A common issue at many GPE0PublicTransportation motor pools and maintenance bays are GPE0Homeless people who trespass and loiter. How do you approach with personal safety in mind? [URL]",homeless
 2024-11-13T17:04:47.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T16:25:44.000Z,"Kalamazoo, Michigan",,,,False,"These projects will create more than 100 new housing units. 
 
-Learn more: [URL]"
+Learn more: [URL]",
 2024-11-13T16:13:56.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T16:05:56.000Z,some where in the U.S.A.,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T15:51:19.000Z,"Texas, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T15:50:58.000Z,United State of America,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T15:42:28.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T15:20:22.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T14:27:07.000Z,"Chesterfield, MI",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T14:16:36.000Z,United States,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T14:14:48.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T13:47:58.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T13:32:54.000Z,Unknown ,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T13:25:56.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T13:24:03.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T13:16:00.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T12:51:43.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T12:48:13.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T12:17:15.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T12:07:23.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T11:37:10.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T10:57:46.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T10:55:11.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T10:53:36.000Z,earth flat or roundish,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T10:49:52.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T10:10:53.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T09:52:03.000Z,Michigan,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T09:36:23.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T09:15:54.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T06:23:20.000Z,USA,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T05:57:40.000Z,"Michigan, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T05:55:26.000Z,SW Michigan,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T05:19:33.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T05:14:14.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T04:54:59.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T04:54:55.000Z,"Taylor, MI",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T04:39:48.000Z,"Indiana, USA",,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T04:24:14.000Z,Arizona,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T04:16:56.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
 2024-11-13T04:10:11.000Z,,,,,True,"RT @GrassrootArmy: The Democrat run city of [ORGANIZATION] is literlly turning into a sewer because of the homeless problem.
-[PERSON] ht…"
+[PERSON] ht…",homeless
