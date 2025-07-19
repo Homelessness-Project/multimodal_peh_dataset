@@ -77,9 +77,9 @@ def main():
         },
         {
             'name': 'x',
-            'input_pattern': "data/{city}/x/posts_english_2015-2025.csv",
+            'input_pattern': "data/{city}/x/posts_english_2015-2025_rt.csv",
             'columns': ['text'],
-            'exclude_columns': []
+            'exclude_columns': ["id", "author_id"]
         },
         {
             'name': 'news',
