@@ -54,7 +54,7 @@ def find_keywords(paragraph):
     matches = [kw for kw, pat in zip(KEYWORDS, KEYWORD_PATTERNS) if pat.search(paragraph)]
     return matches
 
-def process_file(city, input_path, output_path, stats):
+def process_file(city, input_path, output_path, stats, global_seen_paragraphs):
     try:
         with open(input_path, newline='', encoding='utf-8') as infile, \
              open(output_path, 'w', newline='', encoding='utf-8') as outfile:
@@ -85,8 +85,10 @@ def process_file(city, input_path, output_path, stats):
                         
                     paragraphs = extract_paragraphs(full_text)
                     found_in_article = False
-                    
                     for para in paragraphs:
+                        if para in global_seen_paragraphs:
+                            continue  # Skip duplicate paragraphs globally
+                        global_seen_paragraphs.add(para)
                         keywords = find_keywords(para)
                         if keywords:
                             found_in_article = True
@@ -147,6 +149,7 @@ def main():
             city_files.append((city, path))
 
     stats = {}
+    global_seen_paragraphs = set()  # Track unique paragraphs across all articles for this city
     for city, input_path in city_files:
         if not os.path.exists(input_path):
             print(f"File not found: {input_path}")
@@ -159,7 +162,7 @@ def main():
         os.makedirs(output_dir, exist_ok=True)
         output_path = os.path.join(output_dir, f'{city_dir}_filtered.csv')
 
-        process_file(city, input_path, output_path, stats)
+        process_file(city, input_path, output_path, stats, global_seen_paragraphs)
         print(f"  Output: {output_path}")
 
     # Print summary stats
