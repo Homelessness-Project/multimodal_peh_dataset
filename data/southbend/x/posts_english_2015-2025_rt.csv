@@ -1,14 +1,14 @@
-id,text,created_at,author_id,user_location,tweet_geo,tweet_country,place_type,is_retweet
-1872787028687110213,"@LauraLoomer @elonmusk I don't see any funny about it. I couldn't care less if Elon had Trillions or was homeless. A man is worthless without respect. Playing games with someone's income might be funny for some, I guess, even if it was just for just 12 hours. Very disrespectful &amp; disappointing.",2024-12-27T23:29:56.000Z,1351221982671593472,United States,"Mishawaka, IN",United States,city,False
-1872386919482495202,"Developer adds Hope Ministries building to Monarch plan for housing, retail and green space as well as address food insecurity. READI money awarded. https://t.co/v91cOXtnHZ",2024-12-26T21:00:03.000Z,20528760,"South Bend, IN",,,,False
-1872243487262826933,"Developer adds Hope Ministries building to Monarch plan for housing, retail and green space as well as address food insecurity. READI money awarded. https://t.co/0rITW9WNnj",2024-12-26T11:30:06.000Z,20528760,"South Bend, IN",,,,False
-1871717924261806583,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-12-25T00:41:42.000Z,1859946739635023872,United State,,,,True
-1870128956583883071,"@IUBarstool Even with the homeless in the middle of BTown, south bend is such a shit hole with the NCAA’s WORST stadium.",2024-12-20T15:27:43.000Z,1345558936674574336,The Goat House,,,,False
-1869580458562105576,"@FreyjaTarte @WeThePeople021 Actually, I think this is a cool idea. Like dorm-style living, but for adults. If it revitalizes mall space, helps local businesses, alleviates a shortage of affordable housing (especially for young adults or seniors) and ISN'T MANDATED BY THE GOVERNMENT, I say go for it!",2024-12-19T03:08:11.000Z,134250956,"Granger, IN","Granger, IN",United States,city,False
-1869524351956971793,"A huge shoutout to ADEC's Self Advocates for their generosity and hard work! They donated 19 sets of hats, gloves, and scarves to help keep the children at South Bend's Center for the Homeless warm this winter. 💙 https://t.co/a1pLkg3CvA",2024-12-18T23:25:14.000Z,431899650,"Bristol, IN.",,,,False
+id,text,created_at,author_id,user_location,tweet_geo,tweet_country,place_type,is_retweet,keywords_matched
+1872787028687110213,"@LauraLoomer @elonmusk I don't see any funny about it. I couldn't care less if Elon had Trillions or was homeless. A man is worthless without respect. Playing games with someone's income might be funny for some, I guess, even if it was just for just 12 hours. Very disrespectful &amp; disappointing.",2024-12-27T23:29:56.000Z,1351221982671593472,United States,"Mishawaka, IN",United States,city,False,homeless
+1872386919482495202,"Developer adds Hope Ministries building to Monarch plan for housing, retail and green space as well as address food insecurity. READI money awarded. https://t.co/v91cOXtnHZ",2024-12-26T21:00:03.000Z,20528760,"South Bend, IN",,,,False,
+1872243487262826933,"Developer adds Hope Ministries building to Monarch plan for housing, retail and green space as well as address food insecurity. READI money awarded. https://t.co/0rITW9WNnj",2024-12-26T11:30:06.000Z,20528760,"South Bend, IN",,,,False,
+1871717924261806583,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-12-25T00:41:42.000Z,1859946739635023872,United State,,,,True,
+1870128956583883071,"@IUBarstool Even with the homeless in the middle of BTown, south bend is such a shit hole with the NCAA’s WORST stadium.",2024-12-20T15:27:43.000Z,1345558936674574336,The Goat House,,,,False,homeless
+1869580458562105576,"@FreyjaTarte @WeThePeople021 Actually, I think this is a cool idea. Like dorm-style living, but for adults. If it revitalizes mall space, helps local businesses, alleviates a shortage of affordable housing (especially for young adults or seniors) and ISN'T MANDATED BY THE GOVERNMENT, I say go for it!",2024-12-19T03:08:11.000Z,134250956,"Granger, IN","Granger, IN",United States,city,False,affordable housing
+1869524351956971793,"A huge shoutout to ADEC's Self Advocates for their generosity and hard work! They donated 19 sets of hats, gloves, and scarves to help keep the children at South Bend's Center for the Homeless warm this winter. 💙 https://t.co/a1pLkg3CvA",2024-12-18T23:25:14.000Z,431899650,"Bristol, IN.",,,,False,homeless
 1867755586470687099,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-14T02:16:47.000Z,23494630,"South Bend, IN",,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-14T02:16:47.000Z,23494630,"South Bend, IN",,,,True,homeless
 1867739417739505672,"813 S. Michigan St (South Bend)
 Center for the Homeless
 
@@ -16,174 +16,174 @@ MOTOR VEHICLE COLLISION
 
 8:06 PM: They advised this was NOT a car that rolled over. Sounds like they said  “cart”. The patient is alert.
 
-#SouthBend https://t.co/aZYv6s9Tai",2024-12-14T01:12:32.000Z,1810890594534805504,"South Bend, IN",,,,False
+#SouthBend https://t.co/aZYv6s9Tai",2024-12-14T01:12:32.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
 1867738431402434586,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-14T01:08:37.000Z,358984156,"South Bend, IN",,,,True
-1867550065792852114,RT @aimeeterese: @Chasten You really want to go there with your “husbands” record on homelessness in south bend?,2024-12-13T12:40:07.000Z,1543303524645232643,"Atlanta, GA",,,,True
-1867523468071174199,RT @aimeeterese: @Chasten You really want to go there with your “husbands” record on homelessness in south bend?,2024-12-13T10:54:26.000Z,738710158176571392,🇺🇸 🇺🇸🇺🇸,,,,True
-1867387060564459897,@Tilllitstank @MrMonies28 dey lucky i aint south bend i be eating like a homeless man that aint ate in 3 days,2024-12-13T01:52:24.000Z,1442162632899776512,,,,,False
-1867380340278579235,@Chasten You really want to go there with your “husbands” record on homelessness in south bend?,2024-12-13T01:25:42.000Z,23292743,,,,,False
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-14T01:08:37.000Z,358984156,"South Bend, IN",,,,True,homeless
+1867550065792852114,RT @aimeeterese: @Chasten You really want to go there with your “husbands” record on homelessness in south bend?,2024-12-13T12:40:07.000Z,1543303524645232643,"Atlanta, GA",,,,True,"homeless, homelessness"
+1867523468071174199,RT @aimeeterese: @Chasten You really want to go there with your “husbands” record on homelessness in south bend?,2024-12-13T10:54:26.000Z,738710158176571392,🇺🇸 🇺🇸🇺🇸,,,,True,"homeless, homelessness"
+1867387060564459897,@Tilllitstank @MrMonies28 dey lucky i aint south bend i be eating like a homeless man that aint ate in 3 days,2024-12-13T01:52:24.000Z,1442162632899776512,,,,,False,homeless
+1867380340278579235,@Chasten You really want to go there with your “husbands” record on homelessness in south bend?,2024-12-13T01:25:42.000Z,23292743,,,,,False,"homeless, homelessness"
 1866877229910667663,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-11T16:06:31.000Z,316882535,"Indianapolis, IN",,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-11T16:06:31.000Z,316882535,"Indianapolis, IN",,,,True,homeless
 1866876500479447216,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-11T16:03:37.000Z,1002330592460005376,,,,,True
-1866461231525347404,@ThorolfButter @farzyness @elonmusk Homelessness is big business in South Bend and cities and counties all around us send their homeless here. Now it’s a massive problem and no one wants to go downtown because it’s been overrun by homeless people. The mayor puts them in hotels. They don’t want to go to the shelters,2024-12-10T12:33:29.000Z,813952762883035137,,,,,False
-1866458263140659294,@CityofSouthBend so my question is can we show at least a *LITTLE* bit of interest in South Bend's homeless feat. addicted and mentally ill population? Like my personal idea was previously a recorded sit-down discussion between certain members of the SBPD and specific members of-,2024-12-10T12:21:41.000Z,559167668,"Indiana, USA",,,,False
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-11T16:03:37.000Z,1002330592460005376,,,,,True,homeless
+1866461231525347404,@ThorolfButter @farzyness @elonmusk Homelessness is big business in South Bend and cities and counties all around us send their homeless here. Now it’s a massive problem and no one wants to go downtown because it’s been overrun by homeless people. The mayor puts them in hotels. They don’t want to go to the shelters,2024-12-10T12:33:29.000Z,813952762883035137,,,,,False,"homeless, homelessness"
+1866458263140659294,@CityofSouthBend so my question is can we show at least a *LITTLE* bit of interest in South Bend's homeless feat. addicted and mentally ill population? Like my personal idea was previously a recorded sit-down discussion between certain members of the SBPD and specific members of-,2024-12-10T12:21:41.000Z,559167668,"Indiana, USA",,,,False,homeless
 1866441988809081119,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-10T11:17:01.000Z,1577730062186516480,,,,,True
-1866295882288631981,"RT @FrMikeCSC: Since you're all here, please consider donating to the South Bend Center for the Homeless. They do wonderful work for the po…",2024-12-10T01:36:27.000Z,17579842,"Sioux City, IA",,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-10T11:17:01.000Z,1577730062186516480,,,,,True,homeless
+1866295882288631981,"RT @FrMikeCSC: Since you're all here, please consider donating to the South Bend Center for the Homeless. They do wonderful work for the po…",2024-12-10T01:36:27.000Z,17579842,"Sioux City, IA",,,,True,homeless
 1866252086897258923,"🎄Christmas Giving🎄 kickoff pod with @jessica_smetana, talking playoff committee, SEC gaslighting, Indiana and a lot more.
 
 Listen: https://t.co/XhemaN6h4e
 
-Donate to the Center for the Homeless in South Bend: https://t.co/pjhR6Q9iXW https://t.co/PWsGErmEo9",2024-12-09T22:42:25.000Z,21310249,,,,,False
+Donate to the Center for the Homeless in South Bend: https://t.co/pjhR6Q9iXW https://t.co/PWsGErmEo9",2024-12-09T22:42:25.000Z,21310249,,,,,False,homeless
 1866214672816542128,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T20:13:45.000Z,718622391069450240,,,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T20:13:45.000Z,718622391069450240,,,,,True,homeless
 1866199336843202782,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T19:12:48.000Z,946014817,,,,,True
-1866199242726908327,"Since you're all here, please consider donating to the South Bend Center for the Homeless. They do wonderful work for the poor, and your kindness is especially appreciated during the frigid Indiana winters. https://t.co/87YFjQNWqg",2024-12-09T19:12:26.000Z,946014817,,,,,False
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T19:12:48.000Z,946014817,,,,,True,homeless
+1866199242726908327,"Since you're all here, please consider donating to the South Bend Center for the Homeless. They do wonderful work for the poor, and your kindness is especially appreciated during the frigid Indiana winters. https://t.co/87YFjQNWqg",2024-12-09T19:12:26.000Z,946014817,,,,,False,homeless
 1866188590692045006,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T18:30:06.000Z,79279128," 8° 46′ 48″ N, 82° 26′ W ",,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T18:30:06.000Z,79279128," 8° 46′ 48″ N, 82° 26′ W ",,,,True,homeless
 1866111317544722829,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T13:23:03.000Z,1846307465878515712,"Kirkwood, MO",,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T13:23:03.000Z,1846307465878515712,"Kirkwood, MO",,,,True,homeless
 1866108814032015732,"RT @rakesofmallow: ☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
-Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T13:13:06.000Z,1864346764137902080,,,,,True
+Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu…",2024-12-09T13:13:06.000Z,1864346764137902080,,,,,True,homeless
 1866108762744058344,"☘️🎁🎄Christmas Giving 2024 is live🎄🎁☘️
 
 Donate to the Center for the Homeless in South Bend here: https://t.co/pjhR6Q9QNu
 
-Additional details: https://t.co/IkI2scsiQv https://t.co/iYVnH2nVmS",2024-12-09T13:12:54.000Z,21310249,,,,,False
-1865952175668519168,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-12-09T02:50:41.000Z,250277561,USA,,,,True
-1865466907656159617,@mitchellvii Sandwiches for the many homeless in South Bend Indiana.,2024-12-07T18:42:24.000Z,1492188959153209349,,,,,False
-1865162621973848448,@SecretaryPete You couldn’t even fill the potholes in South Bend. You forced Americans out of jobs and affordable housing to favor illegals. South Bend is still a shithole.,2024-12-06T22:33:16.000Z,1620149834131841043,USA ,,,,False
-1864844733807308971,The luncheon also gives a platform for people to tell their stories. https://t.co/g3os2z81zo,2024-12-06T01:30:06.000Z,15446424,"South Bend, Indiana",,,,False
-1864788834585600093,"Thanks to Practical Resale for inviting @HolyCrossND Liam Pearl &amp; I to join your table at the @CFH_Difference Holiday Luncheon. After an especially cold night, it was wonderful to be surrounded by the warmth of many individuals who support caring for our unhoused neighbors. https://t.co/t8aLJLxVu6",2024-12-05T21:47:58.000Z,599688587,"South Bend, IN","South Bend, IN",United States,city,False
+Additional details: https://t.co/IkI2scsiQv https://t.co/iYVnH2nVmS",2024-12-09T13:12:54.000Z,21310249,,,,,False,homeless
+1865952175668519168,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-12-09T02:50:41.000Z,250277561,USA,,,,True,
+1865466907656159617,@mitchellvii Sandwiches for the many homeless in South Bend Indiana.,2024-12-07T18:42:24.000Z,1492188959153209349,,,,,False,homeless
+1865162621973848448,@SecretaryPete You couldn’t even fill the potholes in South Bend. You forced Americans out of jobs and affordable housing to favor illegals. South Bend is still a shithole.,2024-12-06T22:33:16.000Z,1620149834131841043,USA ,,,,False,affordable housing
+1864844733807308971,The luncheon also gives a platform for people to tell their stories. https://t.co/g3os2z81zo,2024-12-06T01:30:06.000Z,15446424,"South Bend, Indiana",,,,False,
+1864788834585600093,"Thanks to Practical Resale for inviting @HolyCrossND Liam Pearl &amp; I to join your table at the @CFH_Difference Holiday Luncheon. After an especially cold night, it was wonderful to be surrounded by the warmth of many individuals who support caring for our unhoused neighbors. https://t.co/t8aLJLxVu6",2024-12-05T21:47:58.000Z,599688587,"South Bend, IN","South Bend, IN",United States,city,False,unhoused
 1864522232547926335,"S. Main St &amp; W. Monroe St (South Bend)
 
 Welfare Check 
 
 Caller requesting a welfare check on a homeless male who seems to be in distress. Caller advising the male is at the gas station.
 
-#SouthBend",2024-12-05T04:08:36.000Z,1810890594534805504,"South Bend, IN",,,,False
+#SouthBend",2024-12-05T04:08:36.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
 1864486423681761407,"813 S. Michigan St (South Bend)
 Center for the Homeless
 
 Disturbance 
 
-#SouthBend",2024-12-05T01:46:18.000Z,1810890594534805504,"South Bend, IN",,,,False
-1863590113134944518,RT @AraquelBloss: @asiakmfields Have you researched how Pete Buttigieg treated the homeless in South Bend during his two terms? The street…,2024-12-02T14:24:41.000Z,714331742,,,,,True
-1863418083261427850,@asiakmfields Have you researched how Pete Buttigieg treated the homeless in South Bend during his two terms? The street department swept encampments under a downtown overpass more than once and everything got trashed.,2024-12-02T03:01:06.000Z,2334725995,United States,,,,False
-1863288005819015626,"RT @rakesofmallow: all of the @bridgetgoirish Christmas designs are live, with any TeePublic proceeds this month going to the Center for th…",2024-12-01T18:24:13.000Z,207304321,nashville,,,,True
+#SouthBend",2024-12-05T01:46:18.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
+1863590113134944518,RT @AraquelBloss: @asiakmfields Have you researched how Pete Buttigieg treated the homeless in South Bend during his two terms? The street…,2024-12-02T14:24:41.000Z,714331742,,,,,True,homeless
+1863418083261427850,@asiakmfields Have you researched how Pete Buttigieg treated the homeless in South Bend during his two terms? The street department swept encampments under a downtown overpass more than once and everything got trashed.,2024-12-02T03:01:06.000Z,2334725995,United States,,,,False,homeless
+1863288005819015626,"RT @rakesofmallow: all of the @bridgetgoirish Christmas designs are live, with any TeePublic proceeds this month going to the Center for th…",2024-12-01T18:24:13.000Z,207304321,nashville,,,,True,
 1863276097259049191,"all of the @bridgetgoirish Christmas designs are live, with any TeePublic proceeds this month going to the Center for the Homeless in South Bend
 
-https://t.co/vawQFUEkT6 https://t.co/ZzRt0wtjTI",2024-12-01T17:36:54.000Z,21310249,,,,,False
-1863222305284923743,@JackPosobiec Have you ever been to South Bend Indiana?  He’s clearly not qualified to be Mayor either. I was their during his mayorship and I couldn’t believe how many homeless walking the streets.,2024-12-01T14:03:09.000Z,495188970,Ohio,,,,False
-1863100311876915528,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-12-01T05:58:23.000Z,320812367,South Wales,,,,True
-1862489192854364496,South Bend-based Importin' Joe's Ethiopian Coffee was founded to help farmers and the thousands of homeless organs in the East African country. https://t.co/Pg3xAkAG2z,2024-11-29T13:30:01.000Z,20528760,"South Bend, IN",,,,False
-1862174226804875390,"RT @WSBT: #ICYMI: A South Bend family served Thanksgiving dinner to more than 100 homeless people last year, and are planning on helping ev…",2024-11-28T16:38:27.000Z,31542905,"7 Sunscreen St, Chronos Island",,,,True
+https://t.co/vawQFUEkT6 https://t.co/ZzRt0wtjTI",2024-12-01T17:36:54.000Z,21310249,,,,,False,homeless
+1863222305284923743,@JackPosobiec Have you ever been to South Bend Indiana?  He’s clearly not qualified to be Mayor either. I was their during his mayorship and I couldn’t believe how many homeless walking the streets.,2024-12-01T14:03:09.000Z,495188970,Ohio,,,,False,homeless
+1863100311876915528,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-12-01T05:58:23.000Z,320812367,South Wales,,,,True,
+1862489192854364496,South Bend-based Importin' Joe's Ethiopian Coffee was founded to help farmers and the thousands of homeless organs in the East African country. https://t.co/Pg3xAkAG2z,2024-11-29T13:30:01.000Z,20528760,"South Bend, IN",,,,False,homeless
+1862174226804875390,"RT @WSBT: #ICYMI: A South Bend family served Thanksgiving dinner to more than 100 homeless people last year, and are planning on helping ev…",2024-11-28T16:38:27.000Z,31542905,"7 Sunscreen St, Chronos Island",,,,True,homeless
 1862172149869375990,"#ICYMI: A South Bend family served Thanksgiving dinner to more than 100 homeless people last year, and are planning on helping even more this year!
 
-https://t.co/pV2vLiPg5s",2024-11-28T16:30:12.000Z,15483453,"Mishawaka, IN",,,,False
-1862013107591074194,"RT @SBTribune: The purchase by the city should allow the long-planned, frequently-opposed project to move forward. https://t.co/bpLiZJnCtI",2024-11-28T05:58:14.000Z,31542905,"7 Sunscreen St, Chronos Island",,,,True
-1861998531197722981,"The purchase by the city should allow the long-planned, frequently-opposed project to move forward. https://t.co/bpLiZJnCtI",2024-11-28T05:00:18.000Z,20528760,"South Bend, IN",,,,False
+https://t.co/pV2vLiPg5s",2024-11-28T16:30:12.000Z,15483453,"Mishawaka, IN",,,,False,homeless
+1862013107591074194,"RT @SBTribune: The purchase by the city should allow the long-planned, frequently-opposed project to move forward. https://t.co/bpLiZJnCtI",2024-11-28T05:58:14.000Z,31542905,"7 Sunscreen St, Chronos Island",,,,True,
+1861998531197722981,"The purchase by the city should allow the long-planned, frequently-opposed project to move forward. https://t.co/bpLiZJnCtI",2024-11-28T05:00:18.000Z,20528760,"South Bend, IN",,,,False,
 1861934306454655244,"Turning heartbreak into hope, a South Bend family is honoring their daughter's memory by feeding the homeless this Thanksgiving.
-READ MORE: https://t.co/pV2vLiPg5s https://t.co/fZhfudDE8K",2024-11-28T00:45:06.000Z,15483453,"Mishawaka, IN",,,,False
-1861879000928268369,"The purchase by the city should allow the long-planned, frequently-opposed project to move forward. https://t.co/UFJoMQoUtp",2024-11-27T21:05:20.000Z,20528760,"South Bend, IN",,,,False
-1861773983407849707,Group behind new low-barrier homeless shelter in South Bend embarks on next steps https://t.co/g1BO5UNLxr,2024-11-27T14:08:02.000Z,908306589802795008,United States,,,,False
+READ MORE: https://t.co/pV2vLiPg5s https://t.co/fZhfudDE8K",2024-11-28T00:45:06.000Z,15483453,"Mishawaka, IN",,,,False,homeless
+1861879000928268369,"The purchase by the city should allow the long-planned, frequently-opposed project to move forward. https://t.co/UFJoMQoUtp",2024-11-27T21:05:20.000Z,20528760,"South Bend, IN",,,,False,
+1861773983407849707,Group behind new low-barrier homeless shelter in South Bend embarks on next steps https://t.co/g1BO5UNLxr,2024-11-27T14:08:02.000Z,908306589802795008,United States,,,,False,homeless
 1861734728392479112,"RT @16NewsNow: Plans for a new 'New Day Intake Center' call for laundry facilities, a commercial kitchen and outdoor gathering space.
 
- htt…",2024-11-27T11:32:03.000Z,106758417,"South Bend, Indiana",,,,True
+ htt…",2024-11-27T11:32:03.000Z,106758417,"South Bend, Indiana",,,,True,
 1861726670383698041,"Plans for a new 'New Day Intake Center' call for laundry facilities, a commercial kitchen and outdoor gathering space.
 
- https://t.co/Ax5w4eG9Gb",2024-11-27T11:00:02.000Z,15446424,"South Bend, Indiana",,,,False
+ https://t.co/Ax5w4eG9Gb",2024-11-27T11:00:02.000Z,15446424,"South Bend, Indiana",,,,False,
 1861461069044006942,"The deal to build a new homeless intake center in South Bend is close to completion.
-https://t.co/WT6HfFEBnL",2024-11-26T17:24:37.000Z,15483453,"Mishawaka, IN",,,,False
+https://t.co/WT6HfFEBnL",2024-11-26T17:24:37.000Z,15483453,"Mishawaka, IN",,,,False,homeless
 1860167426505343101,"South Bend Mayor James Mueller discusses President-Elect Trump's immigration policies https://t.co/79SuSbleq4
-Ikibatsi mutual net.",2024-11-23T03:44:09.000Z,1743347588147843072,USA,,,,False
+Ikibatsi mutual net.",2024-11-23T03:44:09.000Z,1743347588147843072,USA,,,,False,
 1859514497821520069,"813 S. Michigan St (South Bend)
 Center for the Homeless
 
 Medical Emergency - Breathing Problems 
 
-#SouthBend",2024-11-21T08:29:39.000Z,1810890594534805504,"South Bend, IN",,,,False
-1859359302894362935,"@TheRabbitHole84 @WokelyCorrect Notice how liberals fastidiously avoid the homeless, illegals, and blacks they say they love so much.  The Clintons sent Chelsea to Sidwell Friends School.  Now isn't that special.  Guess where Pete Buttigieg lived when he was in South Bend?  Hint:  not on Elwood or Huey.",2024-11-20T22:12:57.000Z,1607779743973228550,,,,,False
-1859083533785960464,South Bend Mayor James Mueller discusses President-Elect Trump's immigration policies https://t.co/DpMzSC6LFQ,2024-11-20T03:57:09.000Z,908306589802795008,United States,,,,False
+#SouthBend",2024-11-21T08:29:39.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
+1859359302894362935,"@TheRabbitHole84 @WokelyCorrect Notice how liberals fastidiously avoid the homeless, illegals, and blacks they say they love so much.  The Clintons sent Chelsea to Sidwell Friends School.  Now isn't that special.  Guess where Pete Buttigieg lived when he was in South Bend?  Hint:  not on Elwood or Huey.",2024-11-20T22:12:57.000Z,1607779743973228550,,,,,False,homeless
+1859083533785960464,South Bend Mayor James Mueller discusses President-Elect Trump's immigration policies https://t.co/DpMzSC6LFQ,2024-11-20T03:57:09.000Z,908306589802795008,United States,,,,False,
 1858888121821098047,"WSBT's Bob Montgomery and South Bend Mayor James Mueller (D) discuss hot topics in the city including how the City of South Bend would handle President-Elect Trump's immigration policies, along with the New Day Intake Center.
 
-https://t.co/4MWorrm1ab",2024-11-19T15:00:39.000Z,15483453,"Mishawaka, IN",,,,False
+https://t.co/4MWorrm1ab",2024-11-19T15:00:39.000Z,15483453,"Mishawaka, IN",,,,False,
 1857885717902582234,"@JoshLekach My favorite thing Pete did when he was mirror in south bend, Indiana was cover the city in lime bikes that the homeless could throw in the river. Brilliant guy. 
 
-Maybe if he’s president we can have lime bikes for the homeless to throw around all over the US!",2024-11-16T20:37:27.000Z,1038921281603821568,,,,,False
-1856765082870616333,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-11-13T18:24:27.000Z,841771907506569218,,,,,True
-1856167961188274653,"@Marksmen16 @katewillett Yeah, about Pete...: https://t.co/oaEQsX1aGb",2024-11-12T02:51:42.000Z,1024795497268215809,,,,,False
-1854543072664658223,"I WANT THE HOUSE, I WANT THE PROPERTY_ I AM POSITIONED TO CONDEMN ALL OF SOUTH BEND OVER IT&gt; welcome to Judgement - im baby goddess of war, thats what ""angel"" you screwed over, raping me and making me homeless (dv survivor- healthcare worker)",2024-11-07T15:14:58.000Z,1831533318044553217,Indiana,,,,False
-1854173057176285576,"We're excited to announce the financial closing of AHEPA 100-II Apartments in South Bend, IN, our first transaction in connection with the Indiana Affordable &amp; Workforce Housing Tax Credit program. The new construction development will provide 72 units for seniors at 60% AMI. https://t.co/W7cTRHhmr2",2024-11-06T14:44:40.000Z,2209174855,"New Orleans, LA",,,,False
-1854034968781218113,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-11-06T05:35:57.000Z,1591894693453103104,,,,,True
-1853912558492639502,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-11-05T21:29:32.000Z,2334725995,United States,,,,True
+Maybe if he’s president we can have lime bikes for the homeless to throw around all over the US!",2024-11-16T20:37:27.000Z,1038921281603821568,,,,,False,homeless
+1856765082870616333,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-11-13T18:24:27.000Z,841771907506569218,,,,,True,
+1856167961188274653,"@Marksmen16 @katewillett Yeah, about Pete...: https://t.co/oaEQsX1aGb",2024-11-12T02:51:42.000Z,1024795497268215809,,,,,False,
+1854543072664658223,"I WANT THE HOUSE, I WANT THE PROPERTY_ I AM POSITIONED TO CONDEMN ALL OF SOUTH BEND OVER IT&gt; welcome to Judgement - im baby goddess of war, thats what ""angel"" you screwed over, raping me and making me homeless (dv survivor- healthcare worker)",2024-11-07T15:14:58.000Z,1831533318044553217,Indiana,,,,False,homeless
+1854173057176285576,"We're excited to announce the financial closing of AHEPA 100-II Apartments in South Bend, IN, our first transaction in connection with the Indiana Affordable &amp; Workforce Housing Tax Credit program. The new construction development will provide 72 units for seniors at 60% AMI. https://t.co/W7cTRHhmr2",2024-11-06T14:44:40.000Z,2209174855,"New Orleans, LA",,,,False,
+1854034968781218113,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-11-06T05:35:57.000Z,1591894693453103104,,,,,True,
+1853912558492639502,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-11-05T21:29:32.000Z,2334725995,United States,,,,True,
 1853908651771351238,"In honor of Homeless Youth Awareness Month in November, @theLauberSB will donate $2 for every burger sold in November to support our programs to end youth homelessness in our community!
 
-Visit The Lauber in central South Bend at 504 East LaSalle Avenue. https://t.co/AUqVW29TJ7",2024-11-05T21:14:01.000Z,177672421,"South Bend, Indiana, USA",,,,False
+Visit The Lauber in central South Bend at 504 East LaSalle Avenue. https://t.co/AUqVW29TJ7",2024-11-05T21:14:01.000Z,177672421,"South Bend, Indiana, USA",,,,False,"homeless, homelessness"
 1853834000525385731,"@MaryDil29664033 @AnandWrites My point is Pete's a piece of shit Republican light politician. this was the city of South Bend, when Pete was mayor - it has FUCK ALL to do with the governor of Indiana 
-https://t.co/KOxyBajPYL",2024-11-05T16:17:22.000Z,1122591453924839424,"Los Angeles, CA",,,,False
+https://t.co/KOxyBajPYL",2024-11-05T16:17:22.000Z,1122591453924839424,"Los Angeles, CA",,,,False,
 1853685186984075580,"@MaryDil29664033 @AnandWrites HE WAS THE MAYOR. HE CALLED FOR THE SWEEPS. READ THE ARTICLE
-https://t.co/KOxyBaji9d",2024-11-05T06:26:03.000Z,1122591453924839424,"Los Angeles, CA",,,,False
+https://t.co/KOxyBaji9d",2024-11-05T06:26:03.000Z,1122591453924839424,"Los Angeles, CA",,,,False,
 1853683975924875765,"@MaryDil29664033 @AnandWrites Read about how he treated homeless people in South bend when he was the mayor - destroyed their possessions under ""nuisance laws"" during the winter in Indiana when there weren't enough shelter beds to accommodate the unhoused population
-https://t.co/KOxyBaji9d",2024-11-05T06:21:14.000Z,1122591453924839424,"Los Angeles, CA",,,,False
+https://t.co/KOxyBaji9d",2024-11-05T06:21:14.000Z,1122591453924839424,"Los Angeles, CA",,,,False,"homeless, unhoused"
 1853681058820043033,"@monkeyjoe @AnandWrites address how he treated homeless people in South Bend without pretending being a wealthy gay man who adopted children makes him a saint
-https://t.co/KOxyBaji9d",2024-11-05T06:09:38.000Z,1122591453924839424,"Los Angeles, CA",,,,False
+https://t.co/KOxyBaji9d",2024-11-05T06:09:38.000Z,1122591453924839424,"Los Angeles, CA",,,,False,homeless
 1853675130943127571,"@monkeyjoe @AnandWrites Read it all bitch 
-https://t.co/KOxyBaji9d",2024-11-05T05:46:05.000Z,1122591453924839424,"Los Angeles, CA",,,,False
-1853673606913421820,@monkeyjoe @AnandWrites shut the fuck up man. this guy pretended he knew fucking eight languages. he doesn't. Look up how he treated homeless people in South bend during the winter in Indiana. he destroyed their possessions and put them on the streets when there weren't enough shelter beds for them,2024-11-05T05:40:02.000Z,1122591453924839424,"Los Angeles, CA",,,,False
-1853673365443068319,@jessicafalstein @AnandWrites at pretending to be a human being? He's a fucking piece of shit. Look up how he treated homeless people in South bend,2024-11-05T05:39:04.000Z,1122591453924839424,"Los Angeles, CA",,,,False
+https://t.co/KOxyBaji9d",2024-11-05T05:46:05.000Z,1122591453924839424,"Los Angeles, CA",,,,False,
+1853673606913421820,@monkeyjoe @AnandWrites shut the fuck up man. this guy pretended he knew fucking eight languages. he doesn't. Look up how he treated homeless people in South bend during the winter in Indiana. he destroyed their possessions and put them on the streets when there weren't enough shelter beds for them,2024-11-05T05:40:02.000Z,1122591453924839424,"Los Angeles, CA",,,,False,homeless
+1853673365443068319,@jessicafalstein @AnandWrites at pretending to be a human being? He's a fucking piece of shit. Look up how he treated homeless people in South bend,2024-11-05T05:39:04.000Z,1122591453924839424,"Los Angeles, CA",,,,False,homeless
 1852908565583036653,"Local organizations teaming up and camping out to raise awareness and collect donations for those who are homeless in South Bend. @AsherBookspanTV has more on the seventh annual ""Sleep-Out for the Homeless""
-https://t.co/gm1Y97SPmV",2024-11-03T03:00:02.000Z,15483453,"Mishawaka, IN",,,,False
+https://t.co/gm1Y97SPmV",2024-11-03T03:00:02.000Z,15483453,"Mishawaka, IN",,,,False,homeless
 1852304681243955447,"@OrderOfAHEPA Senior Living (ASL), a #nationwide #nonprofit #provider of affordable #multifamily #housing for older #adults, held a ground-breaking #ceremony for AHEPA 100 Phase II Apartments in South Bend, Indiana.
 
-https://t.co/dy4OkkYB28",2024-11-01T11:00:24.000Z,82347945,"Long Island City, New York",,,,False
-1851106486216266126,URGENT: ‘Save Them All’? Homeless Dogs and Cats Adopted to Animal Abusers—Take Action Today! https://t.co/4ErlXkvOPo @peta,2024-10-29T03:39:12.000Z,1507664180169650176,,"Mishawaka, IN",United States,city,False
-1851106442893234431,URGENT: ‘Save Them All’? Homeless Dogs and Cats Adopted to Animal Abusers—Take Action Today! https://t.co/4ErlXkvOPo @peta,2024-10-29T03:39:02.000Z,1507664180169650176,,"Mishawaka, IN",United States,city,False
-1850170281689583824,"RT @NewParisite: @GDebatta Picture from when Pete Buttigieg bulldozed over homeless encampments as the mayor of South Bend, Indiana. Clearl…",2024-10-26T13:39:04.000Z,344918904,,,,,True
-1850170159916356023,"@GDebatta Picture from when Pete Buttigieg bulldozed over homeless encampments as the mayor of South Bend, Indiana. Clearly, Democrats love destroying the few possessions belonging to the homeless. https://t.co/ZrIUkpGUDB",2024-10-26T13:38:35.000Z,344918904,,,,,False
+https://t.co/dy4OkkYB28",2024-11-01T11:00:24.000Z,82347945,"Long Island City, New York",,,,False,
+1851106486216266126,URGENT: ‘Save Them All’? Homeless Dogs and Cats Adopted to Animal Abusers—Take Action Today! https://t.co/4ErlXkvOPo @peta,2024-10-29T03:39:12.000Z,1507664180169650176,,"Mishawaka, IN",United States,city,False,homeless
+1851106442893234431,URGENT: ‘Save Them All’? Homeless Dogs and Cats Adopted to Animal Abusers—Take Action Today! https://t.co/4ErlXkvOPo @peta,2024-10-29T03:39:02.000Z,1507664180169650176,,"Mishawaka, IN",United States,city,False,homeless
+1850170281689583824,"RT @NewParisite: @GDebatta Picture from when Pete Buttigieg bulldozed over homeless encampments as the mayor of South Bend, Indiana. Clearl…",2024-10-26T13:39:04.000Z,344918904,,,,,True,homeless
+1850170159916356023,"@GDebatta Picture from when Pete Buttigieg bulldozed over homeless encampments as the mayor of South Bend, Indiana. Clearly, Democrats love destroying the few possessions belonging to the homeless. https://t.co/ZrIUkpGUDB",2024-10-26T13:38:35.000Z,344918904,,,,,False,homeless
 1849964193652343263,"South Bend is tackling the affordable housing crisis with a new initiative. 🏠 
-https://t.co/u8YoJQzlic",2024-10-26T00:00:09.000Z,15483453,"Mishawaka, IN",,,,False
-1848910569187000414,"RT @MichaelPDivita: Sixplexes are one building type in SB Thrive, an affordable housing project currently under construction on South Bend'…",2024-10-23T02:13:25.000Z,479753176,"Chicago, IL",,,,True
-1848885801129586750,"Sixplexes are one building type in SB Thrive, an affordable housing project currently under construction on South Bend's east side https://t.co/jEUAni7vsJ",2024-10-23T00:35:00.000Z,1422101168,"South Bend, Ind.",,,,False
-1848578744761336314,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-10-22T04:14:52.000Z,1586759916357681152,,,,,True
-1848471846750196126,"RT @AhepaSL: Thank you, @16NewsNow, for coverage of yesterday's groundbreaking ceremony in South Bend and for conveying the importance of a…",2024-10-21T21:10:05.000Z,794720310,"Tenafly, NJ",,,,True
-1848471832908661093,"RT @AhepaSL: Thank you, @ABC57News, for coverage of yesterday's groundbreaking ceremony in South Bend and for conveying the importance of a…",2024-10-21T21:10:02.000Z,794720310,"Tenafly, NJ",,,,True
-1848471813052850207,"RT @AhepaSL: Thank you, @IIB, for coverage of yesterday's groundbreaking ceremony in South Bend and for conveying the importance of afforda…",2024-10-21T21:09:57.000Z,794720310,"Tenafly, NJ",,,,True
-1848365063259713932,"What a fun time celebrating South Bend Heritage’s 50th Anniversary at their Comedy Jam Reception. The laughs were endless, but the impact is even greater—proceeds from the event will help provide affordable housing and strengthen our community. https://t.co/WKWHYwdXwk",2024-10-21T14:05:46.000Z,322984929,"Mishawaka, Indiana",,,,False
+https://t.co/u8YoJQzlic",2024-10-26T00:00:09.000Z,15483453,"Mishawaka, IN",,,,False,"housing crisis, affordable housing"
+1848910569187000414,"RT @MichaelPDivita: Sixplexes are one building type in SB Thrive, an affordable housing project currently under construction on South Bend'…",2024-10-23T02:13:25.000Z,479753176,"Chicago, IL",,,,True,affordable housing
+1848885801129586750,"Sixplexes are one building type in SB Thrive, an affordable housing project currently under construction on South Bend's east side https://t.co/jEUAni7vsJ",2024-10-23T00:35:00.000Z,1422101168,"South Bend, Ind.",,,,False,affordable housing
+1848578744761336314,"RT @AraquelBloss: I’ve been a war protestor, progressive organizer, water protector, congressional campaign director, women’s rights &amp; radi…",2024-10-22T04:14:52.000Z,1586759916357681152,,,,,True,
+1848471846750196126,"RT @AhepaSL: Thank you, @16NewsNow, for coverage of yesterday's groundbreaking ceremony in South Bend and for conveying the importance of a…",2024-10-21T21:10:05.000Z,794720310,"Tenafly, NJ",,,,True,
+1848471832908661093,"RT @AhepaSL: Thank you, @ABC57News, for coverage of yesterday's groundbreaking ceremony in South Bend and for conveying the importance of a…",2024-10-21T21:10:02.000Z,794720310,"Tenafly, NJ",,,,True,
+1848471813052850207,"RT @AhepaSL: Thank you, @IIB, for coverage of yesterday's groundbreaking ceremony in South Bend and for conveying the importance of afforda…",2024-10-21T21:09:57.000Z,794720310,"Tenafly, NJ",,,,True,
+1848365063259713932,"What a fun time celebrating South Bend Heritage’s 50th Anniversary at their Comedy Jam Reception. The laughs were endless, but the impact is even greater—proceeds from the event will help provide affordable housing and strengthen our community. https://t.co/WKWHYwdXwk",2024-10-21T14:05:46.000Z,322984929,"Mishawaka, Indiana",,,,False,affordable housing
 1848220613082558856,"This song is dedicated to all who are struggling, the disabled, the homeless, the lgbtq community, and everyone around the world that is suicidal or lost someone or a pet.. I want to tell all of you that I love you and everything will be ok..
 
-https://t.co/blVgYNuU8h",2024-10-21T04:31:47.000Z,1798383522375221248,"Mishawaka, IN","Mishawaka, IN",United States,city,False
-1848174094019371020,@AnnieForTruth Ran south Bend into a shit.  hole. High crime and homelessness. Taxes went through the roof. Don’t be a hypocrite,2024-10-21T01:26:56.000Z,1401698448588652546,,,,,False
+https://t.co/blVgYNuU8h",2024-10-21T04:31:47.000Z,1798383522375221248,"Mishawaka, IN","Mishawaka, IN",United States,city,False,homeless
+1848174094019371020,@AnnieForTruth Ran south Bend into a shit.  hole. High crime and homelessness. Taxes went through the roof. Don’t be a hypocrite,2024-10-21T01:26:56.000Z,1401698448588652546,,,,,False,"homeless, homelessness"
 1847858734128623704,"813 S. Michigan St (South Bend)
 Center for the Homeless
 
 Medical Emergency - Abdominal Pain
 
-#SouthBend",2024-10-20T04:33:48.000Z,1810890594534805504,"South Bend, IN",,,,False
-1846894377378938919,@othoslusser @AGToddRokita It’s a last minute attempt to salvage Trump presidential run because republicans know they are losing. South Bend is not a “sanctuary city” because we can’t barely get sanctuary for our own homeless people.,2024-10-17T12:41:47.000Z,1708650332,,,,,False
-1846226867784929341,"@DefiantLs I'd chose ol ""Mayor Pete"" and ask him why he decided to screw up the traffic patterns in South Bend with his screwed up round abouts on Michigan and Main Streets instead of the poverty and homelessness issues that only got worse during his administration.",2024-10-15T16:29:21.000Z,1402082135922651141,"Indiana, USA",,,,False
-1846200748549259758,"Proceeds from the event will help South Bend Heritage continue to provide affordable housing and build community, organizers say. https://t.co/B40xk3B7y4 https://t.co/oTQHhefETJ",2024-10-15T14:45:33.000Z,236481275,"South Bend, IN",,,,False
+#SouthBend",2024-10-20T04:33:48.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
+1846894377378938919,@othoslusser @AGToddRokita It’s a last minute attempt to salvage Trump presidential run because republicans know they are losing. South Bend is not a “sanctuary city” because we can’t barely get sanctuary for our own homeless people.,2024-10-17T12:41:47.000Z,1708650332,,,,,False,homeless
+1846226867784929341,"@DefiantLs I'd chose ol ""Mayor Pete"" and ask him why he decided to screw up the traffic patterns in South Bend with his screwed up round abouts on Michigan and Main Streets instead of the poverty and homelessness issues that only got worse during his administration.",2024-10-15T16:29:21.000Z,1402082135922651141,"Indiana, USA",,,,False,"homeless, homelessness"
+1846200748549259758,"Proceeds from the event will help South Bend Heritage continue to provide affordable housing and build community, organizers say. https://t.co/B40xk3B7y4 https://t.co/oTQHhefETJ",2024-10-15T14:45:33.000Z,236481275,"South Bend, IN",,,,False,affordable housing
 1846136444772913436,"South Bend's Common Council approved tax breaks for developers during their meeting Monday night.
 
-https://t.co/KCabCzrfUr",2024-10-15T10:30:02.000Z,15483453,"Mishawaka, IN",,,,False
+https://t.co/KCabCzrfUr",2024-10-15T10:30:02.000Z,15483453,"Mishawaka, IN",,,,False,
 1846009586647814488,"813 S. Michigan St (South Bend)
 Center for the Homeless 
 
 Medical Emergency - Seizure
 
-#SouthBend",2024-10-15T02:05:57.000Z,1810890594534805504,"South Bend, IN",,,,False
+#SouthBend",2024-10-15T02:05:57.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
 1845960262295196118,"3535 McKinley Hwy (South Bend)
 Elks Lodge 135
 
@@ -191,5 +191,5 @@ Unwanted Person
 
 Caller advising of a homeless person sleeping on the property. The person has been asked to leave multiple times. 
 
-#SouthBend",2024-10-14T22:49:57.000Z,1810890594534805504,"South Bend, IN",,,,False
-1845945340190474309,RT @ABC57News: DirecTV and Notre Dame partnered to serve breakfast to those in need. https://t.co/w0TQxoiwZs https://t.co/USYxnDowP2,2024-10-14T21:50:39.000Z,1898645924,,,,,True
+#SouthBend",2024-10-14T22:49:57.000Z,1810890594534805504,"South Bend, IN",,,,False,homeless
+1845945340190474309,RT @ABC57News: DirecTV and Notre Dame partnered to serve breakfast to those in need. https://t.co/w0TQxoiwZs https://t.co/USYxnDowP2,2024-10-14T21:50:39.000Z,1898645924,,,,,True,

@@ -1,44 +1,44 @@
-id,text,created_at,author_id,user_location,tweet_geo,tweet_country,place_type,is_retweet
-1873510320217768060,RT @RealSamFaddis: Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T23:24:03.000Z,360275450,Somewhere I don't want to be,,,,True
-1873485830976860238,RT @RealSamFaddis: Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T21:46:44.000Z,1679904696457101327,"Space Coast, FL USA Earth",,,,True
-1873485712638808318,RT @RealSamFaddis: Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T21:46:16.000Z,1789474440406839296,,,,,True
-1873482414124831213,Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T21:33:09.000Z,344978883,"Pennsylvania, USA",,,,False
+id,text,created_at,author_id,user_location,tweet_geo,tweet_country,place_type,is_retweet,keywords_matched
+1873510320217768060,RT @RealSamFaddis: Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T23:24:03.000Z,360275450,Somewhere I don't want to be,,,,True,
+1873485830976860238,RT @RealSamFaddis: Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T21:46:44.000Z,1679904696457101327,"Space Coast, FL USA Earth",,,,True,
+1873485712638808318,RT @RealSamFaddis: Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T21:46:16.000Z,1789474440406839296,,,,,True,
+1873482414124831213,Tell me again why Scranton wants Biden's name on its street signs. https://t.co/1pAjjYdC5U,2024-12-29T21:33:09.000Z,344978883,"Pennsylvania, USA",,,,False,
 1872774725040218339,"RT @BourbonWayne: @JDunlap1974 Good old Scranton @JoeBiden did that. In between his 532 vacation days. 
 
-You’re Welcome Homeless folks! htt…",2024-12-27T22:41:03.000Z,1673377780199833620,United States,,,,True
+You’re Welcome Homeless folks! htt…",2024-12-27T22:41:03.000Z,1673377780199833620,United States,,,,True,homeless
 1872774697626341613,"@JDunlap1974 Good old Scranton @JoeBiden did that. In between his 532 vacation days. 
 
-You’re Welcome Homeless folks! https://t.co/Tlyzca22WD",2024-12-27T22:40:57.000Z,1673377780199833620,United States,,,,False
-1871327474518561158,"@WallStreetApes Oh my “F’ING” —-, R U kidding me?  What about the HOMELESS AMERICANS that move from Shelter to Shelter?  Really, THIS HAS GOT TO BE A JOKE…. Tell me it isn’t so Joey from Scranton, tell me it isn’t so…. UNFRICKENUNBELIEVABLE",2024-12-23T22:50:12.000Z,1028842423097556993,,,,,False
+You’re Welcome Homeless folks! https://t.co/Tlyzca22WD",2024-12-27T22:40:57.000Z,1673377780199833620,United States,,,,False,homeless
+1871327474518561158,"@WallStreetApes Oh my “F’ING” —-, R U kidding me?  What about the HOMELESS AMERICANS that move from Shelter to Shelter?  Really, THIS HAS GOT TO BE A JOKE…. Tell me it isn’t so Joey from Scranton, tell me it isn’t so…. UNFRICKENUNBELIEVABLE",2024-12-23T22:50:12.000Z,1028842423097556993,,,,,False,homeless
 1867426749186715932,"A homeless shelter in Lackawanna County is back open and just in time for some of the coldest temperatures of the season.
-https://t.co/QF7PNLZB9z",2024-12-13T04:30:06.000Z,55259165,Northeast PA,,,,False
-1863435003339968873,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please! https://t.co/46nb8ErIoq",2024-12-02T04:08:20.000Z,797842570889920512,,,,,False
-1863434810414465106,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please! https://t.co/Mr9HLfhBR8",2024-12-02T04:07:34.000Z,797842570889920512,,,,,False
-1863434581820727544,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please! https://t.co/HJD2BWjw8n",2024-12-02T04:06:39.000Z,797842570889920512,,,,,False
-1863434378455765227,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please!",2024-12-02T04:05:51.000Z,797842570889920512,,,,,False
-1863434237992640676,"@WhiteHouse Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please!",2024-12-02T04:05:17.000Z,797842570889920512,,,,,False
+https://t.co/QF7PNLZB9z",2024-12-13T04:30:06.000Z,55259165,Northeast PA,,,,False,homeless
+1863435003339968873,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please! https://t.co/46nb8ErIoq",2024-12-02T04:08:20.000Z,797842570889920512,,,,,False,homeless
+1863434810414465106,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please! https://t.co/Mr9HLfhBR8",2024-12-02T04:07:34.000Z,797842570889920512,,,,,False,homeless
+1863434581820727544,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please! https://t.co/HJD2BWjw8n",2024-12-02T04:06:39.000Z,797842570889920512,,,,,False,homeless
+1863434378455765227,"@POTUS Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please!",2024-12-02T04:05:51.000Z,797842570889920512,,,,,False,homeless
+1863434237992640676,"@WhiteHouse Scranton Joe please do not go to Angola, it’s a waste of taxpayer money. Use that money for homeless veterans please!",2024-12-02T04:05:17.000Z,797842570889920512,,,,,False,homeless
 1861440942651138337,"@Phillygirl741 @APompliano “Wow one town”
 
 Plenty of affordable housing.  Right down the road:
 
-https://t.co/migufBi1UB",2024-11-26T16:04:39.000Z,15611093,,,,,False
-1856732069881339942,Transit Friendly Planning News - https://t.co/XIEXcLXtp8 - Restoring Scranton to NYC Amtrak• Journal Square gets 3rd tower • Bronx affordable housing • OKC advances TOD plan &amp; BRT • Active  transport in Africa - #transitfriendlyplanning #NJTOD #Amtrak #affordablehousing #BRT https://t.co/9LCmproKYu,2024-11-13T16:13:16.000Z,793905962,New Jersey,,,,False
+https://t.co/migufBi1UB",2024-11-26T16:04:39.000Z,15611093,,,,,False,affordable housing
+1856732069881339942,Transit Friendly Planning News - https://t.co/XIEXcLXtp8 - Restoring Scranton to NYC Amtrak• Journal Square gets 3rd tower • Bronx affordable housing • OKC advances TOD plan &amp; BRT • Active  transport in Africa - #transitfriendlyplanning #NJTOD #Amtrak #affordablehousing #BRT https://t.co/9LCmproKYu,2024-11-13T16:13:16.000Z,793905962,New Jersey,,,,False,affordable housing
 1856628052509286407,"@FIROfficial Please do not lose touch with our reality. We are still here. @evilove 
 I am still freezing outside homeless  in levittown pa. I need Scranton pa @chrismotionless and upstate NY @RadioDeadly please help me.
-I miss my kid too. The investigations almost over",2024-11-13T09:19:56.000Z,1854630608422539272,"Levittown, PA",,,,False
-1853832178737557621,@latimes so people in places like Scranton going hungry and homeless have to watch Harris parade around with the most spoiled celebrities. Makes sense,2024-11-05T16:10:08.000Z,1383410426638049280,,,,,False
+I miss my kid too. The investigations almost over",2024-11-13T09:19:56.000Z,1854630608422539272,"Levittown, PA",,,,False,homeless
+1853832178737557621,@latimes so people in places like Scranton going hungry and homeless have to watch Harris parade around with the most spoiled celebrities. Makes sense,2024-11-05T16:10:08.000Z,1383410426638049280,,,,,False,homeless
 1852007433377583322,"@PGHDPW @PhiladelphiaGov @PAMunicipalLeag @Scranton_Mayor 
-to pay all expenses for me to stay in a hotel until I was approved for an apt. Biden told him no. He wanted me living homeless on the streets. I have tried to leave the U.S. but Biden won't let me leave. He's illegally",2024-10-31T15:19:15.000Z,1572568709637767168,,,,,False
+to pay all expenses for me to stay in a hotel until I was approved for an apt. Biden told him no. He wanted me living homeless on the streets. I have tried to leave the U.S. but Biden won't let me leave. He's illegally",2024-10-31T15:19:15.000Z,1572568709637767168,,,,,False,homeless
 1852004773006053647,"@PGHDPW @PhiladelphiaGov @PAMunicipalLeag @Scranton_Mayor 
-I have begged Kamala many times to help me. She has done nothing to stop Joe. I live in forced poverty. The FBI illegally controls my bank acct. I was forced to live homeless on the streets from Aug.2021 - April 2024.",2024-10-31T15:08:41.000Z,1572568709637767168,,,,,False
-1851372955822899503,@JohnFetterman @AdamKinzinger @Scranton_Mayor @KamalaHarris Why does Fetterman always look homeless?!,2024-10-29T21:18:04.000Z,1217930656535273473,,,,,False
+I have begged Kamala many times to help me. She has done nothing to stop Joe. I live in forced poverty. The FBI illegally controls my bank acct. I was forced to live homeless on the streets from Aug.2021 - April 2024.",2024-10-31T15:08:41.000Z,1572568709637767168,,,,,False,homeless
+1851372955822899503,@JohnFetterman @AdamKinzinger @Scranton_Mayor @KamalaHarris Why does Fetterman always look homeless?!,2024-10-29T21:18:04.000Z,1217930656535273473,,,,,False,homeless
 1851335330001002621,"@PhillyMayor @usmayors @Mr_4thDistrict @MayorGinther @matthewtuerk @Scranton_Mayor @davidfholt @tcochran_mayors 15 min cities.. 
 you will own nothing and be happy .. no cars etc 
 Local progress supposedly paid for their entire trip abroad .. bringing communism to our neighborhood.. 
 wondering owns properties, switch hands, contractors, real estate, grants, 501Corg
 
-https://t.co/wewrjm2POh https://t.co/xvbmwiz1rV https://t.co/YksH9nsmRc",2024-10-29T18:48:33.000Z,1655302422162448384,Pennsylvania ,,,,False
-1851332032791453766,@JohnFetterman @AdamKinzinger @Scranton_Mayor @KamalaHarris Stop dressing like a fucking homeless guy you’re a politician. Present yourself better. Bum. MAHA,2024-10-29T18:35:27.000Z,1598430168615362562,,,,,False
+https://t.co/wewrjm2POh https://t.co/xvbmwiz1rV https://t.co/YksH9nsmRc",2024-10-29T18:48:33.000Z,1655302422162448384,Pennsylvania ,,,,False,
+1851332032791453766,@JohnFetterman @AdamKinzinger @Scranton_Mayor @KamalaHarris Stop dressing like a fucking homeless guy you’re a politician. Present yourself better. Bum. MAHA,2024-10-29T18:35:27.000Z,1598430168615362562,,,,,False,homeless
 1851288600509293043,"@JohnFetterman @AdamKinzinger @Scranton_Mayor @KamalaHarris Under VP Harris who says she will not change anything:
 Highest in history, homelessness,
 Highest in history, illegal immigration,
@@ -46,7 +46,7 @@ Average mortgage $1000 higher
 13,000 convicted murderes let in the US,
 Over 57,000 women sex trafficked,
 Highest inflation in 41 years, 
-Wars in",2024-10-29T15:42:52.000Z,1604637434850983937,,,,,False
+Wars in",2024-10-29T15:42:52.000Z,1604637434850983937,,,,,False,"homeless, homelessness"
 1851033938946306461,"@JohnFetterman @mjfree @AdamKinzinger @Scranton_Mayor @KamalaHarris @KamalaHarris spends $451 billion a year on housing, healthcare, food, &amp; education for illegals
 
 @VP spends hundreds of billions more on wars killing kids
@@ -57,7 +57,7 @@ Only $3 billion for homeless vets &amp; $750 for hurricane victims
 
 @realDonaldTrump 
 
-#Trump #Kamala",2024-10-28T22:50:56.000Z,1354478603300442115,,,,,False
+#Trump #Kamala",2024-10-28T22:50:56.000Z,1354478603300442115,,,,,False,homeless
 1851033900564275699,"@mjfree @JohnFetterman @AdamKinzinger @Scranton_Mayor @KamalaHarris @KamalaHarris spends $451 billion a year on housing, healthcare, food, &amp; education for illegals
 
 @VP spends hundreds of billions more on wars killing kids
@@ -68,129 +68,129 @@ Only $3 billion for homeless vets &amp; $750 for hurricane victims
 
 @realDonaldTrump 
 
-#Trump #Kamala",2024-10-28T22:50:47.000Z,1354478603300442115,,,,,False
-1849543357707714825,"RT @RaymondPettibon: God created Job, and that didn't work out so hot, did it? Joe Crow, POTUS with the FLOTUS, Scrotum from Scranton, crea…",2024-10-24T20:07:53.000Z,1772979422921940992,Leicester,,,,True
-1849231683687711211,"RT @RaymondPettibon: God created Job, and that didn't work out so hot, did it? Joe Crow, POTUS with the FLOTUS, Scrotum from Scranton, crea…",2024-10-23T23:29:25.000Z,538568869,California,,,,True
-1849229390015582239,"God created Job, and that didn't work out so hot, did it? Joe Crow, POTUS with the FLOTUS, Scrotum from Scranton, creates tons of 'em (jobs). Why, I work 3 myself, all low-paying, and am still poor and homeless. YOU-- great job, freak! We're all better off when you lose yours. https://t.co/o3M2e8KaqV",2024-10-23T23:20:18.000Z,247898840,Parts unknown,,,,False
+#Trump #Kamala",2024-10-28T22:50:47.000Z,1354478603300442115,,,,,False,homeless
+1849543357707714825,"RT @RaymondPettibon: God created Job, and that didn't work out so hot, did it? Joe Crow, POTUS with the FLOTUS, Scrotum from Scranton, crea…",2024-10-24T20:07:53.000Z,1772979422921940992,Leicester,,,,True,
+1849231683687711211,"RT @RaymondPettibon: God created Job, and that didn't work out so hot, did it? Joe Crow, POTUS with the FLOTUS, Scrotum from Scranton, crea…",2024-10-23T23:29:25.000Z,538568869,California,,,,True,
+1849229390015582239,"God created Job, and that didn't work out so hot, did it? Joe Crow, POTUS with the FLOTUS, Scrotum from Scranton, creates tons of 'em (jobs). Why, I work 3 myself, all low-paying, and am still poor and homeless. YOU-- great job, freak! We're all better off when you lose yours. https://t.co/o3M2e8KaqV",2024-10-23T23:20:18.000Z,247898840,Parts unknown,,,,False,homeless
 1848929883637854423,"When the winter temps hit NEPA, a non-profit that helps people experiencing homelessness and food insecurity wants to be ready.
-https://t.co/ktHDL9Bw0b",2024-10-23T03:30:10.000Z,55259165,Northeast PA,,,,False
+https://t.co/ktHDL9Bw0b",2024-10-23T03:30:10.000Z,55259165,Northeast PA,,,,False,"homeless, homelessness"
 1847004998720258272,"📋 The City of #Scranton is accepting applications for our Community Development Block Grants (CDBG)
 
 ✨ Organizations offering support for senior citizens, unhoused individuals, public safety, child care, &amp; more can apply.
 
-🔗 For more details visit: https://t.co/JTfH5FJkhu https://t.co/5h3bK7FOOG",2024-10-17T20:01:22.000Z,1547255968668450822,"Scranton, PA",,,,False
-1845052669586542789,RT @AMMancuso1: A local hotel in Scranton has a bus outside of it with decals and the words: veterans against Trump. If anyone could suppor…,2024-10-12T10:43:30.000Z,1503520218697633795,"Kentucky, USA",,,,True
+🔗 For more details visit: https://t.co/JTfH5FJkhu https://t.co/5h3bK7FOOG",2024-10-17T20:01:22.000Z,1547255968668450822,"Scranton, PA",,,,False,unhoused
+1845052669586542789,RT @AMMancuso1: A local hotel in Scranton has a bus outside of it with decals and the words: veterans against Trump. If anyone could suppor…,2024-10-12T10:43:30.000Z,1503520218697633795,"Kentucky, USA",,,,True,
 1844756415828648448,"With colder nights on the horizon, construction is now
 underway on the new, permanent location for Mother Teresa’s Haven, an emergency shelter for men experiencing homelessness, which is operated by Catholic Social Services of the Diocese of Scranton.
 
-https://t.co/lpvaS78hKT",2024-10-11T15:06:18.000Z,4799680255,"Scranton, PA",,,,False
-1844113831687225571,"@IanSams Happening Now! Drumpf in Scranton low energy, small crowd of worn out dead enders and losers.  Heck even the local homeless camp by the river is pissed this loser showed up.  Have a Genny !",2024-10-09T20:32:54.000Z,1009902873621168130,"Pennsylvania, USA",,,,False
+https://t.co/lpvaS78hKT",2024-10-11T15:06:18.000Z,4799680255,"Scranton, PA",,,,False,"homeless, homelessness"
+1844113831687225571,"@IanSams Happening Now! Drumpf in Scranton low energy, small crowd of worn out dead enders and losers.  Heck even the local homeless camp by the river is pissed this loser showed up.  Have a Genny !",2024-10-09T20:32:54.000Z,1009902873621168130,"Pennsylvania, USA",,,,False,homeless
 1844076951063101728,"@edgezion007 @xxBluexox You're claiming Scranton wants more neverending inflation, more wide open borders, more forever wars, and more of the homelessness epidemic. 
 
-You'll understand if I'm skeptical.",2024-10-09T18:06:21.000Z,1382883828,,,,,False
-1843828617454989395,@gregkellyusa Outside of the Raddison Hotel in Scranton …there is a decal bus with a sign that says Veterans Against Trump. I just read a study today about the increase in veteran homelessness due to  Biden Harris!  No one cares about the troops more than President Trump.,2024-10-09T01:39:33.000Z,566802724,"Pennsylvania, USA",,,,False
-1843818817308504193,A local hotel in Scranton has a bus outside of it with decals and the words: veterans against Trump. If anyone could support the troops any more than President Trump….I cannot think of one. I just heard a study today that shows a large increase in homeless veterans under Harris!,2024-10-09T01:00:37.000Z,566802724,"Pennsylvania, USA",,,,False
+You'll understand if I'm skeptical.",2024-10-09T18:06:21.000Z,1382883828,,,,,False,"homeless, homelessness"
+1843828617454989395,@gregkellyusa Outside of the Raddison Hotel in Scranton …there is a decal bus with a sign that says Veterans Against Trump. I just read a study today about the increase in veteran homelessness due to  Biden Harris!  No one cares about the troops more than President Trump.,2024-10-09T01:39:33.000Z,566802724,"Pennsylvania, USA",,,,False,"homeless, homelessness"
+1843818817308504193,A local hotel in Scranton has a bus outside of it with decals and the words: veterans against Trump. If anyone could support the troops any more than President Trump….I cannot think of one. I just heard a study today that shows a large increase in homeless veterans under Harris!,2024-10-09T01:00:37.000Z,566802724,"Pennsylvania, USA",,,,False,homeless
 1843227234263572570,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-07T09:49:52.000Z,1626459167480287233,space,,,,True
-1842968370213441772,"@america @Lyn7233 Deport them ALL @GovernorShapiro is this what @AIPAC is paying for?  I think not! Homeless in Philadelphia, Scranton,…..drug addicted brothers and sisters? Is this what we are paying for?",2024-10-06T16:41:14.000Z,1738570639999488000,,,,,False
-1842578139727499368,Homelessness In Scranton - Part 1 (https://t.co/dN3Oqa5lrO),2024-10-05T14:50:36.000Z,2317925598,Tennessee,,,,False
+This will be my third year doing this. I’ve always supported one…",2024-10-07T09:49:52.000Z,1626459167480287233,space,,,,True,
+1842968370213441772,"@america @Lyn7233 Deport them ALL @GovernorShapiro is this what @AIPAC is paying for?  I think not! Homeless in Philadelphia, Scranton,…..drug addicted brothers and sisters? Is this what we are paying for?",2024-10-06T16:41:14.000Z,1738570639999488000,,,,,False,homeless
+1842578139727499368,Homelessness In Scranton - Part 1 (https://t.co/dN3Oqa5lrO),2024-10-05T14:50:36.000Z,2317925598,Tennessee,,,,False,"homeless, homelessness"
 1842482951868526798,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-05T08:32:22.000Z,1683425148370579459,"Scranton, PA",,,,True
-1842309620729106913,@Scranton_Mayor My name is Jose David Lora and came to DC and homeless to help @KamalaHarris and the @TheDemocrats win the Election. I want all the seat in @PADems to go Blue. investigate me I used to live 3036 sickles st ny ny 10040 and I am King. I u to campaihard @SenBobCasey,2024-10-04T21:03:36.000Z,1815353715592744960,"District of Columbia, USA",,,,False
-1842308446764368299,@Scranton_Mayor My name is Jose David Lora I am homeless in DC. I am here tweeting for @KamalaHarris I need your help. I want pen to go blue @PADems . why they don't have you thought the state. We need you. All my GOD you are a star.  @TheDemocrats @tiktok_us @SenBobCasey @AP,2024-10-04T20:58:56.000Z,1815353715592744960,"District of Columbia, USA",,,,False
-1842305997186199953,@Scranton_Mayor My name is Jose david Lora and I am king of the USA. Can you investigate me. I am homeless in DC and I tweeting for @KamalaHarris,2024-10-04T20:49:12.000Z,1815353715592744960,"District of Columbia, USA",,,,False
+This will be my third year doing this. I’ve always supported one…",2024-10-05T08:32:22.000Z,1683425148370579459,"Scranton, PA",,,,True,
+1842309620729106913,@Scranton_Mayor My name is Jose David Lora and came to DC and homeless to help @KamalaHarris and the @TheDemocrats win the Election. I want all the seat in @PADems to go Blue. investigate me I used to live 3036 sickles st ny ny 10040 and I am King. I u to campaihard @SenBobCasey,2024-10-04T21:03:36.000Z,1815353715592744960,"District of Columbia, USA",,,,False,homeless
+1842308446764368299,@Scranton_Mayor My name is Jose David Lora I am homeless in DC. I am here tweeting for @KamalaHarris I need your help. I want pen to go blue @PADems . why they don't have you thought the state. We need you. All my GOD you are a star.  @TheDemocrats @tiktok_us @SenBobCasey @AP,2024-10-04T20:58:56.000Z,1815353715592744960,"District of Columbia, USA",,,,False,homeless
+1842305997186199953,@Scranton_Mayor My name is Jose david Lora and I am king of the USA. Can you investigate me. I am homeless in DC and I tweeting for @KamalaHarris,2024-10-04T20:49:12.000Z,1815353715592744960,"District of Columbia, USA",,,,False,homeless
 1841738190060745079,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-03T07:12:57.000Z,1792614727127851008,,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-03T07:12:57.000Z,1792614727127851008,,,,,True,
 1841386694886490533,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-02T07:56:14.000Z,1818711435725176832,,,,,True
-1841140554291151000,RT @SasTrendy: The states do back the slumlords! I can attest to that! Called code office for help ended up in a roach infested hotel where…,2024-10-01T15:38:09.000Z,1209242155744727040,,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-02T07:56:14.000Z,1818711435725176832,,,,,True,
+1841140554291151000,RT @SasTrendy: The states do back the slumlords! I can attest to that! Called code office for help ended up in a roach infested hotel where…,2024-10-01T15:38:09.000Z,1209242155744727040,,,,,True,
 1841135407884333510,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T15:17:42.000Z,1832109166682324992,,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T15:17:42.000Z,1832109166682324992,,,,,True,
 1841118537420582977,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T14:10:40.000Z,1725419497690152960,AVAX,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T14:10:40.000Z,1725419497690152960,AVAX,,,,True,
 1841115945667891504,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T14:00:22.000Z,137565643,,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T14:00:22.000Z,137565643,,,,,True,
 1841113711072706765,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T13:51:29.000Z,1839613369428418560,United States,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T13:51:29.000Z,1839613369428418560,United States,,,,True,
 1841112012039877058,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T13:44:44.000Z,955385408438890496,Crypto land,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T13:44:44.000Z,955385408438890496,Crypto land,,,,True,
 1841058582923493675,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T10:12:26.000Z,944578796258242560,,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T10:12:26.000Z,944578796258242560,,,,,True,
 1841051492414890310,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T09:44:15.000Z,1479036620062040068,Crypto,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T09:44:15.000Z,1479036620062040068,Crypto,,,,True,
 1841045349441683504,"RT @scrantonking2: It’s that time of year again,Scranton's charity drive.
 
-This will be my third year doing this. I’ve always supported one…",2024-10-01T09:19:50.000Z,1647594997737472000,,,,,True
+This will be my third year doing this. I’ve always supported one…",2024-10-01T09:19:50.000Z,1647594997737472000,,,,,True,
 1841033316926968162,"It’s that time of year again,Scranton's charity drive.
 
 This will be my third year doing this. I’ve always supported one local charity but last year I split between two as we raised so much
 
-The first one was a homeless-specific charity and the second is a family support charity. https://t.co/hF3VGBPB1h",2024-10-01T08:32:02.000Z,1683425148370579459,"Scranton, PA",,,,False
-1838949844397822241,RT @SasTrendy: The states do back the slumlords! I can attest to that! Called code office for help ended up in a roach infested hotel where…,2024-09-25T14:33:03.000Z,1209242155744727040,,,,,True
+The first one was a homeless-specific charity and the second is a family support charity. https://t.co/hF3VGBPB1h",2024-10-01T08:32:02.000Z,1683425148370579459,"Scranton, PA",,,,False,homeless
+1838949844397822241,RT @SasTrendy: The states do back the slumlords! I can attest to that! Called code office for help ended up in a roach infested hotel where…,2024-09-25T14:33:03.000Z,1209242155744727040,,,,,True,
 1838941735625294294,"The states do back the slumlords! I can attest to that! Called code office for help ended up in a roach infested hotel where they house the homeless! I'll never rely on Scranton Pennsylvania 
 
-https://t.co/Lv6mZOy7NF https://t.co/lI5DFY3uzI",2024-09-25T14:00:50.000Z,1209242155744727040,,,,,False
-1838772721041145988,@ZelenskyyUa I’m from Scranton and most people were disgusted with your visit at taxpayer expense. You’re a joke and a con artist. Beggar puppet president always saying “please give me more money”. Disgrace to humanity,2024-09-25T02:49:14.000Z,1383444425355845635,"Moscow, PA",,,,False
+https://t.co/Lv6mZOy7NF https://t.co/lI5DFY3uzI",2024-09-25T14:00:50.000Z,1209242155744727040,,,,,False,homeless
+1838772721041145988,@ZelenskyyUa I’m from Scranton and most people were disgusted with your visit at taxpayer expense. You’re a joke and a con artist. Beggar puppet president always saying “please give me more money”. Disgrace to humanity,2024-09-25T02:49:14.000Z,1383444425355845635,"Moscow, PA",,,,False,beggar
 1838670685482217929,"They did this in Scranton Pennsylvania threw all of their belongings away and bulldozed their encampment down by the river where Noone goes anyway! 
-https://t.co/0VyR9GqpYR",2024-09-24T20:03:46.000Z,1209242155744727040,,,,,False
-1838616988500832736,"While @SenBobCasey  is having a fun time in Scranton with the international beggar, on the taxpayer dime, we are having trouble just affording gas to get to work......  Great photo op you asshat.  PLEASE fellow Pennsylvanians, VOTE FOR @DaveMcCormickPA",2024-09-24T16:30:24.000Z,188311687,PA,,,,False
-1838336684553048361,How dose killing innocent people benefit the people of Scranton fixing roads making sure basic services are working making sure the state is functioning effectively making sure people of Scranton aren’t homeless make sure the people of Scranton have access to all the services https://t.co/kgz1lvyVK1,2024-09-23T21:56:34.000Z,1063480673242091521,,,,,False
-1837617355288969582,@WNEP Just what Scranton needs...another beggar.,2024-09-21T22:18:13.000Z,1327409533707280384,Wilkes-Barre/Scranton PA,,,,False
-1837285032668672057,"Homelessness concerns continue in Scranton, PA https://t.co/rCR9xZ7gHB via @YouTube",2024-09-21T00:17:41.000Z,1444702104854036490,"Oceanside, CA",,,,False
-1836197302169669852,"Homelessness In Scranton, PA - Part 1 https://t.co/zVQFxQxgAz via @YouTube",2024-09-18T00:15:26.000Z,1444702104854036490,"Oceanside, CA",,,,False
+https://t.co/0VyR9GqpYR",2024-09-24T20:03:46.000Z,1209242155744727040,,,,,False,
+1838616988500832736,"While @SenBobCasey  is having a fun time in Scranton with the international beggar, on the taxpayer dime, we are having trouble just affording gas to get to work......  Great photo op you asshat.  PLEASE fellow Pennsylvanians, VOTE FOR @DaveMcCormickPA",2024-09-24T16:30:24.000Z,188311687,PA,,,,False,beggar
+1838336684553048361,How dose killing innocent people benefit the people of Scranton fixing roads making sure basic services are working making sure the state is functioning effectively making sure people of Scranton aren’t homeless make sure the people of Scranton have access to all the services https://t.co/kgz1lvyVK1,2024-09-23T21:56:34.000Z,1063480673242091521,,,,,False,homeless
+1837617355288969582,@WNEP Just what Scranton needs...another beggar.,2024-09-21T22:18:13.000Z,1327409533707280384,Wilkes-Barre/Scranton PA,,,,False,beggar
+1837285032668672057,"Homelessness concerns continue in Scranton, PA https://t.co/rCR9xZ7gHB via @YouTube",2024-09-21T00:17:41.000Z,1444702104854036490,"Oceanside, CA",,,,False,"homeless, homelessness"
+1836197302169669852,"Homelessness In Scranton, PA - Part 1 https://t.co/zVQFxQxgAz via @YouTube",2024-09-18T00:15:26.000Z,1444702104854036490,"Oceanside, CA",,,,False,"homeless, homelessness"
 1836031098062573708,"Scranton will become home to innovative, green affordable housing developments
-https://t.co/Yewtq9ixQB",2024-09-17T13:15:00.000Z,541834646,"Harrisburg, PA",,,,False
-1834920623287480597,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-14T11:42:22.000Z,1675218315877163008,"Florida, USA",,,,True
-1834639612540825718,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T17:05:44.000Z,1412007619,"Newport Beach, CA",,,,True
-1834564456216461451,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T12:07:05.000Z,1650310483264565248,"Pennsylvania, USA",,,,True
-1834428005407437068,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T03:04:53.000Z,893513071834144768,"Adairville, KY",,,,True
-1834404944658469230,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T01:33:15.000Z,1596194374399959040,"Parkersburg, WV",,,,True
-1834375958523986261,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T23:38:04.000Z,2614240147, USA,,,,True
-1834228303642739114,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:51:20.000Z,1804139339997450240,Atlantic Beach ,,,,True
-1834227133402534394,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:46:41.000Z,1539625077465092097,"Blue Mountain Beach, Florida ",,,,True
-1834225218962784350,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:39:05.000Z,1694515330419138560,,,,,True
-1834224945007919417,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:37:59.000Z,1225120495663751169,,,,,True
-1834210789269340248,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T12:41:44.000Z,759242436728262660,,,,,True
-1834209127154758054,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T12:35:08.000Z,1725290484589875200,"New Cumberland, WV",,,,True
-1834207951516500263,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T12:30:28.000Z,1598799842075189254,,,,,True
-1834204542583308311,…I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church where I was Can you help? My friend did. When a nation’s citizens are denied care to foist political power through mass immigration then we need better policy.,2024-09-12T12:16:55.000Z,382736347,"Virginia Beach, VA",,,,False
-1833533341515321634,"RT @PennFuture: BIG NEWS: A coalition of around 20 local companies, farms, social services &amp; housing advocates receives a $23 million dolla…",2024-09-10T15:49:48.000Z,4257473943,"Pennsylvania, USA",,,,True
+https://t.co/Yewtq9ixQB",2024-09-17T13:15:00.000Z,541834646,"Harrisburg, PA",,,,False,affordable housing
+1834920623287480597,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-14T11:42:22.000Z,1675218315877163008,"Florida, USA",,,,True,homeless
+1834639612540825718,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T17:05:44.000Z,1412007619,"Newport Beach, CA",,,,True,homeless
+1834564456216461451,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T12:07:05.000Z,1650310483264565248,"Pennsylvania, USA",,,,True,homeless
+1834428005407437068,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T03:04:53.000Z,893513071834144768,"Adairville, KY",,,,True,homeless
+1834404944658469230,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-13T01:33:15.000Z,1596194374399959040,"Parkersburg, WV",,,,True,homeless
+1834375958523986261,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T23:38:04.000Z,2614240147, USA,,,,True,homeless
+1834228303642739114,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:51:20.000Z,1804139339997450240,Atlantic Beach ,,,,True,homeless
+1834227133402534394,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:46:41.000Z,1539625077465092097,"Blue Mountain Beach, Florida ",,,,True,homeless
+1834225218962784350,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:39:05.000Z,1694515330419138560,,,,,True,homeless
+1834224945007919417,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T13:37:59.000Z,1225120495663751169,,,,,True,homeless
+1834210789269340248,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T12:41:44.000Z,759242436728262660,,,,,True,homeless
+1834209127154758054,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T12:35:08.000Z,1725290484589875200,"New Cumberland, WV",,,,True,homeless
+1834207951516500263,RT @TAShuttlesworth: …I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church…,2024-09-12T12:30:28.000Z,1598799842075189254,,,,,True,homeless
+1834204542583308311,…I was just in Scranton and we saw homeless vets sleeping on the streets. The sheriff called the pastor at the church where I was Can you help? My friend did. When a nation’s citizens are denied care to foist political power through mass immigration then we need better policy.,2024-09-12T12:16:55.000Z,382736347,"Virginia Beach, VA",,,,False,homeless
+1833533341515321634,"RT @PennFuture: BIG NEWS: A coalition of around 20 local companies, farms, social services &amp; housing advocates receives a $23 million dolla…",2024-09-10T15:49:48.000Z,4257473943,"Pennsylvania, USA",,,,True,
 1833532852337795462,"BIG NEWS: A coalition of around 20 local companies, farms, social services &amp; housing advocates receives a $23 million dollar federal grant to build innovative, affordable housing in Scranton, Pennsylvania.
 
 #ActOnClimate 
 
-https://t.co/nyQKWPL7T1",2024-09-10T15:47:52.000Z,51163355,Pennsylvania,,,,False
-1833467389981171748,"@PaigeGCognetti Instead of peacocking on social media for your next job, how about you concentrate  on the gaggles of homeless people in Scranton?",2024-09-10T11:27:44.000Z,2166777145,United States,,,,False
-1832005942671536413,"Scranton Times: Green, Affordable Housing Facilities Aim To Bring Old Lots New Life  https://t.co/GxozBJnGoT",2024-09-06T10:40:28.000Z,16251366,"Harrisburg, Pa",,,,False
-1831067909705347410,@POTUS Poor Scranton has been an awful filthy town since the 80’s so all the sudden you’re gonna raise it from the homeless death that it is?  No you’re talking gibberish,2024-09-03T20:33:03.000Z,1347733405853646848,Everywhere ,,,,False
-1826842561706635622,"@RobertKennedyJr I got 3 new medical problems after being forced to get 2 covid vaccines &amp; 2 boosters. I literally ended up homeless during a pandemic! My Thyroid no longer works. Caused weight gain, now I'm on medication for diabetes. Severe Eczema almost 4 years now.",2024-08-23T04:43:02.000Z,215928807,SPREADING LOVE!!!!,"Scranton, PA",United States,city,False
-1826695511367119041,@Skriptkeeper17 Isn't Mike Gill homeless?  Have fun finding him Phildo!! Once the Scranton Times lawsuit is dismissed and BD wins her lawsuit you will be laying on the kitchen floor pissing yourself trying to text the 14 year old girl in between slugs of liquor!!!,2024-08-22T18:58:42.000Z,1518779672854777857,,,,,False
+https://t.co/nyQKWPL7T1",2024-09-10T15:47:52.000Z,51163355,Pennsylvania,,,,False,affordable housing
+1833467389981171748,"@PaigeGCognetti Instead of peacocking on social media for your next job, how about you concentrate  on the gaggles of homeless people in Scranton?",2024-09-10T11:27:44.000Z,2166777145,United States,,,,False,homeless
+1832005942671536413,"Scranton Times: Green, Affordable Housing Facilities Aim To Bring Old Lots New Life  https://t.co/GxozBJnGoT",2024-09-06T10:40:28.000Z,16251366,"Harrisburg, Pa",,,,False,affordable housing
+1831067909705347410,@POTUS Poor Scranton has been an awful filthy town since the 80’s so all the sudden you’re gonna raise it from the homeless death that it is?  No you’re talking gibberish,2024-09-03T20:33:03.000Z,1347733405853646848,Everywhere ,,,,False,homeless
+1826842561706635622,"@RobertKennedyJr I got 3 new medical problems after being forced to get 2 covid vaccines &amp; 2 boosters. I literally ended up homeless during a pandemic! My Thyroid no longer works. Caused weight gain, now I'm on medication for diabetes. Severe Eczema almost 4 years now.",2024-08-23T04:43:02.000Z,215928807,SPREADING LOVE!!!!,"Scranton, PA",United States,city,False,homeless
+1826695511367119041,@Skriptkeeper17 Isn't Mike Gill homeless?  Have fun finding him Phildo!! Once the Scranton Times lawsuit is dismissed and BD wins her lawsuit you will be laying on the kitchen floor pissing yourself trying to text the 14 year old girl in between slugs of liquor!!!,2024-08-22T18:58:42.000Z,1518779672854777857,,,,,False,homeless
 1822185913755091270,"@LJNewsOpinions @megasimmaster @GavinNewsom Theres 200,000 CA homeless.  
 
 There are 70,000 people in Scranton PA.  
 
 You want CA to build the equivalent of three Scrantons sprinkled among existing CA towns, cities and neighborhoods. 
 
-I don't think you completely understand what an enormous task that is.",2024-08-10T08:19:11.000Z,413332151,,,,,False
-1819144380705657117,@NykiRobinson @FranBrownCuse Thanks for the follow. I have family in Scranton and Wilkes Barre. My wife’s cousin is a Pastor at Steamtown Church and my brother in law is a pastor in Wilkes Barre. He also runs the homeless mission there. If you are looking for a church feel free to reach out.,2024-08-01T22:53:13.000Z,865526736,"Greenville, NC",,,,False
-1817142194555281739,"@SarahisCensored Pay attention to this, it’s happening New York, California, Pennsylvania-all this weekend-all of a sudden hundreds of homeless being “processed”. They are being registered to vote and probably cast a ballot, they are not all illegals.  Look at PA near Joes hometown of Scranton.",2024-07-27T10:17:14.000Z,1157064883961245701,,,,,False
-1816924104181580275,@AP I don't really follow this s*** too much but I saw this headline Banning homeless people so where are they supposed to go? what are they supposed to live? Does this guy have any idea how dumb he sounds now is he going to provide homes in a roof over these homeless?,2024-07-26T19:50:37.000Z,1759538439152689152,,"Scranton, PA",United States,city,False
+I don't think you completely understand what an enormous task that is.",2024-08-10T08:19:11.000Z,413332151,,,,,False,homeless
+1819144380705657117,@NykiRobinson @FranBrownCuse Thanks for the follow. I have family in Scranton and Wilkes Barre. My wife’s cousin is a Pastor at Steamtown Church and my brother in law is a pastor in Wilkes Barre. He also runs the homeless mission there. If you are looking for a church feel free to reach out.,2024-08-01T22:53:13.000Z,865526736,"Greenville, NC",,,,False,homeless
+1817142194555281739,"@SarahisCensored Pay attention to this, it’s happening New York, California, Pennsylvania-all this weekend-all of a sudden hundreds of homeless being “processed”. They are being registered to vote and probably cast a ballot, they are not all illegals.  Look at PA near Joes hometown of Scranton.",2024-07-27T10:17:14.000Z,1157064883961245701,,,,,False,homeless
+1816924104181580275,@AP I don't really follow this s*** too much but I saw this headline Banning homeless people so where are they supposed to go? what are they supposed to live? Does this guy have any idea how dumb he sounds now is he going to provide homes in a roof over these homeless?,2024-07-26T19:50:37.000Z,1759538439152689152,,"Scranton, PA",United States,city,False,homeless
 1816324963650961822,"RT @StewartKahn: Are you kidding me?  This is a Shapiro issue?
 
-What about homeless?  What about inflation?  What about crime in Philly and…",2024-07-25T04:09:51.000Z,1497841093987164162,,,,,True
+What about homeless?  What about inflation?  What about crime in Philly and…",2024-07-25T04:09:51.000Z,1497841093987164162,,,,,True,homeless
 1816233890845188286,"Are you kidding me?  This is a Shapiro issue?
 
 What about homeless?  What about inflation?  What about crime in Philly and Pittsburgh and Scranton?
 
-Seriously?  Pads and tampons? https://t.co/L5KQ7SSKcM",2024-07-24T22:07:58.000Z,83288365,,,,,False
+Seriously?  Pads and tampons? https://t.co/L5KQ7SSKcM",2024-07-24T22:07:58.000Z,83288365,,,,,False,homeless
