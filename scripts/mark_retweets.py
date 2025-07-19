@@ -1,7 +1,17 @@
 import pandas as pd
 import os
 import glob
-from utils import CITY_MAP
+import re
+from utils import CITY_MAP, KEYWORDS
+
+KEYWORD_PATTERNS = [
+    re.compile(rf"\\b{re.escape(kw)}\\b", re.IGNORECASE) if ' ' not in kw else re.compile(re.escape(kw), re.IGNORECASE)
+    for kw in KEYWORDS
+]
+
+def find_keywords(text):
+    text_lc = str(text).lower()
+    return [kw for kw in KEYWORDS if kw.lower() in text_lc]
 
 def mark_retweets_in_all_x_dirs(base_data_dir='data'):
     for city_dir in CITY_MAP.values():
@@ -19,6 +29,7 @@ def mark_retweets_in_all_x_dirs(base_data_dir='data'):
                     print(f"Warning: 'text' column not found in {csv_path}. Skipping.")
                     continue
                 df['is_retweet'] = df['text'].astype(str).str.startswith('RT')
+                df['keywords_matched'] = df['text'].apply(lambda x: ', '.join(find_keywords(x)))
                 base, ext = os.path.splitext(csv_path)
                 output_path = f"{base}_rt{ext}"
                 df.to_csv(output_path, index=False)
