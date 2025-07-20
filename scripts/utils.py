@@ -7,6 +7,7 @@ import urllib.parse
 from datetime import datetime
 from tqdm import tqdm
 import time
+import re
 
 
 KEYWORDS = [
@@ -14,6 +15,19 @@ KEYWORDS = [
     'affordable housing', 'unhoused', 'houseless',
     'housing insecurity', 'beggar', 'squatter', 'panhandler', 'soup kitchen'
 ]
+
+CITY_MAP = {
+    'south bend': 'southbend',
+    'rockford': 'rockford',
+    'kalamazoo': 'kzoo',
+    'scranton': 'scranton',
+    'fayetteville': 'fayetteville',
+    'san francisco': 'sanfrancisco',
+    'portland': 'portland',
+    'buffalo': 'buffalo',
+    'baltimore': 'baltimore',
+    'el paso': 'elpaso',
+}
 
 def load_spacy_model():
     try:
@@ -126,7 +140,7 @@ class LexisNexisAPI:
         self.headers = None
         self._refresh_token()
 
-    def _refresh_token(selxf):
+    def _refresh_token(self):
         """Get a new authorization token."""
         auth_url = 'https://auth-api.lexisnexis.com/oauth/v2/token'
         payload = 'grant_type=client_credentials&scope=http%3a%2f%2foauth.lexisnexis.com%2fall'
@@ -154,11 +168,28 @@ class LexisNexisAPI:
             params['$filter'] = filter
         return f"{base_url}?{urllib.parse.urlencode(params)}"
 
-    def get_total_count(self, query, filter=None):
+    def get_total_count(self, query, filter=None, max_retries=25):
         """Get the total count of articles matching the query."""
         url = self._build_url(query=query, top=1, filter=filter)
-        response = requests.get(url, headers=self.headers)
-        return response.json().get('@odata.count', 0)
+        retry_count = 0
+        while retry_count < max_retries:
+            response = requests.get(url, headers=self.headers)
+            if response.status_code == 200:
+                return response.json().get('@odata.count', 0)
+            print(f"[ERROR] Status code: {response.status_code}")
+            print(f"[ERROR] Response body: {response.text}")
+            print(f"[ERROR] Response headers: {response.headers}")
+            if response.status_code == 429:
+                if retry_count == 0:
+                    print("[ERROR] You have reached the API rate limit! Waiting 60 seconds before retrying...")
+                    time.sleep(60)
+                else:
+                    print("[ERROR] You have reached the API rate limit again! Waiting 1 hour before retrying...")
+                    time.sleep(3600)
+                retry_count += 1
+                continue
+            break
+        return 0
 
     def search_articles(self, query, filter=None, batch_size=50, max_retries=3):
         """Search for articles with pagination and retry logic."""
@@ -178,6 +209,15 @@ class LexisNexisAPI:
                 try:
                     url = self._build_url(query=query, skip=offset, top=batch_size, filter=filter)
                     response = requests.get(url, headers=self.headers)
+                    if response.status_code != 200:
+                        print(f"[ERROR] Status code: {response.status_code}")
+                        print(f"[ERROR] Response body: {response.text}")
+                        print(f"[ERROR] Response headers: {response.headers}")
+                        if response.status_code == 429:
+                            print("[ERROR] You have reached the API rate limit! Waiting 60 seconds before retrying...")
+                            time.sleep(60)
+                            continue  # Retry after waiting
+                        break
                     data = response.json()
                     batch_articles = data.get('value', [])
 
@@ -213,12 +253,6 @@ class LexisNexisAPI:
                         time.sleep(5)
                         self._refresh_token()  # Refresh token on retry
 
-                except json.JSONDecodeError as e:
-                    print(f"\nError parsing JSON response: {str(e)}")
-                    print("Raw response:", response.text)
-                    offset += batch_size
-                    break
-
                 except Exception as e:
                     print(f"\nAn unexpected error occurred: {str(e)}")
                     offset += batch_size
@@ -251,7 +285,7 @@ class LexisNexisAPI:
         """Save articles to a CSV file."""
         import csv
         with open(filename, 'w', newline='') as csvfile:
-            fieldnames = ['Title', 'Date', 'Source', 'Summary', 'Full Text']
+            fieldnames = ['Title', 'Date', 'Source', 'City Source', 'Summary', 'Full Text']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
 
@@ -260,6 +294,7 @@ class LexisNexisAPI:
                     'Title': article.get('Title', ''),
                     'Date': article.get('Date', ''),
                     'Source': article.get('Source', {}).get('Name', ''),
+                    'City Source': article.get('City Source', ''),
                     'Summary': article.get('Overview', ''),
                     'Full Text': article.get('Document', {}).get('Content', '')
                 })

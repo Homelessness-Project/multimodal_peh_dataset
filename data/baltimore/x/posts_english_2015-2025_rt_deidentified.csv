@@ -1,0 +1,884 @@
+created_at,user_location,tweet_geo,tweet_country,place_type,is_retweet,Deidentified_text,keywords_matched
+2024-12-31T22:47:37.000Z,America ,,,,False,@YellowFlashGuy I fucking hate that city. It’s a trash city with trash people everywhere and you homeless junkies shooting up dope in their arms if you go up further in the [ORGANIZATION]. Completely awful city just like [PERSON] and GPE2.,homeless
+2024-12-31T20:37:19.000Z,,,,,True,"[PERSON]
+
+Please [ORGANIZATION] share from:
+
+[ORGANIZATION]
+[ORGANIZATION], [PERSON]  [DATE]
+
+[PHONE]
+
+This sw…",
+2024-12-31T19:36:12.000Z,,,,,True,"[PERSON]
+
+Please [ORGANIZATION] share from:
+
+[ORGANIZATION]
+[ORGANIZATION], [PERSON]  [DATE]
+
+[PHONE]
+
+This sw…",
+2024-12-31T19:07:54.000Z,"Silver Spring, MD",,,,True,"[PERSON]
+
+Please [ORGANIZATION] share from:
+
+[ORGANIZATION]
+[ORGANIZATION], [PERSON]  [DATE]
+
+[PHONE]
+
+This sw…",
+2024-12-31T19:07:19.000Z,"Washington, DC area",,,,False,"DATE0
+
+Please [ORGANIZATION] share from:
+
+[ORGANIZATION]
+[ORGANIZATION], [PERSON]  [DATE]
+
+[PHONE]
+
+This sweet 62 pound pup brings a unique set of preferences and quirks, with a heart full of love waiting to be shared. She's DATE1, healthy, and up to [URL]",
+2024-12-31T17:34:10.000Z,"Atlanta, GA",,,,False,"There are numerous stories from [ORGANIZATION] that highlight humanity's capacity for good, including initiatives like bookmobiles for kids in [ORGANIZATION], free shoes for the homeless in [PERSON], and promising developments in affordable treatments for skin cancer
+.[]([URL] [URL]",homeless
+2024-12-31T16:24:09.000Z,,,,,False,"🚋 a bookmobile for kids in [ORGANIZATION] 
+
+👟free shoes for the homeless in [PERSON] szn [LOCATION] 
+
+🔬an affordable treatment for skin cancer in the works by a teen 
+
+on [LOCATION], give a listen to some of the (many) good stuff that",homeless
+2024-12-30T21:59:01.000Z,United States,,,,False,"@GuntherEagleman Well, [ORGANIZATION] is actually [PERSON], and GPE2, and [PERSON], and and.. it’s a disgusting, crowded, homeless, crime ridden [PERSON] run city as is all [PERSON] run s/holes.",homeless
+2024-12-30T20:40:40.000Z,,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T20:28:37.000Z,"Nashville, TN",,,,False,ICYMI — registration is now open for [ORGANIZATION]; Policy Symposium! Join us DATE1 in [ORGANIZATION] where we'll explore the theme: [ORGANIZATION]. Learn more and register here: [URL] #[PERSON] [URL],
+2024-12-30T18:21:23.000Z,,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:48:50.000Z,Tennessee,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:22:40.000Z,,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:08:51.000Z,the nati,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:03:14.000Z,Boston MA,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:03:04.000Z,Mississippi ↔️ MEM,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:00:50.000Z,NJ,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T17:00:26.000Z,IWillVote.com ,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T16:58:43.000Z,,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T16:56:05.000Z,,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T16:54:36.000Z,Wakanda,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T16:50:04.000Z,"Baltimore, MD",,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-30T14:16:42.000Z,Maryland,,,,False,"“I am DATE0 and homeless,” [ORGANIZATION] said one chilly [TIME], some half-empty boxes and garbage bags strewn around her feet. “This is an ordeal I wouldn’t wish on anyone.” Read the full [ORGANIZATION] story here: [URL] #MarylandLegalAid [URL]",homeless
+2024-12-30T14:00:07.000Z,Baltimore,,,,False,"Unfortunately, there are many homeless veterans on the streets of [ORGANIZATION].
+
+This organization is working to give them a warm [STREET] to stay during [ORGANIZATION].
+
+ [LOCATION]",homeless
+2024-12-30T06:00:01.000Z,Baltimore,,,,False,"Homeless advocates are calling for changes in [ORGANIZATION] homeless shelters and hotels, stating in-house procedures and rules are further traumatizing those who are unhoused and putting them back on the streets. [URL]","homeless, unhoused"
+2024-12-30T05:28:25.000Z,,,,,False,"Top 10 States Collapsing Fastest in [ORGANIZATION] to [ORGANIZATION], [ORGANIZATION], [PERSON], [PERSON], [PERSON], GPE6, GPE7, GPE8, [PERSON], [PERSON]T",
+2024-12-30T04:20:21.000Z,"Maryland, USA",,,,False,Advocates decry unmet needs of [ORGANIZATION]'s homeless [URL] via [ORGANIZATION],homeless
+2024-12-30T04:10:08.000Z,,,,,True,[PERSON]: ON A MISSION: PERSON0 and his team of volunteers picked up 12 tons of trash from [ORGANIZATION] streets and a staggering 50 t…,
+2024-12-29T23:53:48.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,"[ORGANIZATION] was replying to the fact that homelessness increased 18%.
+
+Is that economic progress? Oh wait, it's called being a sneering liberal","homeless, homelessness"
+2024-12-29T23:47:34.000Z,,,,,False,@kambrice1tv I hear we’re signing some homeless guy from [ORGANIZATION] as a starter. Paying him in crab cakes.,homeless
+2024-12-29T16:48:51.000Z,,,,,False,"[ORGANIZATION]'s [ORGANIZATION] for Ineffectiveness and Lack of Support #Homelessness #Autism
+[URL]","homeless, homelessness"
+2024-12-29T14:54:10.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T04:56:58.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T04:33:24.000Z,"Baltimore, Maryland",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T03:30:06.000Z,Pluto,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T03:10:59.000Z,"York, Pennsylvania",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T01:45:05.000Z,"Baltimore, MD",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T01:16:14.000Z,"Baltimore, MD",,,,True,"RT @ajplus: A homeless man was stabbed to death with a sword in [ORGANIZATION] by an army veteran from [PERSON].
+
+Police are calling it a h…",homeless
+2024-12-29T00:52:20.000Z,Baltimore,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-29T00:19:27.000Z,"Seattle, WA",,,,False,"@deuceohsixx I went [ORGANIZATION] DATE0 - GPE0, [PERSON],  GPE2, [PERSON], [PERSON]...and my first big main takeaway is that you don't see rampant homelessness. 
+
+My suspicion is that people on the [ORGANIZATION] coast look out for each other more.
+
+But it could be perhaps because of the laid backness and grunge","homeless, homelessness"
+2024-12-28T23:17:01.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T23:14:34.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,So admist our homeless problem instead of putting up more shelter they spend donations putting up a park for the two missions that already exist . Do anyone see anything wrong with this problem ??? [URL],homeless
+2024-12-28T22:59:23.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T22:12:50.000Z,Studio176,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T21:34:34.000Z,Northern VA,,,,False,"'I'm gonna cry': [ORGANIZATION] saves veteran-owned pizza [STREET]   - A [ORGANIZATION] pizzeria that helps veterans and the homeless received a [ORGANIZATION] miracle [LOCATION] before it was to shutter forever.
+[URL]",homeless
+2024-12-28T20:13:11.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T19:51:29.000Z,,,,,False,"After working in homeless services in [ORGANIZATION], I’ve learned that most homeless counts are mere assumptions (reference Point-in-Time (PIT)Counts) [URL]",homeless
+2024-12-28T19:45:19.000Z,"Charlotte, NC",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T19:24:40.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T19:15:17.000Z,"Florida, USA",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T19:02:34.000Z,The 410,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T18:51:12.000Z,"Chicago, IL",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T18:35:37.000Z,delaware,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T18:28:40.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T18:21:01.000Z,Maryland,,,,False,Advocates decry unmet needs of [ORGANIZATION]'s homeless [URL] via [ORGANIZATION],homeless
+2024-12-28T18:00:36.000Z,"Baltimore, MD",,,,False,"The two city-owned hotels that serve the homeless are failing [ORGANIZATION]’s most-vulnerable population, advocates allege. THE LATEST: [URL] [URL]",homeless
+2024-12-28T17:57:11.000Z,"Washington, DC",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T17:53:38.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T17:47:25.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T17:17:58.000Z,Stanford baby,,,,False,"[ORGANIZATION] 
+
+[ORGANIZATION], I've kept track of your activities since the [ORGANIZATION] clean-up.
+
+I was so impressed &amp; grateful with how you spoke in [PERSON] to the critical homeless.
+
+We can now afford 
+A REGULAR RECURRING AMOUNT TO 
+EARLY VOTE ACTION.
+
+Let's Go!
+@EarlyVoteAction [URL]",homeless
+2024-12-28T17:13:03.000Z,304 x 410 ,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T17:11:08.000Z,,,,,False,"Do you know the more homelessness increases in a city, [ORGANIZATION] for example, the more money they get to combat homelessness? It’s like the cities failing in education. The worse schools perform the more money they get ie., [PERSON].
+You tell me is there an incentive to improve or [PERSON]","homeless, homelessness"
+2024-12-28T17:09:58.000Z,,,,,False,"Do you know the more homelessness increases in a city, [ORGANIZATION] for example, the more money they get to combat homelessness? It’s like the cities failing in education. The worse schools perform the more money they get ie., [PERSON].
+You tell me is there an incentive to improve or [PERSON]","homeless, homelessness"
+2024-12-28T17:08:58.000Z,410,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T17:06:36.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T17:02:46.000Z,"Is this Heaven? No, it's Iowa!",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T16:29:28.000Z,"Reno, NV",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T16:04:38.000Z,"Boulder, CO",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T16:04:00.000Z,United States,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:56:46.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:56:27.000Z,"Pennsylvania, USA",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:45:49.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:45:04.000Z,"Maryland, USA",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:39:21.000Z,United States,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:36:17.000Z,"Virginia Beach, VA",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:33:54.000Z,"⚾️bal, 🏈dal",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T15:00:37.000Z,"Columbia, SC",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:57:25.000Z,20 she/her ,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:55:59.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:53:38.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:51:55.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:48:26.000Z,"Burlington, VT",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:45:42.000Z,"Harrisburg, PA",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:33:21.000Z,Missing Hyun Soo Kim,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:32:47.000Z,Mad at baseball,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:32:46.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:32:31.000Z,"Lincoln, NE",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:31:14.000Z,Maryland,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:25:24.000Z,,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:16:21.000Z,Home,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T14:14:39.000Z,"Baltimore, MD",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T13:54:07.000Z,"Baltimore, MD",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T13:51:34.000Z,"Middle River, MD",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T13:44:44.000Z,Fort McHenry,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T13:40:23.000Z,"Maryland, USA",,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T13:19:06.000Z,410,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T13:11:37.000Z,Fire Mike Elias,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T12:58:28.000Z,The Ballpark,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T12:56:20.000Z,the end of the bar ,,,,True,[ORGANIZATION]: Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T12:31:25.000Z,Norfolk. va,,,,False,"[ORGANIZATION]'s city-owned hotels failing at serving homeless, advocates say [LOCATION]",homeless
+2024-12-28T11:20:28.000Z,Home of The MASTERS ⛳️,,,,False,"'I'm gonna cry': [ORGANIZATION] saves veteran-owned pizza [STREET]
+
+via ⁦@Paul_Sacca⁩
+
+A [ORGANIZATION] pizzeria that helps veterans and the homeless received a [ORGANIZATION] miracle [LOCATION] before it was to shutter forever.
+
+@theblaze 
+ [URL]",homeless
+2024-12-28T07:32:44.000Z,Brazil,,,,False,Just a friendly reminder that the homeless [ORGANIZATION] have out spent [ORGANIZATION].,homeless
+2024-12-28T03:23:06.000Z,TX- USA,,,,False,"[ORGANIZATION] Is it about the richest country? 
+Have you asked [PERSON], and governors of [ORGANIZATION], [PERSON], GPE2 and other Democrat run cities what did they do with the founding of over 24 billion for homeless? While they got the money, the rate have doubled. 
+Giving tax cut brings more business",homeless
+2024-12-28T03:02:11.000Z,"Lahore, Pakistan",,,,True,"RT @wjz: Homeless advocates push for improved procedures in [ORGANIZATION] shelters and hotels, aiming to tackle homelessness effectively.…","homeless, homelessness"
+2024-12-28T00:27:48.000Z,,,,,True,"[ORGANIZATION]-owned hotels failing at serving homeless, advocates say | Click on the image to read the full story [URL]",homeless
+2024-12-27T23:37:24.000Z,,,,,True,"[ORGANIZATION]-owned hotels failing at serving homeless, advocates say | Click on the image to read the full story [URL]",homeless
+2024-12-27T23:30:08.000Z,Baltimore,,,,False,"Homeless advocates push for improved procedures in [ORGANIZATION] shelters and hotels, aiming to tackle homelessness effectively. [ORGANIZATION]","homeless, homelessness"
+2024-12-27T23:27:38.000Z,,,,,True,"[ORGANIZATION]-owned hotels failing at serving homeless, advocates say | Click on the image to read the full story [URL]",homeless
+2024-12-27T23:21:03.000Z,"Baltimore, MD",,,,False,"City-owned hotels failing at serving homeless, advocates say | Click on the image to read the full story [URL]",homeless
+2024-12-27T21:18:00.000Z,,,,,False,"@_BlakeHabyan In large part, that is because the money that is ""spent on solving homelessness"" in [ORGANIZATION] always seems to end up in the pockets of those least inclined to use it on the homeless. 
+
+[URL]
+
+[URL]
+
+[URL]","homeless, homelessness"
+2024-12-27T15:45:27.000Z,,,,,False,@SpecialPuppy1 I can look at a [STREET] like [ORGANIZATION] or [PERSON] or GPE2 and know it has high crime and homeless rates without needing the data. The data is the cherry on top,homeless
+2024-12-27T13:52:08.000Z,"Maryland, USA",,,,False,Press Conference:  [ORGANIZATION]; [ORGANIZATION] in [ORGANIZATION]'s [ORGANIZATION]amp; [ORGANIZATION].  Taxpayers Dollars that helped purchase and launch ORG1amp; wrap around services projects here in [ORGANIZATION] City are failing some of our Homeless families,homeless
+2024-12-27T11:25:12.000Z,St Charles,,,,False,"Perhaps where homeless, illegals, homicide freedom cause [ORGANIZATION] loss. [PERSON] GPE2 [PERSON] GPE7 [PERSON] GPE12 GPE13 GPE14 GPE15 GPE16 GPE17 #bansoffourbodies GPE18 GPE19 GPE20 GPE21 [PERSON]",homeless
+2024-12-27T07:16:08.000Z,Gagcity “hidden hills”,,,,False,@hardtingz I’m from [ORGANIZATION] any spitting bitch you an’t gone spit no more yall an’t hear abt the homeless lady that spit and got her shit blown off Yh ight bitch don’t spit over hurrrr [ORGANIZATION],homeless
+2024-12-27T05:50:25.000Z,,,,,False,Gonna start my own [ORGANIZATION] squid games with the homeless people,homeless
+2024-12-27T05:31:39.000Z,in the aether,,,,False,"telling people in [ORGANIZATION] how much i love living in [PERSON] has been met with condescending ""how's that going for you"" mixed with change the topic and now we're talking about the homeless.",homeless
+2024-12-26T23:42:03.000Z,Tibet,,,,False,"[ORGANIZATION] While [ORGANIZATION] sink into despair homelessness poverty crime...[ORGANIZATION] just opened a new GPE2 manufacturing plant with [ORGANIZATION] funding..a new [ORGANIZATION], a new modern urban rail system..BLACKS vrs Open borders??","homeless, homelessness"
+2024-12-26T22:18:03.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,"… at [ORGANIZATION]? That’s virtually unheard of. To say it did our hearts good to see someone go to such extremes for a homeless kitty would be an understatement.  For us, it truly ranked as another DATE1 miracle. [PERSON]",homeless
+2024-12-26T22:07:33.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,"To all who celebrated, we hope [LOCATION] brought you everything you asked for. And if you’re a homeless kitty, [ORGANIZATION] spokescat and former [STREET] cat [ORGANIZATION] hopes that’s a family and a home that cherishes you. [URL]",homeless
+2024-12-26T21:22:46.000Z,Your Box,,,,True,RT @Poorandstupid69: Enjoy this video of me rolling up the window on a homeless man in [ORGANIZATION] 👍 [URL],homeless
+2024-12-26T20:58:41.000Z,"South San Francisco, CA",,,,False,Enjoy this video of me rolling up the window on a homeless man in [ORGANIZATION] 👍 [URL],homeless
+2024-12-26T20:53:27.000Z,"Federal Hill, Baltimore",,,,False,"Picture it GPE0 [DATE] there was this homeless man that was at the corner of FAC0 and FAC1 he was always reading the same two books sometimes he would yell out lines and I vaguely remembered one he yelled out so I asked what was he reading:
+
+ The Iliad and The Odyssey [URL]",homeless
+2024-12-26T16:01:46.000Z,"Baltimore, MD",,,,False,"Big Plans Start Here!
+
+📍1 [PERSON], [ORGANIZATION], GPE1 [ZIP]—where opportunity meets flexibility!
+
+Industrial? Commercial? Multifamily? Why not ALL of the above? With potential rezoning for senior or affordable housing, this property is ready for a serious glow-up.
+
+📲 [PHONE] [URL]",affordable housing
+2024-12-26T01:09:25.000Z,Outer-rim of the center.,,,,True,RT @erik_powery: [ORGANIZATION] Mr. [PERSON] [URL] via @YouTube,
+2024-12-26T00:56:41.000Z,"Washington, DC",,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-25T19:50:56.000Z,My mama's house,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-25T19:16:12.000Z,,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-25T19:14:06.000Z,DC | Brooklyn | Detroit,,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-25T19:13:54.000Z,"Washington, DC",,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-25T17:30:47.000Z,"Maryland, USA",,,,False,[TIME] and my mama #PERSON0 out there feeding the homeless in [ORGANIZATION] city. (She did the same thing [ORGANIZATION]) [URL],homeless
+2024-12-25T17:23:55.000Z,London and Mars FOLLOWBACK,,,,True,RT @SmokeThatParm: @fannyfallacy @OwenBenjamin I’m pretty sure I stumbled on to it [TIME] strolling the rough streets of [ORGANIZATION]. Back…,
+2024-12-25T17:18:29.000Z,"Baltimore, MD",,,,True,"RT @[ORGANIZATION]Banner: “I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woma…",homeless
+2024-12-25T17:00:09.000Z,"Baltimore, MD",,,,False,"“I am DATE0 and homeless. This is an ordeal I wouldn’t wish on anyone.” 
+
+After losing her home, [ORGANIZATION] woman joins federal lawsuit challenging tax sale [URL]",homeless
+2024-12-25T15:05:13.000Z,"Baltimore, MD",,,,False,"Happy Holidays from [ORGANIZATION]! We’re grateful for the support of our community, partners, and volunteers who help us provide hope and healing for homeless veterans. Wishing you DATE0! #HappyHolidays #Gratitude #[PERSON] [URL]",homeless
+2024-12-25T14:44:28.000Z,Your local gloryhole ,,,,False,"@fannyfallacy PERSON0 I’m pretty sure I stumbled on to it [TIME] strolling the rough streets of [ORGANIZATION]. Back when I was too young to know better. Not sure anyone gets to leave planet [ORGANIZATION] normally but a kind hearted schizo homeless alien named [PERSON] brought me back to earth. 0 out of 10, would",homeless
+2024-12-25T11:23:15.000Z,"Florida, USA",,,,False,[ORGANIZATION] just be weird [ORGANIZATION] stole a wing from a homeless person . I hope he ain’t eat that .,homeless
+2024-12-24T20:59:16.000Z,Washington DC,,,,True,[PERSON] is OPEN for [ORGANIZATION]; Policy Symposium! Join us DATE1…,
+2024-12-24T20:47:52.000Z,"Florida, Northern California",,,,False,"[ORGANIZATION] came early to this [ORGANIZATION] pizza shop and dropped off a [ORGANIZATION] present that will not only save a business but help feed the homeless too
+
+[URL]",homeless
+2024-12-24T17:48:35.000Z,"Baltimore, MD",,,,False,PERSON0 You are SPOT ON.  Fare evasion is endemic in [ORGANIZATION].  We don't have the same issue of violent homeless tho.  Ours r too stoned,homeless
+2024-12-24T17:01:00.000Z,West Palm Beach,,,,False,PERSON0 You buy 100 pies from the guy in [ORGANIZATION] and give to homeless,homeless
+2024-12-24T16:00:21.000Z,"Montclair, NJ",,,,False,"""We could have built more."" School districts are finding huge demand for affordable housing for their teachers. From [ORGANIZATION] to [ORGANIZATION], discover how these housing efforts are taking shape: [URL] [URL]",affordable housing
+2024-12-24T14:51:31.000Z,United States,,,,False,"@LJS527 @JSweetLI I have slept on the subway.
+
+Mostly in [ORGANIZATION] when I worked [TIME] shift at [ORGANIZATION].
+
+Sleeping on the subway ≠ homeless.",homeless
+2024-12-24T13:32:07.000Z,,,,,False,@ZeroBlog30 I live in [ORGANIZATION] and fellow veteran [ORGANIZATION] is a blessing since [DATE] he opened he had a pay it forward for homeless and also closes his business to serve meals to the less fortunate  God is good and karma is real,homeless
+2024-12-23T23:32:33.000Z,,,,,False,@BaltCoExec Thank you for continuing to destroy [ORGANIZATION] on your [STREET] out…via lax crime policies and additional “affordable housing” projects. The FAC0 disaster should be the final nail in the coffin for northeast [PERSON] after [ORGANIZATION] of decline.,affordable housing
+2024-12-23T21:42:31.000Z,Cripple Creek ,,,,False,"@ClownWorld_ Send the homeless to [ORGANIZATION].
+Plenty of vacant houses 🏘️",homeless
+2024-12-23T18:54:13.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,"On [ORGANIZATION], thanks to [ORGANIZATION], we got to play [LOCATION] for 22 wonderful caretakers who feed over 1,000 homeless cats (like PERSON0 here) on a regular basis. We're so grateful to work with a company like [ORGANIZATION] that cares about the PERSON0s of the world! 😻 #[PERSON]  #HappyHolidays [URL]",homeless
+2024-12-23T13:01:16.000Z,"New Carrollton, MD",,,,False,"Secretary [PERSON] joined [ORGANIZATION], and leaders from [ORGANIZATION], ORG2 and ORG3 to announce a a new housing development that will provide affordable housing units for residents in [ORGANIZATION]. [PERSON]",affordable housing
+2024-12-23T11:28:37.000Z,"Bihar, India ",,,,True,RT @erik_powery: [ORGANIZATION] Mr. [PERSON] [URL] via @YouTube,
+2024-12-23T03:40:39.000Z,,,,,False,"From “Covid-related Funds”?? How about RETURN “OUR” MONEY!
+
+[ORGANIZATION] Invests $8M for Affordable Housing on Former FAC0 Site 
+Source: [URL] [URL]",affordable housing
+2024-12-23T01:12:04.000Z,"Rosedale, MD",,,,False,"DATE0 we were able to give toys to over 100 families, one [INSTITUTION] and a non profit organization in [ORGANIZATION].
+
+Thank you again to [ORGANIZATION] and the ORG1 team! 
+
+[URL]
+
+#community #[PERSON] [URL]",
+2024-12-22T21:59:39.000Z,,,,,False,"@WallStreetApes There is a massive money scheme in [ORGANIZATION], Maryland—“New affordable apartment/housing complexes.”
+
+[PERSON] leaders celebrated the grand opening of the revitalized FAC0, which was once a 979-unit distressed public housing complex in Southwest [ORGANIZATION]. [URL]",
+2024-12-22T14:31:03.000Z,,,,,False,[PERSON] in [ORGANIZATION] are living in FAC0. Thousands of [ORGANIZATION] and Vets throughout the [PERSON] and have starving children in GPE2...and this...and some shake their heads in wonder that young man from [PERSON] did what he did on a [STREET] in GPE4 DATE0...,
+2024-12-22T14:30:32.000Z,,,,,False,@ChefGruel People in [ORGANIZATION] are living in [ORGANIZATION]. Thousands of [ORGANIZATION] and Vets throughout the [PERSON] and have starving children in GPE2...and this...and some shake their heads in wonder that young man from [PERSON] did what he did on a [STREET] in GPE4 DATE0...,
+2024-12-22T05:56:07.000Z,Baltimore ,,,,True,[ORGANIZATION]: [ORGANIZATION] of DATE2 and [TIME]. The [DATE] commemoration of [ORGANIZATION]…,
+2024-12-22T04:01:05.000Z,,,,,True,RT @wjz: [ORGANIZATION] announces $50.8 million plan to address vacant buildings in [PERSON]. [URL],
+2024-12-22T04:00:12.000Z,Baltimore,,,,False,[ORGANIZATION] announces $50.8 million plan to address vacant buildings in [PERSON]. [URL],
+2024-12-22T01:40:07.000Z,"Piscataway, Nanticoke+ land",,,,True,[ORGANIZATION]: [ORGANIZATION] of DATE2 and [TIME]. The [DATE] commemoration of [ORGANIZATION]…,
+2024-12-22T01:37:56.000Z,Senior Editor/Baltimore magazine,,,,True,[ORGANIZATION]: [ORGANIZATION] of DATE2 and [TIME]. The [DATE] commemoration of [ORGANIZATION]…,
+2024-12-22T01:31:42.000Z,"Maryland, USA",,,,False,"On [ORGANIZATION], [TIME] of [LOCATION], we honor the lives of unhoused people who died DATE2.  Honored to be with [ORGANIZATION] and [ORGANIZATION], along with many other [ORGANIZATION] friends, as we pay our respects to lives lost all too soon. #HousingIsHealthcare [URL]",unhoused
+2024-12-22T00:51:02.000Z,"Baltimore, MD",,,,True,"RT @BaltCoExec: We're all in to change—and improve—the housing paradigm in [ORGANIZATION].
+
+FAC0, replacing FAC1,…",
+2024-12-21T22:27:22.000Z,Baltimore,,,,False,[ORGANIZATION] of DATE2 and [TIME] of [ORGANIZATION]. The [PERSON] commemoration of [ORGANIZATION] kicks off in [ORGANIZATION]. [ORGANIZATION],
+2024-12-21T20:29:56.000Z,,,,,False,"[ORGANIZATION], [ORGANIZATION] commit $8M to convert [ORGANIZATION] into affordable housing [URL]",affordable housing
+2024-12-21T18:38:00.000Z,"Baltimore, Maryland",,,,False,[ORGANIZATION] is allocating $8 million to help buy a troubled [ORGANIZATION] at FAC0 and FAC1 that will be converted into affordable housing units. [URL],affordable housing
+2024-12-21T18:33:00.000Z,"Baltimore, Maryland",,,,False,"[ORGANIZATION], [ORGANIZATION] commit $8M to convert [ORGANIZATION] into affordable housing [URL]",affordable housing
+2024-12-21T14:00:15.000Z,Baltimore,,,,False,"[ORGANIZATION] church and shelter celebrate [ORGANIZATION] after fire, rebuilding efforts offer hope for families. [URL]",
+2024-12-21T05:15:21.000Z,United States,,,,False,"[ORGANIZATION]
+
+🇺[PERSON]Same [LOCATION] 
+🏴‍☠️ [ORGANIZATION] 
+⚖️ Let’s Change That #[PERSON]
+
+💻 [URL]
+
+🫱🏻‍🫲🏿 🫱🏻‍🫲🏼🤝🏻🇺[PERSON]🫱🏾‍🫲🏻🫱🏿‍🫲🏻🇺[PERSON]🫱🏿‍🫲🏾🫱🏿‍🫲🏽🇺[PERSON]🎓
+#wbhp #Homeless #JacksonvilleFL #Equality #Maryland #Pardons #[PERSON] #Democrats #Republicans #Repair🇺[PERSON] #Christmas #Sagittarius [URL]",homeless
+2024-12-21T04:28:14.000Z,大阪,,,,False,"Decent bus drivers don’t be late for [TIME], don’t [STREET] roughly always. Homeless people don’t ride the bus and don’t bother other passengers. Decent people don’t live by emotions. Decent people go to school normally, don’t do drugs, don’t steal ATMs.
+
+#[PERSON] #[PERSON]",homeless
+2024-12-20T19:06:40.000Z,"Cleveland, OH",,,,False,"Gov. [PERSON] announced $50.8M in awards through [ORGANIZATION] to revitalize [ORGANIZATION]’s neighborhoods by reducing vacant buildings.  [URL]
+
+#SafeguardProperties #[ORGANIZATION]VacantsReinvestmentInitiative #OneCommunity #[PERSON] [URL]",
+2024-12-20T16:37:43.000Z,,,,,True,"RT @WEAA889: ""We're all in to change—and improve—the housing paradigm in [ORGANIZATION].
+
+FAC0, replacing FAC1, wi…",
+2024-12-20T16:25:33.000Z,"Maryland, USA",,,,False,"""We're all in to change—and improve—the housing paradigm in [ORGANIZATION].
+
+FAC0, replacing FAC1, will provide 122 much-needed, high quality and affordable units to working families.""- [ORGANIZATION] Executive
+[URL]",
+2024-12-20T14:21:22.000Z,your cerebrum,,,,True,"RT @wjz: New affordable housing will replace an old, trouble-some hotel near where a mass shooting and crash happened on [ORGANIZATION]…",affordable housing
+2024-12-20T13:34:00.000Z,"Baltimore, MD",,,,False,FAC0 motel being cleared for affordable housing in [ORGANIZATION] [URL],affordable housing
+2024-12-20T11:56:55.000Z,,,,,True,"RT @wjz: The $53 million development includes 150 brand-new modern, affordable, and workforce rental homes. [URL]",
+2024-12-20T10:00:01.000Z,Baltimore,,,,False,"The $53 million development includes 150 brand-new modern, affordable, and workforce rental homes. [URL]",
+2024-12-20T07:10:27.000Z,"Baltimore, MD",,,,True,"RT @wjz: New affordable housing will replace an old, trouble-some hotel near where a mass shooting and crash happened on [ORGANIZATION]…",affordable housing
+2024-12-20T07:08:36.000Z,"Baltimore, MD",,,,True,"RT @wjz: New affordable housing will replace an old, trouble-some hotel near where a mass shooting and crash happened on [ORGANIZATION]…",affordable housing
+2024-12-20T05:42:05.000Z,,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-20T04:10:25.000Z,DMV,,,,True,"RT @wjz: New affordable housing will replace an old, trouble-some hotel near where a mass shooting and crash happened on [ORGANIZATION]…",affordable housing
+2024-12-20T04:00:06.000Z,Baltimore,,,,False,"New affordable housing will replace an old, trouble-some hotel near where a mass shooting and crash happened on [ORGANIZATION] that left nine injured and one killed in [ORGANIZATION], [ORGANIZATION] officials announced. [ORGANIZATION]",affordable housing
+2024-12-20T03:24:23.000Z,"Baltimore, MD",,,,True,"RT @BaltCoExec: We're all in to change—and improve—the housing paradigm in [ORGANIZATION].
+
+FAC0, replacing FAC1,…",
+2024-12-20T02:49:06.000Z,Baltimore,,,,True,"[PERSON]: [ORGANIZATION] sentenced in killings of deaf cellmate at [ORGANIZATION] jail, homeless man, @justin_fenton reports: https://…",homeless
+2024-12-20T02:48:23.000Z,,,,,True,"RT @wjz: [ORGANIZATION] leaders celebrated the grand opening of the revitalized [ORGANIZATION], which was once a 979-unit distressed…",
+2024-12-20T02:40:49.000Z,,,,,False,"PERSON0 Really works for most of modern politics. ""Would this person saying we should use [ORGANIZATION] money on the homeless and rundown cities be mad if we were using it in [PERSON] or GPE2?"" Solves a lot of foreign policy posting",homeless
+2024-12-20T02:30:05.000Z,Baltimore,,,,False,"[ORGANIZATION] leaders celebrated the grand opening of the revitalized FAC0, which was once a 979-unit distressed public housing complex in [ORGANIZATION]. [URL]",
+2024-12-20T01:58:27.000Z,"Baltimore, MD",,,,False,"[ORGANIZATION] sentenced in killings of deaf cellmate at [ORGANIZATION] jail, homeless man, @justin_fenton reports: [URL] (via @[ORGANIZATION]Banner)",homeless
+2024-12-20T01:11:56.000Z,"Baltimore, MD",,,,True,"[ORGANIZATION]: [ORGANIZATION] spent time with @bmoredhcd and
+@WYPR881FM to discuss [ORGANIZATION]’s historic non-contiguous [ORGANIZATION]…",
+2024-12-19T22:28:00.000Z,"Annapolis, MD",,,,False,"FAC0, the new multifamily complex off FAC1, is [ORGANIZATION] latest answer to addressing the need for quality low-income housing. [URL]",
+2024-12-19T22:08:44.000Z,"Maryland, USA",,,,True,[PERSON]: He's from [ORGANIZATION] which is represented by Delegate PERSON1. Wonder who she's going to blame for this loser killing…,
+2024-12-19T21:51:37.000Z,"Baltimore, MD",,,,True,"RT @BaltCoExec: We're all in to change—and improve—the housing paradigm in [ORGANIZATION].
+
+FAC0, replacing FAC1,…",
+2024-12-19T21:48:00.000Z,"Baltimore, Maryland",,,,False,"FAC0, the new multifamily complex off FAC1, is [ORGANIZATION] latest answer to addressing the need for quality low-income housing. [URL]",
+2024-12-19T21:33:00.000Z,"Baltimore, Maryland",,,,False,"[ORGANIZATION], [PERSON] tout progress on affordable, vacant housing as [ORGANIZATION] development opens [URL]",
+2024-12-19T21:32:50.000Z,"Towson, MD",,,,False,"We're all in to change—and improve—the housing paradigm in [ORGANIZATION].
+
+FAC0, replacing FAC1, will provide 122 much-needed, high quality and affordable units to working families.
+
+[URL] [URL]",
+2024-12-19T20:30:00.000Z,"Baltimore, MD",,,,False,"[ORGANIZATION] sentenced in killings of deaf cellmate at [ORGANIZATION] jail, homeless man [URL]",homeless
+2024-12-19T20:00:02.000Z,"Baltimore, MD",,,,False,The man charged with the murder of his cellmate in a [ORGANIZATION] jail and the murder of a [ORGANIZATION] homeless man was sentenced to life in prison on [LOCATION]. [URL],homeless
+2024-12-19T18:17:08.000Z,"Baltimore, MD",,,,True,[PERSON]: He's from [ORGANIZATION] which is represented by Delegate PERSON1. Wonder who she's going to blame for this loser killing…,
+2024-12-19T18:13:22.000Z,"Baltimore, MD",,,,False,He's from [ORGANIZATION] which is represented by [ORGANIZATION]. Wonder who she's going to blame for this loser killing a homeless man in Baltimore- since she can't blame it on a fatherless Black man. [PERSON],homeless
+2024-12-19T18:00:38.000Z,100 Holliday Street,,,,False,"@bmorefinances spent time with @bmoredhcd and
+@WYPR881FM to discuss [ORGANIZATION]’s historic non-contiguous [ORGANIZATION] district and bonds that will create affordable housing across [PERSON]. For the full article click here: [ORGANIZATION] #bmorefinance [URL]",affordable housing
+2024-12-19T16:59:44.000Z,,,,,False,"[PERSON] @historyinmemes Thats not a picture from [ORGANIZATION] dummy.
+
+[URL]",
+2024-12-19T16:34:44.000Z,,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T13:32:07.000Z,USA,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T13:21:21.000Z,"Baltimore, MD",,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T13:12:15.000Z,Myownland 👑,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T12:13:40.000Z,.,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T10:33:10.000Z,Home 😊.,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T09:53:32.000Z,"ÜT: 38.975121,-76.888847",,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T09:31:24.000Z,"Maryland, USA",,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T08:00:40.000Z,,,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-19T08:00:11.000Z,Baltimore,,,,False,[ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [PERSON] through [ORGANIZATION]. [URL],affordable housing
+2024-12-19T02:43:01.000Z,"Baltimore, MD",,,,False,"Thanks to @BaltCoExec [ORGANIZATION] destroying [ORGANIZATION] with high crime and “affordable housing” and PERSON1 destroying [PERSON] with a looming budget crisis and by mandating electric vehicle death traps, people are fleeing the state in droves. Well done! 👏 [URL]",affordable housing
+2024-12-19T02:30:11.000Z,Baltimore,,,,False,"[ORGANIZATION] Mayor [PERSON] says it has been a [ORGANIZATION]-long effort to bring life into the 13,000 vacant properties in the city, and the nearly $51 million in state funding is a tremendous boost. 
+
+ [URL]",
+2024-12-18T21:47:42.000Z,Baltimore,,,,False,"[ORGANIZATION] AT [TIME]: [ORGANIZATION] got a boost from state funding to help create affordable housing and revitalize vacant buildings.
+
+[ORGANIZATION] explains how the funding will be distributed. [URL]",affordable housing
+2024-12-18T19:20:17.000Z,"Nashville, TN",,,,False,Registration is OPEN for [ORGANIZATION]; Policy Symposium! Join us DATE1 in [ORGANIZATION] to explore the theme [ORGANIZATION]. Use code EB15 at checkout before DATE2% off! [URL] #HCHDATE0 [URL],
+2024-12-18T16:41:56.000Z,,,,,False,"[ORGANIZATION] PERSON0        we  have      exec  orders          we  are  fine   ..   ask  any  homeless  person     in  [ORGANIZATION], [PERSON] , [ORGANIZATION] , [PERSON] ,  GPE4 ,  [PERSON],  [ORGANIZATION]  ,  GPE6 , GPE7 ,  [PERSON] ,  atGPE4nta ,  [PERSON]0  ,   [PERSON]1  ,  [PERSON]2 ,   [PERSON]3 , cleveGPE4nd ,  [PERSON]5 ,  [PERSON]6 ..",homeless
+2024-12-18T16:02:05.000Z,"Severna Park, Maryland",,,,False,"A sincere thank you to clients, family, and the community for making this [ORGANIZATION]'s coat [STREET] a huge success. 💕 Your generosity will help [ORGANIZATION], [PERSON]'s Legacy, deliver  over 20 truck loads of clothing to homeless shelters in [ORGANIZATION], [PERSON] and GPE2 on DATE1.🎄 [URL]",homeless
+2024-12-18T15:18:25.000Z,,,,,False,"@Shem_Infinite [ORGANIZATION] citizens should sue her for “emotional damage” caused by her lies and we demand civil asset forfeiture of everything she and her family owns to make up for it. Okay. So I’m not a lawyer, but she should live the rest of her life poor and homeless on the streets in [PERSON] or",homeless
+2024-12-18T14:47:17.000Z,,,,,False,@pzaslut Heading down to [ORGANIZATION] to hand out staples bags to the homeless.,homeless
+2024-12-18T09:43:05.000Z,"Baltimore, MD",,,,True,RT @wjz: [ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [ORGANIZATION]…,affordable housing
+2024-12-18T08:49:02.000Z,United States,,,,False,"🗞️WBHP #BreakingNEWS 📰 
+
+🫱🏾‍🫲🏻 Welcome Back Home Project
+
+⚖️ Let’s Change #Baltimore 🏠 
+
+🫱🏻‍🫲🏿Need a Job? Follow @GS_Consulting1
+
+🫱🏻‍🫲🏿 🫱🏻‍🫲🏼🤝🏻🇺[PERSON]🫱🏾‍🫲🏻🫱🏿‍🫲🏻🇺[PERSON]🫱🏿‍🫲🏾🫱🏿‍🫲🏽🇺[PERSON]🎓🔑
+#wbhp #[PERSON] #[PERSON] #WWJD #Repair🇺[PERSON] #HomeSweetHome #[PERSON] #Democrats #SuperBowl #DATE0 #WednesdayMotivation #X #hgsm [URL]",
+2024-12-18T03:00:14.000Z,Baltimore,,,,False,[ORGANIZATION] Gov. [PERSON] announced a $50.8 million effort to create more affordable housing and rehabilitate vacant buildings in [PERSON] through [ORGANIZATION]. [URL],affordable housing
+2024-12-18T00:06:00.000Z,Annapolis Maryland,,,,True,"RT @98Rock: [PERSON] off a gift at [ORGANIZATION] before [ORGANIZATION] to support local homeless shelters, crisis centers, and families rig…",homeless
+2024-12-18T00:00:32.000Z,"Baltimore, MD",,,,True,"RT @98Rock: [PERSON] off a gift at [ORGANIZATION] before [ORGANIZATION] to support local homeless shelters, crisis centers, and families rig…",homeless
+2024-12-18T00:00:19.000Z,Baltimore,,,,False,"[PERSON] off a gift at [ORGANIZATION] before [ORGANIZATION] to support local homeless shelters, crisis centers, and families right here in the [ORGANIZATION] area.
+
+You're out shopping anyway—why not pick up an extra gift and make a difference [URL]",homeless
+2024-12-17T23:38:48.000Z,Gravedigger Mountain,,,,False,@wiIIwyd can’t even be nice to homeless people in [ORGANIZATION] because they’re all cranky greedy ass junkies,homeless
+2024-12-17T22:11:41.000Z,New York,,,,False,"[ORGANIZATION] also the progeny of a [ORGANIZATION] politician SEEMS like they inherit the job &amp; know how to stay in control for [ORGANIZATION]!  
+Why is  [ORGANIZATION] reelected when [PERSON] is overrun with crime &amp; homelessness? Do they play tricks to win an election? 
+WHY did [ORGANIZATION]’S Recall fail? [URL]","homeless, homelessness"
+2024-12-17T21:14:51.000Z,Maryland,,,,False,'There's no hope here' - Homeless family fights [ORGANIZATION] for st... [PERSON] via [ORGANIZATION],homeless
+2024-12-17T20:15:07.000Z,US,,,,True,RT @chrispapst: PERSON0: Viewers have been reaching out to me offering help for [ORGANIZATION]. But [ORGANIZATION] still will not approve he…,
+2024-12-17T20:01:22.000Z,Baltimore,,,,True,RT @chrispapst: PERSON0: Viewers have been reaching out to me offering help for [ORGANIZATION]. But [ORGANIZATION] still will not approve he…,
+2024-12-17T19:39:38.000Z,Baltimore,,,,True,RT @chrispapst: PERSON0: Viewers have been reaching out to me offering help for [ORGANIZATION]. But [ORGANIZATION] still will not approve he…,
+2024-12-17T19:39:02.000Z,"Baltimore, MD",,,,False,"UDPATE: Viewers have been reaching out to me offering help for [ORGANIZATION]. But [ORGANIZATION] still will not approve her request for a transfer after a fire rendered her family homeless.
+
+@FOXBaltimore @Project_Bmore 
+
+[URL]",homeless
+2024-12-17T16:12:18.000Z,,,,,False,@MustangLife66 @GovWesMoore @md_sbe How much interest on the debt does the [ORGANIZATION] taxpayer pay [ORGANIZATION] instead of using this money to help the homeless in [PERSON]?,homeless
+2024-12-17T16:04:42.000Z,,,,,False,@HendricksTee @hisbagdifferent [PERSON] nobody with any real firepower live there everybody homeless. [PERSON] cool ig. GPE2 got bitched by a bunch of white people. I already said [PERSON] is valid. GPE4 has strict as fuck gun laws basically [PERSON]. [ORGANIZATION]…Don’t make me laugh. GPE6 is valid,homeless
+2024-12-17T15:55:28.000Z,,,,,False,'There's no hope here' - Homeless family fights [ORGANIZATION] for student transfer #[PERSON] #[PERSON],homeless
+2024-12-17T15:54:02.000Z,"St. Croix, USVI",,,,False,I had a friend who worked with homeless people in [ORGANIZATION]. She'd go around getting them into motels that her org would rent for them when it was cold. The motel owners complained the guys would sit outside with the room doors open w/heat on. [ORGANIZATION],homeless
+2024-12-17T15:01:44.000Z,"Baltimore, MD",,,,True,"RT @wjz: [ORGANIZATION] expanded its emergency shelter to combat homelessness in [ORGANIZATION], increasing capacity…","homeless, homelessness"
+2024-12-17T14:30:01.000Z,Baltimore,,,,False,"[ORGANIZATION] expanded its emergency shelter to combat homelessness in [ORGANIZATION], increasing capacity by 40%. [URL]","homeless, homelessness"
+2024-12-17T12:33:59.000Z,,,,,False,@Pontifex Pope [PERSON]: many of us in [ORGANIZATION] are church homeless and joyless. We will not be celebrating [ORGANIZATION] in the church we chose and have supported. We need new leadership in the [ORGANIZATION] now and we demand that you rescind the decree to close FAC0 and…,homeless
+2024-12-17T03:07:27.000Z,,,,,False,'There's no hope here' - Homeless family fights [ORGANIZATION] for student transfer [URL],homeless
+2024-12-17T02:45:06.000Z,Baltimore,,,,False,"DATE0 PERSON0 hasn’t been in school since DATE1. Instead, she’s been with her mom doing arts and crafts - trying to learn on her own, and heal. STORY: [URL] [URL]",
+2024-12-17T00:29:13.000Z,International,,,,True,RT @Project_Bmore: A homeless family is pleading with [ORGANIZATION] to help them after a fire recently destroyed their apar…,homeless
+2024-12-16T23:40:41.000Z,Home 😊.,,,,True,"RT @wjz: [ORGANIZATION] expanded its emergency shelter to combat homelessness in [ORGANIZATION], increasing capacity…","homeless, homelessness"
+2024-12-16T23:30:12.000Z,Baltimore,,,,False,"[ORGANIZATION] expanded its emergency shelter to combat homelessness in [ORGANIZATION], increasing capacity by 40%. [URL]","homeless, homelessness"
+2024-12-16T22:31:22.000Z,Baltimore,,,,True,RT @chrispapst: HEARTBREAKING: A homeless family is pleading with [ORGANIZATION] to help them after a fire recently destroye…,homeless
+2024-12-16T22:27:54.000Z,"Baltimore, MD",,,,False,"HEARTBREAKING: A homeless family is pleading with [ORGANIZATION] to help them after a fire recently destroyed their apartment building.
+
+The [ORGANIZATION] hasn’t been in school in [LOCATION]. 
+
+@FOXBaltimore @Project_Bmore 
+
+[URL]",homeless
+2024-12-16T22:20:14.000Z,Baltimore,,,,False,"A homeless family is pleading with [ORGANIZATION] to help them after a fire recently destroyed their apartment building.
+@FOXBaltimore @chrispapst 
+[URL]",homeless
+2024-12-16T15:43:08.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,… for helping so many sick and injured homeless cats.  You are animal heroes! 🐈 🐈‍⬛ 2/2 [URL],homeless
+2024-12-16T13:34:16.000Z,,,,,False,And this is the news [ORGANIZATION] in [LOCATION] I want to go get help MS to restate tried to help me they bullied me I used to work for the state of [ORGANIZATION] and also I am in the federal employee who's been homeless because my son was abused in [PERSON],homeless
+2024-12-16T13:31:16.000Z,"Maryland, USA",,,,True,"RT @wjz: DATE0 after a devastating fire, [ORGANIZATION] and [PERSON] (ORG2), a shelter for women and chi…",
+2024-12-16T13:30:02.000Z,Baltimore,,,,False,"DATE0 after a devastating fire, [ORGANIZATION] and [PERSON] (ORG2), a shelter for women and children, are celebrating [LOCATION]. [URL]",
+2024-12-16T03:59:04.000Z,"Baltimore, MD",,,,False,"[PERSON] to all kuddam who on [ORGANIZATION] helped prepare food for the homeless and needy to be distributed in [LOCATION], [ORGANIZATION].
+@MKAUSATarbiyyat [URL]",homeless
+2024-12-16T00:07:37.000Z,"Austin, TX",,,,True,"RT @hierarchology: If you ever wonder why there's not more homelessness or eviction notices posted in cities like [ORGANIZATION] and [PERSON], he…","homeless, homelessness"
+2024-12-15T23:27:38.000Z,"Maryland, USA",,,,False,"PERSON0 Yes, I give [ORGANIZATION] to our GPE0 [PERSON].  We are holding a press conference [LOCATION] due to it being DATE2, and the city shelters are putting the homeless out of the shelters at [TIME].",homeless
+2024-12-15T11:52:11.000Z,,,,,False,"PERSON0: [ORGANIZATION] purchased [ORGANIZATION] located at 300 N. Front [STREET]; ORG1 located at 221 N. Gay [STREET] &amp; 332 N. Front [STREET], for unhoused [ORGANIZATION]; illegal immigrants. 
+
+$15.2 Million for [ORGANIZATION]; $3.2 Million for the management agreement. [URL]",unhoused
+2024-12-14T22:26:57.000Z,"Maryland, USA",,,,True,"RT @baltbeat: Best Ongoing Initiative: Affordable Housing: [ORGANIZATION] needs more affordable and mixed-income housing, plain and simple. http…",affordable housing
+2024-12-14T13:02:29.000Z,"DFW/College Station/Austin, TX",,,,False,"@ConservaMuse Nope!
+
+[PERSON]. Great people, tons of culture, good food. And I spent [TIME] on FAC0, so it wasn't even that. 
+
+[PERSON] has great museums, good food, lots of history. I made friends with a few of the homeless people. 
+
+[ORGANIZATION]'s [PERSON] is great. Good",homeless
+2024-12-13T23:08:00.000Z,"Baltimore, Maryland",,,,False,"Hundreds of youth and young adults in [ORGANIZATION] face the harsh reality of homelessness, writes [ORGANIZATION], and a significant number of them identify as LGBTQ+. [LOCATION]","homeless, homelessness"
+2024-12-13T22:59:56.000Z,大阪,,,,False,"[ORGANIZATION] public bus is always late, in the worst situation, it was late for [TIME], those drivers are lazy and driving is awful, the bus is dirty, homeless people are everywhere. The metro is more dirty like [PERSON]. GPE2 people use own shuttles to avoid thugs.",homeless
+2024-12-13T22:48:00.000Z,"Baltimore, Maryland",,,,False,The crisis of LGBTQ+ homelessness in [ORGANIZATION] | GUEST COMMENTARY [URL],"homeless, homelessness"
+2024-12-13T19:14:06.000Z,"Philadelphia, PA",,,,False,&amp; [ORGANIZATION] shared their amazing work in a mixed-income affordable housing development; &amp; ORG1 provided a tour of a six-acre [INSTITUTION] highlighting the neighborhood’s revitalization and greening efforts.,affordable housing
+2024-12-13T18:51:06.000Z,"Philadelphia, PA",,,,False,&amp; [ORGANIZATION] shared their amazing work in a mixed-income affordable housing development; &amp; ORG1 provided a tour of a six-acre [INSTITUTION] highlighting the neighborhood’s revitalization and greening efforts.,affordable housing
+2024-12-13T16:00:29.000Z,"Baltimore, Maryland",,,,False,"[ORGANIZATION], [ORGANIZATION] reminds us of the power of love, liberation, and community care. Founded by leaders experiencing homelessness, [ORGANIZATION] uplifts [ORGANIZATION]’s most vulnerable—offering support, dignity, and healing [LOCATION].  [PERSON] more: [URL]","homeless, homelessness"
+2024-12-13T13:00:06.000Z,"Baltimore, MD",,,,False,"Best Ongoing Initiative: Affordable Housing: [ORGANIZATION] needs more affordable and mixed-income housing, plain and simple. [URL] [URL]",affordable housing
+2024-12-13T04:55:41.000Z,"California, USA",,,,False,"DATE0 after awarding $50 million to [ORGANIZATION]-based [ORGANIZATION], philanthropist [ORGANIZATION] has made a second major donation of $…
+
+Source: ORG1 [URL]",
+2024-12-12T22:43:41.000Z,,,,,False,"[PERSON] is a mess; public schools, crime, infrastructure, homelessness of [PERSON] and this is the hill he chooses to die on.","homeless, homelessness"
+2024-12-12T22:34:44.000Z,Gag City,,,,False,I really don’t care with none of y’all say this video keeps pissing me off. I really wish somebody stood up and put his dumb ass on his neck. A homeless mf do this in [ORGANIZATION] the whole train would’ve been in an uproar women and all cussing him out and trying to swing too😭 [URL],homeless
+2024-12-12T22:24:12.000Z,Texas,,,,True,"[ORGANIZATION]: Once homeless, [PERSON] founded [ORGANIZATION] — an events company in [ORGANIZATION]. You're an inspiration! #SmallBusiness #[PERSON]…",homeless
+2024-12-12T16:30:56.000Z,,,,,False,"@MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have given your team the 25 billion he blew that he said was going to end homelessness in C","homeless, homelessness"
+2024-12-12T16:19:06.000Z,"Philadelphia, PA",,,,False,&amp; [ORGANIZATION] shared their amazing work in a mixed-income affordable housing development; and FAC0 provided a tour of a six-acre [INSTITUTION] highlighting the neighborhood’s revitalization and greening efforts.,affordable housing
+2024-12-12T15:39:50.000Z,"New York,New York",,,,True,"RT @tracyrosenthal_: thank god for Red Emma’s GPE0 @redemmas 
+[URL]",
+2024-12-12T15:20:40.000Z,,,,,True,RT @BaltimoreMOHS: [ORGANIZATION] is activated &amp; several [PERSON] ([ORGANIZATION]) providers are operating as warming centers. For more infor…,
+2024-12-12T15:00:01.000Z,"Baltimore, MD",,,,False,"[ORGANIZATION] is activated &amp; several [PERSON] ([ORGANIZATION]) providers are operating as warming centers. For more information visit🔗[LOCATION]
+
+☎ To get connected to [TIME] emergency shelter, please call ORG2 at [PHONE]. [LOCATION]",
+2024-12-11T21:58:49.000Z,tracyrosenthal.com,,,,False,"thank god for [ORGANIZATION] [PERSON] 
+[URL]",
+2024-12-11T21:54:01.000Z,"Salisbury, Maryland",,,,False,@jemillerbalt [ORGANIZATION] never saw a tax they didn’t love! [PERSON] is going to look like the homeless slums of [PERSON] in the near future!,homeless
+2024-12-11T15:45:15.000Z,"Baltimore, MD","Baltimore, MD",United States,city,False,"We’re not sure how you spent [ORGANIZATION], but we know how the vets and staff at [ORGANIZATION] spent theirs. Along with [ORGANIZATION] and [ORGANIZATION], two of our vet tech volunteers, they made sure that [DATE] homeless kitties were snipped/tipped and medically checked… 1/2 [URL]",homeless
+2024-12-11T13:30:53.000Z,,,,,False,"[URL]
+[DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON]
+DATE0
+DATE1
+DATE2, to overcome
+[ORGANIZATION]. 
+A lady that genuinely cares about people. 
+[DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON][DATE][PERSON]",
+2024-12-11T07:19:32.000Z,,,,,False,"[ORGANIZATION] , Just Go To GPE0 Or GPE1 You’ll See Addicts And Homelessness In Surplus","homeless, homelessness"
+2024-12-11T03:38:01.000Z,Babylon 6,,,,False,"@PeeTubeTrappy @TheHazeFoley As a person who went [ORGANIZATION] from drug use for [ORGANIZATION], homeless in [LOCATION] (5 [ORGANIZATION] sober now thank god), I dunno man. There’s a lot of things that could explain it that isn’t “the [ORGANIZATION] mind controlled him to shoot a rich ceo causing the entire country to talk about healthcare”",homeless
+2024-12-11T03:21:40.000Z,Baltimore City,,,,False,"@DeltaHotelsLtd A HOMELESS MOTHER &amp; CHILD NEVER COMPLAINED ABOUT THE DIRTY BROWN WATER POURING OUT OF THE SINK &amp; TUB, NOR DID SHE SAY ANYTHING ABOUT THE [ORGANIZATION] BUGS @ [ORGANIZATION] BY PERSON0 BUT WAS PUT OUT AFTER QUESTIONING STAFF ABOUT HER CHILDS MISSING TABLET. #[PERSON]",homeless
+2024-12-11T03:18:59.000Z,Baltimore City,,,,False,@DeltaHotelsLtd DELTA BY PERSON0 NORTH TREATED A HOMELESS MOTHER AND CHILD INHUMANLY BY PUTTING HER OUT AFTER QUESTIONING WHAT HAPPENED TO HER CHILDS MISSING ANDRIOD TABLET PUTTING THEM OUT IN THE COLD. PLEASE SPEND UR MONEY ELSEWHERE. [ORGANIZATION] TO HOUSE FIRE,homeless
+2024-12-10T21:45:06.000Z,"Puyallup, WA",,,,False,"My little brother is now homeless in [PERSON]. He is disabled and in a bad [STREET]. It is his fault, but I am his brother. Trying to figure out how to help him.
+
+Anyone have any ideas where he can find shelter?",homeless
+2024-12-10T19:12:07.000Z,"Baltimore, MD",,,,False,PERSON0 He’s not homeless. He’s from a very very wealthy family in [ORGANIZATION].,homeless
+2024-12-10T18:42:52.000Z,,,,,True,RT @WhickTv: [URL] Wait. You mean to tell me this family owned a resort? And didnt sell it or give it out to the poor in…,
+2024-12-10T16:15:12.000Z,"Baltimore County, Maryland",,,,True,"RT @BaltCoFire: Now through [ORGANIZATION], spread the holiday joy by donating a new, unwrapped toy to the Kindertime Toy [STREET]! Toys are coll…",
+2024-12-10T15:58:14.000Z,,,,,True,RT @WhickTv: [URL] Wait. You mean to tell me this family owned a resort? And didnt sell it or give it out to the poor in…,
+2024-12-10T15:48:01.000Z,Baltimore,,,,False,@elonmusk In my experience many homeless are mentally ill and they do have access to living facilities but prefer the streets. [ORGANIZATION] has various shelters but there are rules that many do not like to follow.,homeless
+2024-12-10T15:15:27.000Z,,,,,False,@elonmusk @WallStreetApes I was assaulted by a homeless man when my wife and I were visiting my mother near [ORGANIZATION]'s [ORGANIZATION]. Held my arm up to deflect his punch and he was so out of it that he just muttered a few expletives and moved on.,homeless
+2024-12-10T10:25:20.000Z,,,,,False,"@NicoleTrumper1 [ORGANIZATION] @jeffburrowswg @solsunnysky @TheSeriousOne56 @KathyBo71887869 @PrinzessinWeiss @belladio4 I used to work the day shift. I was a commercial photo printer in [ORGANIZATION]. Loved it!! The streets were clear mostly quiet. Just chased by a few homeless, getting off bus😁",homeless
+2024-12-10T03:24:22.000Z,,,,,False,"@JayVTheGreat Why didn't [ORGANIZATION] take in any homeless blacks into that million dollar mansion they bought in [ORGANIZATION]? Why didn't [ORGANIZATION] help [ORGANIZATION]? Why is [ORGANIZATION] not rioting or protesting over all the black on black murder happening in [PERSON], [ORGANIZATION], [PERSON], [PERSON], [PERSON], GPE6, GPE7,",homeless
+2024-12-10T03:13:29.000Z,"Baltimore, MD",,,,True,"RT @RoyMelvinHopki1: You can tell a PERSON0 character if see them walk pass a homeless person and don’t give them no money:) 
+@THESH8DEROOM…",homeless
+2024-12-10T02:53:19.000Z,"Washington, DC",,,,False,This episode of #[PERSON] is about the daughter/father that killed the wife in [ORGANIZATION] and tried to say a panhandler did it,panhandler
+2024-12-10T02:29:18.000Z,"San Francisco,CA        He/Him",,,,True,RT @WhickTv: [URL] Wait. You mean to tell me this family owned a resort? And didnt sell it or give it out to the poor in…,
+2024-12-10T01:42:22.000Z,"Pittsburgh, PA",,,,True,RT @WhickTv: [URL] Wait. You mean to tell me this family owned a resort? And didnt sell it or give it out to the poor in…,
+2024-12-10T01:31:53.000Z,,,,,True,RT @WhickTv: [URL] Wait. You mean to tell me this family owned a resort? And didnt sell it or give it out to the poor in…,
+2024-12-10T01:03:55.000Z,,,,,False,"[URL] Wait. You mean to tell me this family owned a resort? And didnt sell it or give it out to the poor in order to house the homeless?
+
+Do you know how many people die due to homelessness [DATE]?
+
+*sound of pistol cocking*","homeless, homelessness"
+2024-12-10T00:46:42.000Z,"Timonium, MD",,,,True,"RT @BaltCoFire: Now through [ORGANIZATION], spread the holiday joy by donating a new, unwrapped toy to the Kindertime Toy [STREET]! Toys are coll…",
+2024-12-09T21:57:00.000Z,Inside your walls,,,,False,@Nakam1945 @FreckledLiberty [LOCATION] could definitely play [ORGANIZATION]. Last I heard about [ORGANIZATION] he was squatter in [ORGANIZATION] refusing to leave his foreclosed home. To be fair I don't really follow celebrity news though.,squatter
+2024-12-09T21:49:12.000Z,Uknown,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-09T20:18:52.000Z,,,,,False,@TheRealZBlog [ORGANIZATION] and [PERSON] have spit out some wild ones [ORGANIZATION]. [ORGANIZATION] was a [ORGANIZATION] alumni. PERSON1 who killed a homeless black dude in GPE2 w a sword was a ORG1 ($$$) grad. Now this guy.,homeless
+2024-12-09T19:21:14.000Z,,,,,False,"@Empty_America The major risk in [ORGANIZATION] is arson squatter takeover if you ever materially leave your property. 
+
+I would only buy in [ORGANIZATION] if I'm going to sleep in my property [TIME] for [ORGANIZATION]. 
+
+I really like the [ORGANIZATION] area but I've seen burnt outs.",squatter
+2024-12-09T19:07:56.000Z,"Baltimore County, MD",,,,False,"Now through [ORGANIZATION], spread the holiday joy by donating a new, unwrapped toy to [ORGANIZATION]! Toys are collected at FAC0. 
+
+Help bring smiles to sick, needy, and homeless children. 🧸❤️
+
+More details here: [URL] [URL]",homeless
+2024-12-09T18:16:49.000Z,Manhattan,,,,False,"@dj_soubise @Empty_America Yeah how’s this working in [ORGANIZATION] and [PERSON]? 
+
+GPE2 and [PERSON] have armies of insane homeless people and people living in projects. Nobody wants this till that’s fixed.",homeless
+2024-12-09T15:59:47.000Z,Birdland Lancaster Pa,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T15:55:46.000Z,,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T15:54:34.000Z,End of the bar ,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T13:30:22.000Z,United States,,,,False,"[ORGANIZATION] gifts $65 million to an affordable housing developer, ORG1 names new market leader and more [ORGANIZATION] business news to start [ORGANIZATION]. [URL]",affordable housing
+2024-12-09T12:55:00.000Z,"Baltimore, MD",,,,False,[ORGANIZATION] sends $65M to ORG0 for affordable housing and other tenant services. Exclusive story here. Read on: [URL] via [ORGANIZATION],affordable housing
+2024-12-09T11:16:42.000Z,,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-09T10:45:10.000Z,"Baltimore, Maryland",,,,False,"[ORGANIZATION] gifts $65 million to an affordable housing developer, ORG1 names new market leader and more [ORGANIZATION] business news to start [ORGANIZATION]. [PERSON]",affordable housing
+2024-12-09T07:44:32.000Z,DMV,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T06:35:04.000Z,NJ • he/him,,,,False,"@VerdugoDF[PERSON] [ORGANIZATION] is relying on prospects
+[PERSON] is about to blow it up
+GPE2 getting outed as a [ORGANIZATION] sycophant
+[PERSON] is homeless
+ORG2 is feeble
+[PERSON] PERSON0 [ORGANIZATION] soon
+[PERSON]’s are homeless
+[PERSON]ngels LM[PERSON]O
+ORG6 fugazi
+GPE4 feeble",homeless
+2024-12-09T06:32:27.000Z,,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-09T05:05:07.000Z,,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T04:57:51.000Z,,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T04:40:39.000Z,delaware,,,,True,"[PERSON]: It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T04:00:11.000Z,Baltimore,,,,False,"It's estimated that there are roughly 13,000 vacant homes in [ORGANIZATION]. [URL]",
+2024-12-09T02:44:50.000Z,Koshur,,,,False,"@MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have given your team the 25 billion he blew that he said was going to end homelessness in GPE2.","homeless, homelessness"
+2024-12-09T02:07:32.000Z,,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-09T01:37:34.000Z,,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T23:17:04.000Z,United States,,,,False,"@MiMagaWatch Why are blue cities so unsafe and full of homelessness? I would take a red city [ORGANIZATION] - don’t have to worry about stepping in shit, get shot or car jacked.  [ORGANIZATION], [PERSON], [ORGANIZATION], [PERSON]…","homeless, homelessness"
+2024-12-08T19:56:22.000Z,"Treasure Coast, FL",,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T19:10:38.000Z,Global,,,,False,"@Dexerto Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have given [PERSON] team the $25 billion he blew that he said was going to end homelessness in GPE2.","homeless, homelessness"
+2024-12-08T18:57:10.000Z,Garbage Island,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T18:51:52.000Z,,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T18:47:35.000Z,Ded Starr #3,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T18:38:36.000Z,,,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T18:36:07.000Z,"Swarzędz, Polska",,,,True,"RT @mazemoore: @MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have…",
+2024-12-08T18:21:01.000Z,,,,,False,"@MrBeast Meanwhile cities like [ORGANIZATION] and [PERSON] can't get a block fixed up in [ORGANIZATION].
+
+Maybe [ORGANIZATION] should have given your team the 25 billion he blew that he said was going to end homelessness in GPE2.","homeless, homelessness"
+2024-12-08T18:08:50.000Z,,,,,False,"@elonmusk MOST of [ORGANIZATION] asking same question. We have [ORGANIZATION] in GPE1 STILL Living in Tents, [PERSON] on our [ORGANIZATION]amp; [ORGANIZATION]! [PERSON] is MORE Dangerous than Some 3rd World Countries! #Warmongers",
+2024-12-08T08:39:10.000Z,,,,,True,"RT @ryanharkness_: [PERSON] This guy sucks under a smidge of chat heat. Great job, [ORGANIZATION]. Random black homeless people pluc…",homeless
+2024-12-08T02:40:42.000Z,DMV,,,,False,@R310890 @archi_tradition I lived in [ORGANIZATION] as a child. We moved because of crime and drugs. I lived in [ORGANIZATION] for a short time as an adult. We moved because of crime and homelessness. It's close to a lost cause.,"homeless, homelessness"
+2024-12-07T23:54:58.000Z,"Baltimore, MD",,,,False,"You can tell a PERSON0 character if see them walk pass a homeless person and don’t give them no money:) 
+@THESH8DEROOMRP 
+#relationshipgoals #[PERSON] #Cryptocurency",homeless
+2024-12-07T23:11:06.000Z,God Blessed Land,,,,True,"[PERSON]: A man died after a small homeless encampment caught on fire [DATE] [TIME], according to [ORGANIZATION]…",homeless
+2024-12-07T23:00:07.000Z,Baltimore,,,,False,"A man died after a small homeless encampment caught on fire [ORGANIZATION] [TIME], according to [ORGANIZATION]. [URL]",homeless
+2024-12-07T19:00:00.000Z,"Baltimore, MD",,,,False,"Happy DATE0 GPE0🌨 If you or someone you know is seeking [TIME] emergency shelter, please call [ORGANIZATION] at [PHONE] [TIME].
+
+After [TIME], call [PHONE] for assistance.
+
+More info here:🔗[URL]",
+2024-12-07T18:48:27.000Z,"Baltimore, MD",,,,True,RT [DATE]: [ORGANIZATION] lays out strategy to tackle vacant housing crisis  [URL] @GovWe…,housing crisis
+2024-12-07T17:19:20.000Z,TRU,,,,False,I tell you what [ORGANIZATION] better not ever talk about [PERSON] being dirty again I think we about even. I done seen a lady takin a shit outside and a homeless guy laying on some steps with a big ass rat like it was a bunk bed within [TIME] lol,homeless
+2024-12-07T14:51:31.000Z,Gag City,,,,False,"Our fucking government need to do more for these homeless people we have 65 BILLION for [ORGANIZATION] then we have 2 BILLION dedicated the homeless in every state. I dont care. I lived right by [INSTITUTION] in [PERSON] and it’s HORRIBLE &amp; [ORGANIZATION] they get inside, sleep in the lobby all tht [URL]",homeless
+2024-12-07T12:14:23.000Z,,,,,False,"@AlexFinnX @elonmusk Ds haven been destroying beautiful, [ORGANIZATION] cities for [ORGANIZATION], no one remembers or stops it, they just repeat it. Riots destroyed [PERSON], [ORGANIZATION], [PERSON], GPE4 etc. Ds keep whipping up discontent, steal all the money, people who can, leave, broke city left with poor and homeless",homeless
+2024-12-07T02:34:43.000Z,Salisbury,,,,False,[ORGANIZATION] lays out strategy to tackle vacant housing crisis  [URL] @GovWesMoore @LtGovMiller [ORGANIZATION],housing crisis
+2024-12-07T02:31:42.000Z,Vancouver,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T18:06:14.000Z,,,,,True,"RT @wbalradio: For [ORGANIZATION], [ORGANIZATION] has served as a therapeutic residential and outpatient treatment program that suppo…",
+2024-12-06T18:00:06.000Z,"Baltimore, MD",,,,False,"For [ORGANIZATION], [ORGANIZATION] has served as a therapeutic residential and outpatient treatment program that supports veterans who are struggling with addiction and homelessness.
+
+ [URL]","homeless, homelessness"
+2024-12-06T16:48:07.000Z,,,,,True,"RT @ryanharkness_: [PERSON] This guy sucks under a smidge of chat heat. Great job, [ORGANIZATION]. Random black homeless people pluc…",homeless
+2024-12-06T16:42:52.000Z,Florida,,,,False,"[PERSON] This guy sucks under a smidge of chat heat. Great job, [ORGANIZATION]. Random black homeless people plucked off the streets of [ORGANIZATION] would make better financial decisions than your management 😆",homeless
+2024-12-06T16:31:06.000Z,"Baltimore, MD",,,,False,[ORGANIZATION] ([ORGANIZATION]) is awarded [ORGANIZATION] for their tireless work to rid [ORGANIZATION] of the homelessness crisis that far too many young people experience. 1/3,"homeless, homelessness"
+2024-12-06T15:24:28.000Z,"Baltimore County, MD",,,,False,"Access to high quality, affordable housing should be a fundamental right. Leaders should do what they can to create these attainable housing opportunities — and I am proud to provide another common-sense, market based solution to meet our housing needs.  [URL]",affordable housing
+2024-12-06T14:12:56.000Z,"Baltimore, MD",,,,True,"[PERSON]: When you travel through [ORGANIZATION], you will see blocks full of vacant houses.
+
+A new council was recently formed to tackle t…",
+2024-12-06T14:00:12.000Z,Baltimore,,,,False,"When you travel through [ORGANIZATION], you will see blocks full of vacant houses.
+
+A new council was recently formed to tackle the problem head on.
+
+ [URL]",
+2024-12-06T13:39:23.000Z,south carolina,,,,True,[ORGANIZATION] Among them was a historic [ORGANIZATION] legislation targeting vacant houses specifically — part of our $3 Billion vision to end the…,
+2024-12-06T08:30:20.000Z,Vancouver,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T05:54:07.000Z,Vancouver,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T05:47:10.000Z,"Los Angeles, CA",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T05:40:48.000Z,Caracas Venezuela,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T03:35:31.000Z,,,,,False,@thecalimelody Or when you have the [ORGANIZATION] homeless trying to shake you down while you wait to enter a concert venue! It really makes a man feel special 🫠🫠,homeless
+2024-12-06T00:58:31.000Z,California,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T00:38:45.000Z,Providence,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-06T00:12:13.000Z,baltimore ,,,,False,Our very own [ORGANIZATION] @[ORGANIZATION]South was honored [TIME] as a [ORGANIZATION] change maker. Her indefatigable commitment to long term affordable housing has built an entire ecosystem of land trusts we love you Dr PERSON1 #40under40 [URL],affordable housing
+2024-12-05T23:19:24.000Z,"Howard County, MD - District 1",,,,True,"RT @dennisreports: .@LizWalshHoCoD1 initially tipped me off to this, she also helped loop in services/orgs for these residents.
+
+[PERSON]…",
+2024-12-05T23:15:03.000Z,"Baltimore, MD",,,,False,".@LizWalshHoCoD1 initially tipped me off to this, she also helped loop in services/orgs for these residents.
+
+[PERSON] says in [ORGANIZATION], the vacancy rate is 2%, showing housing demand is greater than supply: making affordable options scarce.
+
+[URL]",
+2024-12-05T22:58:16.000Z,jersey,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T22:43:57.000Z,"Pittsburgh, PA",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T22:13:16.000Z,,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T20:31:02.000Z,TKPK,,,,False,"[LOCATION] @andersem [ORGANIZATION] is also a sneaky-rich metro area, but has the sort of low homelessness rate you'd expect from its gritty image - it also builds enough to meet demand and leaves a lot of the inner city with excess housing. If [PERSON] had [ORGANIZATION]'s building rate, it would've all gentrified.","homeless, homelessness"
+2024-12-05T19:45:49.000Z,"Los Angeles, CA",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T19:37:22.000Z,,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T18:55:10.000Z,"San Diego, CA",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:46:53.000Z,"Alameda, CA",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:39:41.000Z,"Miami, FL",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:36:54.000Z,,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:34:49.000Z,"Halifax, Nova Scotia, Canada",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:33:41.000Z,"New York, NY",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:30:44.000Z,"San Francisco, CA",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:30:24.000Z,"Southborough, Massachusetts",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:27:27.000Z,"Portland, OR",,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:19:51.000Z,smolensk,,,,True,"[ORGANIZATION]: Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *f…","homeless, homelessness"
+2024-12-05T17:18:53.000Z,NYC | DC,,,,False,"Why do cheap market rents [STREET] homelessness rates even among people with $0 income?
+
+Well, when the market is affordable, *family &amp; friends* have spare beds!
+
+I use the vacant [ORGANIZATION] ADU in [ORGANIZATION] to tell this story
+
+[ORGANIZATION] actually digs into the data to prove it 👇 [URL]","homeless, homelessness"
+2024-12-05T13:59:16.000Z,"Las Vegas, NV",,,,False,"@shift_in2_turbo @mineraldepress1 Funny you think or imply whites kill homeless for sport, just look at black on black crime in [ORGANIZATION], [PERSON], [ORGANIZATION], etc. wake up racist.",homeless
+2024-12-05T13:25:26.000Z,,,,,False,ORG0 You have homeless people in [ORGANIZATION] and you're paying a Sex Consultation. We need to know how much she and her program was paid.  [ORGANIZATION] to dig into [ORGANIZATION] and where the money goes.,homeless
+2024-12-05T10:40:00.000Z,"Annapolis, MD",,,,False,"In an executive order [ORGANIZATION], [ORGANIZATION] Executive [ORGANIZATION] said developers must set aside a certain percentage of new development units to be offered to low-income renters at a discounted rate [URL]",
+2024-12-05T10:11:00.000Z,"Baltimore, Maryland",,,,False,[ORGANIZATION] makes final push on affordable housing before leaving [ORGANIZATION] for [ORGANIZATION] [URL],affordable housing
+2024-12-05T05:47:53.000Z,"Dhaka, Bangladesh",,,,True,RT @erik_powery: [ORGANIZATION] Mr. [PERSON] [URL] via @YouTube,
+2024-12-05T02:43:26.000Z,In your dreams,,,,False,The men in [ORGANIZATION] are homeless ladies,homeless
+2024-12-04T23:13:36.000Z,"Washington, DC",,,,False,"A homeless man in [ORGANIZATION] asked my daddy if he could have me when I was [ORGANIZATION]…he realized my dad was there he asked him if he could have me. My dad laughed so hard in his face..He said have her? hell no.. for what?  He said to make money.
+
+I will never forget [DATE] [URL]",homeless
+2024-12-04T22:54:49.000Z,Baltimore,,,,False,"A man died after a small homeless encampment caught on fire [ORGANIZATION] [TIME], according to [ORGANIZATION]. [URL]",homeless
+2024-12-04T20:59:57.000Z,"Bel Air North, MD",,,,False,New housing with public funding must include affordable units [URL],
+2024-12-04T20:36:58.000Z,"Hollywood, CA",,,,False,"Pastor PERSON0 A Man Who Is Truly Doing Gods Work. Pastor [PERSON] takes care of his fair share of [ORGANIZATION]’s homeless.  The city of [ORGANIZATION] is a mess and its the selfless things like this that pastor [PERSON] does. #follow,#pastorraypoellot,#homeless,#baltimore,#holidays [URL]",homeless
+2024-12-04T19:58:29.000Z,"Baltimore County, MD",,,,True,RT @baltimore_ihc: “Leaders have an obligation to do whatever they can to create attainable housing opportunities that allow residents to p…,
+2024-12-04T19:08:01.000Z,"Baltimore, Maryland",,,,False,Actions taken [ORGANIZATION] in [ORGANIZATION] and [ORGANIZATION] County demonstrate growing concerns over the high cost of housing. [URL],
+2024-12-04T18:40:37.000Z,"Silver Spring, MD",,,,True,RT @baltimore_ihc: “Leaders have an obligation to do whatever they can to create attainable housing opportunities that allow residents to p…,
+2024-12-04T17:35:26.000Z,"Baltimore, Maryland",,,,False,"Thousands of [ORGANIZATION] students are absent for a large portion of [ORGANIZATION] due to issues like homelessness, food insecurity, unsafe neighborhoods and bullying. There are no easy solutions, but in small corners of the city, mentoring organizations like [ORGANIZATION] are trying [URL]","homeless, homelessness"
+2024-12-04T17:33:12.000Z,"Baltimore, Maryland",,,,False,"Thousands of [ORGANIZATION] students are absent for a large portion of [ORGANIZATION] due to issues like homelessness, food insecurity, unsafe neighborhoods and bullying. There are no easy solutions, but in small corners of the city, mentoring organizations like [ORGANIZATION] are trying [URL]","homeless, homelessness"
+2024-12-04T17:13:26.000Z,"Baltimore, MD",,,,True,RT @BaltimoreMOHS: [PERSON] ([ORGANIZATION]) works in collaboration with ORG2 to guide…,
+2024-12-04T15:00:20.000Z,"Annapolis, Maryland",,,,False,.@BaltCoExec [ORGANIZATION] #AffordableHousing #Housing #Rent #Mortgage #Home #Apartment #[PERSON] #MDcounties [URL] [URL],
+2024-12-04T14:38:01.000Z,,,,,False,"PERSON0 Have you ever been to FAC0? It looks like the homeless [ORGANIZATION], the employees are from [ORGANIZATION], so most are not qualified and rude, the whole [STREET] is not safe, nobody on food stamps [ORGANIZATION] should be allowed into any casino ever, same with all casinos in [ORGANIZATION]",homeless
+2024-12-04T08:39:18.000Z,"Hollywood, CA",,,,False,Pastor PERSON0 A Man Who Is Truly Doing Gods Work. Pastor [PERSON] takes care of his fair share of [ORGANIZATION]’s homeless. The city of [ORGANIZATION] is a mess and its the selfless things like this that pastor [PERSON] does that definitely helps you put your own life into perspective #follow [PERSON],homeless
+2024-12-04T04:15:26.000Z,Baltimore,,,,False,[ORGANIZATION] residents are weighing in about how they feel about a second term for Mayor PERSON0---their opinions coming on [ORGANIZATION] of his inauguration ceremony. MORE: [URL] [URL],
+2024-12-04T00:30:48.000Z,Most High’s Kingdom,,,,True,[ORGANIZATION] Among them was a historic [ORGANIZATION] legislation targeting vacant houses specifically — part of our $3 Billion vision to end the…,
+2024-12-03T23:50:44.000Z,,,,,False,"??
+
+Home developers ordered to reserve affordable housing units in [ORGANIZATION] 
+Source: ORG0 GPE1 [URL]",affordable housing
+2024-12-03T23:44:33.000Z,,,,,False,[PERSON] Actually the average [ORGANIZATION] resident is a homeless alcoholic or heroin addict criminal,homeless
+2024-12-03T23:05:40.000Z,"Silver Spring, MD",,,,True,"[ORGANIZATION]: [ORGANIZATION] exec [PERSON] his [STREET] to [ORGANIZATION]--issues an affordable housing mandate on his [STREET] out the door.
+[PERSON]…",affordable housing
+2024-12-03T23:00:35.000Z,"Federal Hill, Baltimore",,,,True,[ORGANIZATION]: Glad to be at the inauguration of the first [ORGANIZATION] Mayor in [ORGANIZATION] to be elected to a second term. [ORGANIZATION]…,
+2024-12-03T22:49:11.000Z,Wakanda,,,,True,"[ORGANIZATION]: [ORGANIZATION] exec [PERSON] his [STREET] to [ORGANIZATION]--issues an affordable housing mandate on his [STREET] out the door.
+[PERSON]…",affordable housing
+2024-12-03T22:31:40.000Z,"Baltimore, MD",,,,False,"[ORGANIZATION] exec [ORGANIZATION]--on his [STREET] to [ORGANIZATION]--issues an affordable housing mandate on his [STREET] out the door.
+ORG1 chair says it can be undone.
+And so it goes... [URL]",affordable housing
+2024-12-03T22:26:42.000Z,Baltimore MD Citizen 2012 ,,,,True,[ORGANIZATION]: Glad to be at the inauguration of the first [ORGANIZATION] Mayor in [ORGANIZATION] to be elected to a second term. [ORGANIZATION]…,
+2024-12-03T21:27:41.000Z,Earth,,,,False,@TL36752984 @GPE0_Goofies @InkandAmmo Are you two that dense? If someone told me this started bec they were arguing about who would serve dessert at the soup kitchen I wouldnt believe it Prostitution/drug/crime uhhh yess ill believe it bec its true [ORGANIZATION] are shit holes.,soup kitchen
+2024-12-03T21:21:14.000Z,"Washington, DC",,,,True,[ORGANIZATION]: Glad to be at the inauguration of the first [ORGANIZATION] Mayor in [ORGANIZATION] to be elected to a second term. [ORGANIZATION]…,
+2024-12-03T21:19:01.000Z,Baltimore,,,,True,[ORGANIZATION]: Glad to be at the inauguration of the first [ORGANIZATION] Mayor in [ORGANIZATION] to be elected to a second term. [ORGANIZATION]…,
+2024-12-03T19:30:07.000Z,Baltimore,,,,False,"Before leaving office for [ORGANIZATION], [ORGANIZATION] issued an executive order addressing ""equitable and attainable housing opportunities."" [URL]",
+2024-12-03T19:00:06.000Z,Baltimore,,,,False,Glad to be at the inauguration of the first [ORGANIZATION] Mayor in [ORGANIZATION] to be elected to a second term. Congratulations PERSON0. Thank you for for your investments in #housing as the fundamental solution to #homelessness. [ORGANIZATION],"homeless, homelessness"
+2024-12-03T18:59:10.000Z,"Baltimore, MD",,,,False,New housing developments that receive financial assistance from [ORGANIZATION] will be required to include affordable housing units under an executive order [ORGANIZATION] issued [ORGANIZATION]. [URL],affordable housing
+2024-12-03T17:00:00.000Z,"Baltimore, MD",,,,False,"[ORGANIZATION] ([ORGANIZATION]) works in collaboration with ORG2 ORG3 to guide [ORGANIZATION]’s housing initiatives and implement projects funded by [ORGANIZATION].
+ 
+🔗 To learn more &amp; access [ORGANIZATION]'s meeting, visit [URL] [URL]",
+2024-12-03T15:55:41.000Z,"Nottingham, MD",,,,False,Link: [URL],
+2024-12-03T15:50:09.000Z,"Baltimore, MD",,,,False,"Support [PERSON] in need [ORGANIZATION]! Your gift to [ORGANIZATION] helps provide critical services to homeless #[PERSON], empowering them through rehabilitation, job training, [ORGANIZATION]; mental health support. Donate now: [URL] [URL]",homeless
+2024-12-03T15:14:29.000Z,"Baltimore, MD",,,,True,"RT @BaltimoreMOHS: 📢The current winter shelter declaration has been extended to [ORGANIZATION], at [TIME].
+
+Please continue t…",
+2024-12-03T14:46:00.000Z,"Baltimore, MD",,,,False,"We encourage you to join the #[PERSON] movement by supporting local homeless services organizations! 🥰 Your donation makes a difference in the lives of [ORGANIZATION]'s most vulnerable neighbors♥
+
+Donate to our partners &ORG0; providers 🔗[URL] [URL]",homeless
+2024-12-03T14:40:03.000Z,,,,,True,"RT @BaltimoreMOHS: 📢The current winter shelter declaration has been extended to [ORGANIZATION], at [TIME].
+
+Please continue t…",
+2024-12-03T14:17:30.000Z,"Baltimore, MD",,,,False,"📢The current [ORGANIZATION] shelter declaration has been extended to [LOCATION], at [TIME].
+
+Please continue to call [ORGANIZATION] at [PHONE] to get connected to shelter for the night.
+
+Visit 🔗[URL] for more information. [URL]",
+2024-12-03T13:38:21.000Z,Baltimore,,,,False,"Kudos to [ORGANIZATION] for [ORGANIZATION] to increase the availability of affordable housing in [ORGANIZATION]. 
+
+We still need more to reach those with the lowest incomes — but this is a good [STREET] to start. [URL]",affordable housing
+2024-12-03T06:41:17.000Z,Great State of Texas,,,,True,"[PERSON] [PERSON] 🚨ANTONY BLINKEN-PRIMARY HORSEMAN OF [ORGANIZATION]
+
+COULD [ORGANIZATION] A half Bi…",
+2024-12-03T05:12:15.000Z,"Baltimore, MD",,,,True,"RT @BaltimoreBrew: On [ORGANIZATION] of the term, [ORGANIZATION] is poised to pass some major legislation [URL]
+Two…",
+2024-12-03T05:03:25.000Z,MD,,,,True,"RT @BaltimoreBrew: On [ORGANIZATION] of the term, [ORGANIZATION] is poised to pass some major legislation [URL]
+Two…",
+2024-12-03T04:58:33.000Z,Baltimore,,,,False,Among them was a historic [ORGANIZATION] legislation targeting vacant houses specifically — part of our $3 Billion vision to end the vacant housing crisis in [ORGANIZATION] for good. [URL],housing crisis
+2024-12-03T01:16:41.000Z,"Baltimore, MD",,,,False,"I wish planners wanted to hear from residents having trouble being overrun by the unhoused people n [ORGANIZATION] neighborhoods, squatting in vacants and starting fires. [URL]",unhoused
+2024-12-02T23:37:31.000Z,,,,,True,RT @baltfishbowl: [DATE] Afternoon Headlines: Here are the candidates for [ORGANIZATION] interim executive; [ORGANIZATION] set to appr…,
+2024-12-02T22:30:51.000Z,"Baltimore, MD",,,,False,DATE0 Afternoon Headlines: Here are the candidates for [ORGANIZATION] interim executive; [ORGANIZATION] set to approve bills for affordable housing and FAC0 rezoning; AIDS Quilt portion on display in [ORGANIZATION]; and more. [URL],affordable housing
+2024-12-02T21:46:04.000Z,"Baltimore, MD",,,,False,"[ORGANIZATION] needs volunteers for the DATE0 Point-in-Time ([ORGANIZATION]) Count of sheltered and unsheltered people experiencing homelessness on [LOCATION]; DATE2 from [TIME].
+
+Learn more and sign up to volunteer ⬇ [URL] [ORGANIZATION]","homeless, homelessness"
+2024-12-02T20:53:54.000Z,,,,,True,"RT @BaltimoreBrew: On [ORGANIZATION] of the term, [ORGANIZATION] is poised to pass some major legislation [URL]
+Two…",
+2024-12-02T20:20:11.000Z,baltimore ,,,,True,"RT @BaltimoreBrew: On [ORGANIZATION] of the term, [ORGANIZATION] is poised to pass some major legislation [URL]
+Two…",
+2024-12-02T19:38:58.000Z,Wakanda,,,,True,"RT @BaltimoreBrew: On [ORGANIZATION] of the term, [ORGANIZATION] is poised to pass some major legislation [URL]
+Two…",
+2024-12-02T19:19:11.000Z,"Baltimore, MD",,,,False,"On [ORGANIZATION] of the term, [ORGANIZATION] is poised to pass some major legislation [URL]
+Two bills would generate funds to pay for [ORGANIZATION]'s plan to rehab vacants and build affordable housing. Another would rezone the [ORGANIZATION] corridor. [URL]",affordable housing
+2024-12-02T14:21:36.000Z,,,,,True,"RT @wbalradio: Due to cold temperatures, [ORGANIZATION] has activated its shelter services in [ORGANIZATION] for indivi…",
+2024-12-02T14:16:47.000Z,,,,,False,"Did your Black flunky mayor get the🐀[ORGANIZATION]'s memo 2 stick it 2 Rump instead of serving you by refusing 2 deport migrants + give them Black taxpayers'💰 4 shelter+food while Black citizens go homeless? [ORGANIZATION] mayors did.
+
+ Charity starts at 🏠.
+
+[URL]",homeless
+2024-12-02T13:04:26.000Z,"Baltimore, MD",,,,False,"Due to cold temperatures, [ORGANIZATION] has activated its shelter services in [ORGANIZATION] for individuals experiencing homelessness.
+
+ [ORGANIZATION]","homeless, homelessness"
+2024-12-01T05:46:11.000Z,Brooklyn,,,,False,"[ORGANIZATION] [ORGANIZATION] [ORGANIZATION] is a [INSTITUTION] and he grew up in poverty and effectively homeless with a crackhead mother. 
+
+What are you saying?",homeless
+2024-11-30T19:35:09.000Z,Lenapehoking,,,,True,RT @erik_powery: [ORGANIZATION] Mr. [PERSON] [URL] via @YouTube,
+2024-11-30T16:17:51.000Z,"Baltimore, MD",,,,True,"RT @wbalradio: Due to cold temperatures, [ORGANIZATION] has activated its shelter services in [ORGANIZATION] for indivi…",
+2024-11-30T15:00:14.000Z,"Baltimore, MD",,,,False,"Due to cold temperatures, [ORGANIZATION] has activated its shelter services in [ORGANIZATION] for individuals experiencing homelessness. LEARN MORE HERE: [ORGANIZATION] [URL]","homeless, homelessness"
+2024-11-30T07:13:06.000Z,,,,,False,@SanjayBDalal PERSON0 The destruction will be massive. [ORGANIZATION]/[LOCATION] will have mass homelessness and riots. Why should they lose everything for your alleged “greater good”? I kinda hope they burn it all down. Especially the [ORGANIZATION].,"homeless, homelessness"
+2024-11-29T09:07:19.000Z,"Córdoba, Veracruz, México",,,,False,"@LillyTellez Qué ridículo [PERSON], [ORGANIZATION] convirtió a PERSON1 en FAC0... [LOCATION] debería verse entre [ORGANIZATION], [PERSON], GPE2 o GPE3...",
+2024-11-29T03:57:40.000Z,A bath house discotheque,,,,False,"@Conortmccartne1 @hecubian_devil I've also been to [ORGANIZATION], a city in which [ORGANIZATION] is the largest landlord and who lets city blocks sit vacant for [ORGANIZATION] because housing is an investment vehicle to them in a city with plenty of homeless.
+
+[ORGANIZATION] also faces a rent problem despite an abundance of...",homeless
+2024-11-28T21:44:05.000Z,,,,,False,"@Strv122Enjoyer There's places here that u need a car and there's not even side walks.  [ORGANIZATION] public transport crowd wasn't the best, including homeless addicts trying to sell you stolen candy . One time I stopped someone from stabbing someone",homeless
+2024-11-28T12:52:00.000Z,"Baltimore, MD",,,,False,"In observance of [ORGANIZATION], [ORGANIZATION] will be temporarily closed on [LOCATION]. Please note: all City-funded shelters will remain OPEN and continue to provide services.
+
+Contact shelters directly🔗[URL] [URL]",
+2024-11-28T00:35:05.000Z,"Baltimore, MD",,,,False,"It’s DATE0. Homelessness can affect anyone, but [ORGANIZATION] communities and adults without children are disproportionately impacted. Learn more and find [ORGANIZATION] resources 🔗 [URL] [URL]","homeless, homelessness"
+2024-11-27T22:03:03.000Z,"Maryland, US",,,,False,PERSON0 Marylanders: [ORGANIZATION] woman known for feeding the homeless has [STREET] named in her honor.  [URL],homeless
+2024-11-27T21:13:22.000Z,,,,,False,A squatter in [ORGANIZATION] is causing a man some major issues.,squatter
+2024-11-27T15:21:21.000Z,"Baltimore, MD",,,,False,"Please note: [ORGANIZATION] will be closed in observance of [ORGANIZATION] on [LOCATION].
+
+To inquire about emergency shelter, please contact ORG1-funded shelters directly. Contact information can be found on our website🔗 [URL]",
+2024-11-27T15:12:28.000Z,22102,,,,False,"The recent groundbreaking of two #AffordableHousing projects in [ORGANIZATION] highlights a crucial shift in how we approach #CommunityDevelopment—by combining #sustainability, accessibility, &amp; a focus on the most vulnerable populations. #[PERSON] [URL]",
+2024-11-27T13:20:28.000Z,,,,,True,[PERSON] [TIME]’s message to the hundreds of homeless people we bussed in from all over [ORGANIZATION] was entitled “I Am So Than…,homeless
+2024-11-27T13:02:27.000Z,Nepal,,,,True,[PERSON] [TIME]’s message to the hundreds of homeless people we bussed in from all over [ORGANIZATION] was entitled “I Am So Than…,homeless
+2024-11-27T12:14:07.000Z,,,,,True,[PERSON] [TIME]’s message to the hundreds of homeless people we bussed in from all over [ORGANIZATION] was entitled “I Am So Than…,homeless
+2024-11-27T12:03:52.000Z,"Dundalk, Maryland",,,,False,"[TIME]’s message to the hundreds of homeless people we bussed in from all over [ORGANIZATION] was entitled “I Am So Thankful!” I used [PERSON] as my text. (It is as clear and simple a salvation message as you’ll ever hear.)
+
+“I Am So Thankful” for:
+1. The Choice
+2. The Chance [URL]",homeless
+2024-11-27T03:31:33.000Z,,,,,False,"@thevivafrei Reminds me of the semi homeless people I used to see drinking pitchers of beer at [TIME] on a weekday, back when I worked at a fish bar in [ORGANIZATION].",homeless
+2024-11-27T02:47:01.000Z,"Washington, DC Metro",,,,False,"[ORGANIZATION], is a deadly [STREET] to be!
+
+High crime and murder rates…
+
+Encountered a homeless war veteran in a wheelchair, out in the lightning, [ORGANIZATION]!
+
+Gave him a few dollars to get out of the rain and go get a cup of coffee.
+
+No one in [ORGANIZATION] cared about him! [URL]",homeless
+2024-11-27T02:18:58.000Z,"Maryland, USA",,,,True,RT @hiruyhadgu: PERSON0 [ORGANIZATION] has some of the most affordable houses in the state. Why are people not clamoring to purchase them? A…,
+2024-11-27T02:00:42.000Z,Earth,,,,False,[PERSON] has some of the most affordable houses in the state. Why are people not clamoring to purchase them? Asking a developer’s attorney for solutions on increasing affordable housing is like asking [ORGANIZATION] for effective ways to stop smoking. [URL],affordable housing
+2024-11-26T23:04:25.000Z,,,,,True,"[PERSON]: A [ORGANIZATION] woman, known for feeding the poor, has a [STREET] named after her. Family and friends gathered for the occasion.…",
+2024-11-26T22:49:37.000Z,"Baltimore, MD",,,,True,"[PERSON]: A [ORGANIZATION] woman, known for feeding the poor, has a [STREET] named after her. Family and friends gathered for the occasion.…",
+2024-11-26T22:45:07.000Z,Baltimore,,,,False,"A [ORGANIZATION] woman, known for feeding the poor, has a [STREET] named after her. Family and friends gathered for the occasion.  [URL]",
+2024-11-26T20:55:00.000Z,"Kentucky, USA",,,,False,@aszafran @realEstateTrent Did you take [PERSON]? I stepped over homeless people at the [ORGANIZATION] station and [ORGANIZATION] is the safest area in the city. I lived in [PERSON] and GPE2 too. So you can’t out city me. Nice try though.,homeless
+2024-11-26T19:58:23.000Z,The US of F*cken A,,,,False,"@libsoftiktok Of course, cause why use it to improve the lives of the actual American citizens residing in your cities. [ORGANIZATION] has a huge homeless problem, maybe help them before people that came to this country illegally.",homeless
+2024-11-26T14:03:57.000Z,"Baltimore, Maryland",,,,False,@baltimoresun Better question for [ORGANIZATION] is why won’t people move to neighborhoods where the housing is affordable. [ORGANIZATION] is the cheapest city on [ORGANIZATION]. And can’t you dissect the market forces that dictate building luxury rather than affordable? What has changed?,
+2024-11-26T14:02:21.000Z,"Baltimore, Maryland",,,,False,When any new housing gets built it’s part of a chain of housing that frees up a house at the end of the chain that likely is affordable. And why doesnt the city or state build affordable housing?  [ORGANIZATION],affordable housing
+2024-11-26T11:45:05.000Z,"Virginia Beach, VA",,,,False,"@GBFanLouise @_emergent_ @iAnonPatriot Seriously? Liberal states/cities are more prosperous?? They have the biggest crime rates, the most homeless, the most poverty. Look at [ORGANIZATION], [PERSON], [ORGANIZATION], [PERSON], and GPE4 for starters.",homeless
+2024-11-26T00:28:14.000Z,he/him,,,,False,"[PERSON] ""Build more housing, then it'll be affordable. Supply and demand!"" but also ""Most of the cost of rent is tied to construction costs, not market forces. An apartment costs twice in [ORGANIZATION] what it does in [PERSON] because [ORGANIZATION] materials are just so much nicer.""",
+2024-11-26T00:08:00.000Z,"Baltimore, MD",,,,False,A [ORGANIZATION] hospital sued a patient because he refused to leave. Why it could happen again. [URL],
