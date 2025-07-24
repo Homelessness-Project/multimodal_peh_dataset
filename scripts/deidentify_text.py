@@ -57,7 +57,7 @@ def deidentify_file(input_file, output_file, columns_to_deidentify, nlp, n_proce
 def main():
     parser = argparse.ArgumentParser(description="Deidentify comments for specified data types.")
     default_n_process = max(1, multiprocessing.cpu_count() - 1)
-    parser.add_argument('--type', choices=['reddit', 'x', 'news', 'all'], default='all', help='Type of data to deidentify (reddit, x, news, or all)')
+    parser.add_argument('--type', choices=['reddit', 'x', 'news', 'meeting_minutes', 'all'], default='all', help='Type of data to deidentify (reddit, x, news, meeting_minutes, or all)')
     parser.add_argument('--n_process', type=int, default=default_n_process, help='Number of processes for spaCy nlp.pipe (parallelism)')
     args = parser.parse_args()
 
@@ -86,6 +86,12 @@ def main():
             'input_pattern': "data/{city}/newspaper/{city}_filtered.csv",
             'columns': ['article_title', 'paragraph_text'],
             'exclude_columns': []
+        },
+        {
+            'name': 'meeting_minutes',
+            'input_pattern': "data/{city}/meeting_minutes/meeting_minutes_lexicon_matches.csv",
+            'columns': ['paragraph'],
+            'exclude_columns': ['filename']
         }
     ]
 
@@ -115,5 +121,8 @@ if __name__ == "__main__":
 
     # Deidentify only News data
     python scripts/deidentify_text.py --type news
+
+    # Deidentify only Meeting Minutes data
+    python scripts/deidentify_text.py --type meeting_minutes
     """
     main() 
