@@ -92,6 +92,13 @@ def main():
             'input_pattern': "data/{city}/meeting_minutes/meeting_minutes_lexicon_matches.csv",
             'columns': ['paragraph'],
             'exclude_columns': ['filename']
+        },
+        # Special config for San Francisco meeting_minutes_paragraphs
+        {
+            'name': 'meeting_minutes',
+            'input_pattern': "data/sanfrancisco/meeting_minutes/meeting_minutes_paragraphs.csv",
+            'columns': ['transcript'],
+            'exclude_columns': []
         }
     ]
 
@@ -101,6 +108,14 @@ def main():
     for city in cities:
         print(f"\nProcessing {city}...")
         for config in file_configs:
+            # Special handling for San Francisco meeting_minutes_paragraphs
+            if (city.lower() == 'sanfrancisco' and 
+                config['input_pattern'] == "data/sanfrancisco/meeting_minutes/meeting_minutes_paragraphs.csv"):
+                input_file = config['input_pattern']
+                output_file = input_file.replace('.csv', '_deidentified.csv')
+                deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process, exclude_columns=config.get('exclude_columns', []))
+                continue
+            # Normal pattern
             input_file = config['input_pattern'].format(city=city)
             output_file = input_file.replace('.csv', '_deidentified.csv')
             deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process, exclude_columns=config.get('exclude_columns', []))

@@ -51,7 +51,8 @@ def main():
         'Total X Tweets',
         'Total X Geolocated Tweets',
         'Total X Non-Retweets',
-        'Total Meeting Minutes Results'
+        'Total Meeting Minutes Results',
+        'Total Meetings'  # New column
     ]
 
     rows = []
@@ -91,9 +92,25 @@ def main():
         # Meeting minutes results
         meeting_minutes_csv_deid = os.path.join(base_dir, city_dir, 'meeting_minutes', 'meeting_minutes_lexicon_matches_deidentified.csv')
         city_row['Total Meeting Minutes Results'] = count_csv_records(meeting_minutes_csv_deid)
+        # Total Meetings
+        meeting_minutes_dir = os.path.join(base_dir, city_dir, 'meeting_minutes')
+        total_meetings = 0
+        if city_dir == 'sanfrancisco':
+            # Count rows in meeting_minutes.csv (excluding header)
+            meeting_minutes_csv = os.path.join(meeting_minutes_dir, 'meeting_minutes.csv')
+            total_meetings = count_csv_records(meeting_minutes_csv)
+        else:
+            # Count all .txt files in all subdirectories of meeting_minutes_dir
+            for root, dirs, files in os.walk(meeting_minutes_dir):
+                for file in files:
+                    if file.endswith('.txt'):
+                        total_meetings += 1
+        city_row['Total Meetings'] = total_meetings
         # Add to grand total
         for k in grand_total:
             grand_total[k] += city_row.get(k, 0)
+        # Add to grand total for Total Meetings
+        grand_total['Total Meetings'] = grand_total.get('Total Meetings', 0) + total_meetings
         rows.append(city_row)
 
     # Add grand total row
