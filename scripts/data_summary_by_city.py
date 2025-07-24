@@ -49,7 +49,9 @@ def main():
         'Total News Articles',
         'Total News Paragraphs',
         'Total X Tweets',
-        'Total X Geolocated Tweets'
+        'Total X Geolocated Tweets',
+        'Total X Non-Retweets',
+        'Total Meeting Minutes Results'
     ]
 
     rows = []
@@ -70,8 +72,25 @@ def main():
         # X (Twitter)
         x_dir = os.path.join(base_dir, city_dir, 'x')
         x_posts = os.path.join(x_dir, 'posts_english_2015-2025.csv')
+        x_posts_rt = os.path.join(x_dir, 'posts_english_2015-2025_rt.csv')
         city_row['Total X Tweets'] = count_csv_records(x_posts)
         city_row['Total X Geolocated Tweets'] = count_geolocated_tweets(x_posts)
+        # Count non-retweets in posts_english_2015-2025_rt.csv
+        def count_non_retweets(filepath):
+            if not os.path.exists(filepath):
+                return 0
+            count = 0
+            import csv
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if 'is_retweet' in row and str(row['is_retweet']).lower() in ['false', '0', 'no', '']:  # treat empty as not retweet
+                        count += 1
+            return count
+        city_row['Total X Non-Retweets'] = count_non_retweets(x_posts_rt)
+        # Meeting minutes results
+        meeting_minutes_csv_deid = os.path.join(base_dir, city_dir, 'meeting_minutes', 'meeting_minutes_lexicon_matches_deidentified.csv')
+        city_row['Total Meeting Minutes Results'] = count_csv_records(meeting_minutes_csv_deid)
         # Add to grand total
         for k in grand_total:
             grand_total[k] += city_row.get(k, 0)
