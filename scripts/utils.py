@@ -47,6 +47,14 @@ def deidentify_text(text, nlp=None):
     deidentifier = Deidentifier()
     text = str(deidentifier.deidentify(text))  # Convert DeidentifiedText to string
     
+    # Replace @usernames with [USER]
+    text = re.sub(r'@[A-Za-z0-9_]+', '[USER]', text)
+    # Replace address-like patterns (number + street name + [STREET])
+    # e.g., 123 Main Street
+    text = re.sub(r'\b\d{1,5}\s+(?:[NESW]\.?\s+)?[A-Za-z0-9.\'-]+(?:\s+[A-Za-z0-9.\'-]+)*\s+\[STREET\]', '[ADDRESS]', text)
+    # Also catch common address forms like 123 W. 5th Ave, etc.
+    text = re.sub(r'\b\d{1,5}\s+(?:[NESW]\.?\s+)?[A-Za-z0-9.\'-]+(?:\s+[A-Za-z0-9.\'-]+)*\s+(Street|St|Avenue|Ave|Road|Rd|Boulevard|Blvd|Drive|Dr|Lane|Ln|Place|Pl|Court|Ct|Circle|Way)\b', '[ADDRESS]', text, flags=re.IGNORECASE)
+    
     # Then, apply custom regex/spaCy logic for further deidentification
     if nlp is None:
         import spacy
