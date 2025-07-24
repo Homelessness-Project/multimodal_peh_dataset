@@ -4,6 +4,7 @@ import csv
 from pathlib import Path
 from utils import KEYWORDS, load_spacy_model
 from tqdm import tqdm
+import pandas as pd
 
 # Compile regex for each lexicon word/phrase (case-insensitive, word boundaries)
 LEXICON_REGEX = [re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE) for word in KEYWORDS]
@@ -69,6 +70,48 @@ def process_meeting_minutes_dir(meeting_minutes_dir, nlp):
     return results
 
 
+def process_sanfrancisco_meeting_minutes_csv(meeting_minutes_dir, nlp):
+    input_csv = meeting_minutes_dir / 'meeting_minutes.csv'
+    output_csv = meeting_minutes_dir / 'meeting_minutes_lexicon_matches.csv'
+    if not input_csv.exists():
+        print(f"San Francisco meeting_minutes.csv not found in {meeting_minutes_dir}")
+        return
+    print(f"Processing San Francisco meeting_minutes.csv at {input_csv}")
+    df = pd.read_csv(input_csv, dtype=str, keep_default_na=False)
+    date_col = None
+    transcript_col = None
+    for col in df.columns:
+        if col.strip().lower() == 'date':
+            date_col = col
+        if col.strip().lower() == 'transcript':
+            transcript_col = col
+    if date_col is None or transcript_col is None:
+        print(f"Could not find 'Date' and 'Transcript' columns in {input_csv}")
+        return
+    results = []
+    for _, row in tqdm(df.iterrows(), total=len(df), desc="San Francisco rows"):
+        date = row[date_col].strip()
+        transcript = row[transcript_col].strip()
+        # If >>> or >> present, split on those; else use spaCy sentence grouping
+        if re.search(r'>>>|>>', transcript):
+            paragraphs = [p.strip() for p in re.split(r'>>>|>>', transcript) if p.strip()]
+        else:
+            paragraphs = split_into_sentence_groups(transcript, n=3, nlp=nlp)
+        for paragraph, matches in search_paragraphs(paragraphs):
+            results.append({
+                'date': date,
+                'paragraph': paragraph.replace('\n', ' '),
+                'matched_words': '; '.join(matches)
+            })
+    # Write output CSV
+    with open(output_csv, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=['date', 'paragraph', 'matched_words'])
+        writer.writeheader()
+        for row in results:
+            writer.writerow(row)
+    print(f"Wrote {len(results)} matches to {output_csv}")
+
+
 def write_results_csv(meeting_minutes_dir, results):
     if not results:
         print(f"No matches found in {meeting_minutes_dir}")
@@ -89,6 +132,10 @@ def main():
         print("No meeting_minutes directories found.")
         return
     for meeting_minutes_dir in meeting_minutes_dirs:
+        # Special handling for San Francisco
+        if 'sanfrancisco' in str(meeting_minutes_dir).lower():
+            process_sanfrancisco_meeting_minutes_csv(meeting_minutes_dir, nlp)
+            continue
         out_csv = meeting_minutes_dir / 'meeting_minutes_lexicon_matches.csv'
         if out_csv.exists():
             print(f"Skipping {meeting_minutes_dir} (CSV already exists)")
