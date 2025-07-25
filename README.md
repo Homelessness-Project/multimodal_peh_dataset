@@ -115,15 +115,27 @@ LEXISNEXIS_API_KEY=your_lexisnexis_api_key_here
 
 #### Reddit Data Collection
 ```bash
-python scripts/get_reddit_data.py --city southbend --subreddit southbend
+# Edit the script to change the subreddit name
+# In scripts/get_reddit_data.py, modify line 9:
+# subreddit_name = "southbend"
+
+python scripts/get_reddit_data.py
 ```
 - Collects comments and submissions from city-specific subreddits
 - Filters for relevant keywords related to homelessness and housing
 - Outputs: `all_comments.csv`, `filtered_comments.csv`
+- **Note**: Subreddit name must be modified in the script before running
 
 #### X (Twitter) Data Collection
 ```bash
-python scripts/get_x_data.py --city southbend
+# Collect data for specific city
+python scripts/get_twitter_data.py --city "san francisco"
+
+# Collect data for all cities
+python scripts/get_twitter_data.py
+
+# Count tweets only (no data collection)
+python scripts/get_twitter_data.py --count-only
 ```
 - Collects posts containing relevant keywords
 - Filters for English content and retweets
@@ -131,11 +143,14 @@ python scripts/get_x_data.py --city southbend
 
 #### News Data Collection
 ```bash
-# LexisNexis
-python scripts/get_lexisnexis_data.py --city southbend
+# LexisNexis - specific city
+python scripts/get_lexisnexis_data.py southbend
 
-# News API
-python scripts/get_news_api_data.py --city sanfrancisco
+# LexisNexis - all cities
+python scripts/get_lexisnexis_data.py
+
+# News API (San Francisco only)
+python scripts/get_news_api_data.py
 ```
 - Collects news articles from LexisNexis and News API
 - Filters for relevant keywords
@@ -143,7 +158,11 @@ python scripts/get_news_api_data.py --city sanfrancisco
 
 #### Meeting Minutes Processing
 ```bash
-python scripts/process_meeting_minutes.py --city southbend
+# Process meeting minutes for specific city
+python scripts/get_meeting_minute_paragraphs.py --city southbend
+
+# Process San Francisco meeting minutes
+python scripts/get_meeting_minutes_san_francisco.py
 ```
 - Processes meeting minutes transcripts
 - Extracts paragraphs containing relevant keywords
@@ -186,6 +205,17 @@ python scripts/data_summary_by_city.py
 ```
 - Generates summary statistics across all cities
 - Outputs: `data_summary_by_city.csv`
+
+#### News Filtering
+```bash
+# Filter news articles by paragraph
+python scripts/filter_lexisnexis_by_paragraph.py
+
+# Filter specific cities
+python scripts/filter_lexisnexis_by_paragraph.py --cities southbend portland
+```
+- Filters news articles by paragraph and keywords
+- Outputs: `{city}_filtered.csv` files
 
 #### Keyword Analysis
 ```bash
@@ -241,26 +271,26 @@ KEYWORDS = [
 
 ## Usage Examples
 
-### Complete Pipeline for a New City
+### Complete Pipeline
 
 ```bash
 # 1. Collect Reddit data
-python scripts/get_reddit_data.py --city newcity --subreddit newcity
+python scripts/get_reddit_data.py
 
 # 2. Collect X data
-python scripts/get_x_data.py --city newcity
+python scripts/get_twitter_data.py
 
 # 3. Collect news data
-python scripts/get_lexisnexis_data.py --city newcity
+python scripts/get_lexisnexis_data.py
 
 # 4. Process meeting minutes (if available)
-python scripts/process_meeting_minutes.py --city newcity
+python scripts/get_meeting_minute_paragraphs.py
 
 # 5. Deidentify all data
-python scripts/deidentify_text.py --cities newcity
+python scripts/deidentify_text.py
 
 # 6. Generate statistics
-python scripts/generate_statistics.py --city newcity
+python scripts/generate_statistics.py
 ```
 
 ### Analysis Workflow
