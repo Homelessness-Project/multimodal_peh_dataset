@@ -1,12 +1,12 @@
-City,Total Filtered Reddit Posts,Total Filtered Reddit Comments,Total News Articles,Total News Paragraphs,Total X Tweets,Total X Geolocated Tweets,Total X Non-Retweets,Total Meeting Minutes Results
-southbend,49,196,36,38,96,6,65,0
-rockford,12,188,6,9,98,0,43,243
-kzoo,88,1846,8,10,99,1,40,0
-scranton,8,79,108,151,92,2,56,514
-fayetteville,12,102,28,29,97,3,81,1043
-sanfrancisco,579,14777,1181,1238,9168,23,2330,0
-portland,498,15301,322,352,5574,39,1215,0
-buffalo,44,589,176,187,685,1,115,135
-baltimore,222,1215,142,142,464,7,244,0
-elpaso,11,154,28,28,99,1,53,284
-Grand Total,1523,34447,2035,2184,16472,83,4242,2219
+City,Total Filtered Reddit Posts,Total Filtered Reddit Comments,Total News Articles,Total News Paragraphs,Total X Tweets,Total X Geolocated Tweets,Total X Non-Retweets,Total Meeting Minutes Results,Total Meetings
+southbend,49,196,36,38,96,6,65,330,86
+rockford,12,188,6,9,98,0,43,243,344
+kzoo,88,1846,8,10,99,1,40,0,0
+scranton,8,79,108,151,92,2,56,514,431
+fayetteville,12,102,28,29,97,3,81,1043,233
+sanfrancisco,579,14777,1181,1238,9168,23,2330,14,25
+portland,498,15301,322,352,5574,39,1215,6618,372
+buffalo,44,589,176,187,685,1,115,135,211
+baltimore,222,1215,142,142,464,7,244,0,0
+elpaso,11,154,28,28,99,1,53,284,74
+Grand Total,1523,34447,2035,2184,16472,83,4242,9181,3552
