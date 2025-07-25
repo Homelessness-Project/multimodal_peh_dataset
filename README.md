@@ -225,6 +225,52 @@ python scripts/add_keywords_to_x_deidentified.py
 - Adds keyword analysis to deidentified datasets
 - Identifies which keywords appear in each entry
 
+### Data Sampling Scripts
+
+#### Comprehensive Data Sampling
+```bash
+# Sample 50 posts per city (default)
+python scripts/sample_all_data.py
+
+# Sample 100 posts per city
+python scripts/sample_all_data.py --samples-per-city 100
+
+# Copy ALL data (not samples) to separate files
+python scripts/sample_all_data.py --mode all --output-dir complete_dataset
+
+# Sample 25 posts per city to custom directory
+python scripts/sample_all_data.py --samples-per-city 25 --output-dir small_sample
+```
+- Samples or copies all data types (Twitter, meeting minutes, Reddit, newspaper)
+- Default sample size: **50 per city**
+- Creates separate CSV files for each data type (due to different column structures)
+- Outputs individual files + combined sample file for analysis
+
+**Sampling Mode Output:**
+- `gold_standard/sampled_twitter_posts.csv`
+- `gold_standard/sampled_meeting_minutes.csv`
+- `gold_standard/sampled_reddit_comments.csv`
+- `gold_standard/sampled_newspaper_articles.csv`
+- `gold_standard/combined_sample.csv` (with data_type column)
+
+**All Data Mode Output:**
+- `output_dir/all_twitter_posts.csv`
+- `output_dir/all_meeting_minutes.csv`
+- `output_dir/all_reddit_comments.csv`
+- `output_dir/all_newspaper_articles.csv`
+
+## Complete Dataset Summary Statistics
+
+| Data Type | Cities with Data | Total Records |
+|-----------|------------------|---------------|
+| Twitter Posts | 10 | 4,282 |
+| Meeting Minutes | 8 | 9,181 |
+| Reddit Comments | 10 | 32,413 |
+| Newspaper Articles | 10 | 2,84 |
+| **Total** | **10** | **48,020** |
+
+*Note: Actual numbers vary by city and data availability. Meeting minutes are only available for cities with public transcripts.*
+
 ## Data Sources and Keywords
 
 ### Lexicon Keywords
@@ -252,6 +298,8 @@ KEYWORDS = [
 - `*_deidentified.csv`: Data with PII removed
 - `*_lexicon_matches.csv`: Meeting minutes with keyword matches
 - `statistics.csv`: Summary statistics for each subfolder
+- `sampled_*.csv`: Sampled data for analysis
+- `all_*.csv`: Complete datasets (when using --mode all)
 
 ## Data Processing Pipeline
 
@@ -260,6 +308,7 @@ KEYWORDS = [
 3. **Deidentification**: PII removed for privacy protection
 4. **Analysis**: Statistics and keyword analysis generated
 5. **Summary**: Cross-city analysis and reporting
+6. **Sampling**: Create manageable datasets for analysis (50 samples per city by default)
 
 ## Privacy and Ethics
 
@@ -291,6 +340,9 @@ python scripts/deidentify_text.py
 
 # 6. Generate statistics
 python scripts/generate_statistics.py
+
+# 7. Create samples for analysis
+python scripts/sample_all_data.py --samples-per-city 100
 ```
 
 ### Analysis Workflow
@@ -301,6 +353,9 @@ python scripts/generate_statistics.py
 
 # Create data summary
 python scripts/data_summary_by_city.py
+
+# Create samples for analysis
+python scripts/sample_all_data.py
 
 # View statistics for specific city
 cat data/southbend/reddit/statistics.csv
@@ -321,6 +376,7 @@ cat data/southbend/reddit/statistics.csv
 - Process cities individually for large datasets
 - Monitor disk space for large CSV files
 - Use filtered datasets for analysis to reduce processing time
+- Use sampling for analysis to work with manageable file sizes
 
 ## Contributing
 
