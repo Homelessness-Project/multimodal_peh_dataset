@@ -1,0 +1,5 @@
+file,file_size_mb,total_rows,article_title_homeless_count,article_title_homelessness_count,article_title_housing crisis_count,article_title_affordable housing_count,article_title_unhoused_count,article_title_houseless_count,article_title_housing insecurity_count,article_title_beggar_count,article_title_squatter_count,article_title_panhandler_count,article_title_soup kitchen_count,paragraph_text_homeless_count,paragraph_text_homelessness_count,paragraph_text_housing crisis_count,paragraph_text_affordable housing_count,paragraph_text_unhoused_count,paragraph_text_houseless_count,paragraph_text_housing insecurity_count,paragraph_text_beggar_count,paragraph_text_squatter_count,paragraph_text_panhandler_count,paragraph_text_soup kitchen_count
+statistics.csv,0.0,3,,,,,,,,,,,,,,,,,,,,,,
+lexisnexis.csv,19.28,322,,,,,,,,,,,,,,,,,,,,,,
+portland_filtered_deidentified.csv,1.95,352,,,,,,,,,,,,,,,,,,,,,,
+portland_filtered.csv,1.94,352,41.0,9.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,252.0,103.0,14.0,102.0,6.0,4.0,1.0,1.0,0.0,1.0,2.0

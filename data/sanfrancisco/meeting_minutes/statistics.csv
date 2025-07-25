@@ -1,0 +1,6 @@
+file,file_size_mb,total_rows,total_matches,unique_files,total_unique_words,word_1,word_1_count,word_2,word_2_count,word_3,word_3_count,word_4,word_4_count,paragraph_homeless_count,paragraph_homelessness_count,paragraph_housing crisis_count,paragraph_affordable housing_count,paragraph_unhoused_count,paragraph_houseless_count,paragraph_housing insecurity_count,paragraph_beggar_count,paragraph_squatter_count,paragraph_panhandler_count,paragraph_soup kitchen_count
+meeting_minutes.csv,2.26,25,,,,,,,,,,,,,,,,,,,,,,
+meeting_minutes_paragraphs.csv,2.28,4145,,,,,,,,,,,,,,,,,,,,,,
+statistics.csv,0.0,4,,,,,,,,,,,,,,,,,,,,,,
+meeting_minutes_lexicon_matches_deidentified.csv,0.02,14,14.0,0.0,4.0,unhoused,7.0,homeless,3.0,homelessness,3.0,affordable housing,1.0,,,,,,,,,,,
+meeting_minutes_lexicon_matches.csv,0.02,14,14.0,0.0,4.0,unhoused,7.0,homeless,3.0,homelessness,3.0,affordable housing,1.0,6.0,3.0,0.0,1.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0

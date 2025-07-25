@@ -1,13 +1,5 @@
-Statistic,Value
-Start Date,2015-01-01 00:00:00 UTC
-End Date,2025-01-01 00:00:00 UTC
-Total Posts,290
-Total Keyword Posts,44
-Total Comments,10230
-Total Filtered Comments,589
-Average Comments per Post,35.275862068965516
-Average Comment Score,6.199706744868035
-Average Filtered Comment Score,7.468590831918506
-Average Filtered Comments per Post,2.0310344827586206
-Percentage of Comments Filtered,5.757575757575758
-Percentage of Posts with Keywords,15.172413793103448
+file,file_size_mb,total_rows,Submission Title_homeless_count,Submission Title_homelessness_count,Submission Title_housing crisis_count,Submission Title_affordable housing_count,Submission Title_unhoused_count,Submission Title_houseless_count,Submission Title_housing insecurity_count,Submission Title_beggar_count,Submission Title_squatter_count,Submission Title_panhandler_count,Submission Title_soup kitchen_count,Comment_homeless_count,Comment_homelessness_count,Comment_housing crisis_count,Comment_affordable housing_count,Comment_unhoused_count,Comment_houseless_count,Comment_housing insecurity_count,Comment_beggar_count,Comment_squatter_count,Comment_panhandler_count,Comment_soup kitchen_count
+all_comments.csv,4.02,10230,1267.0,366.0,84.0,158.0,83.0,0.0,0.0,0.0,69.0,0.0,4.0,391.0,47.0,17.0,129.0,31.0,1.0,0.0,10.0,20.0,27.0,2.0
+statistics.csv,0.0,4,,,,,,,,,,,,,,,,,,,,,,
+filtered_comments.csv,0.36,589,178.0,53.0,6.0,9.0,15.0,0.0,0.0,0.0,12.0,0.0,0.0,391.0,47.0,17.0,129.0,31.0,1.0,0.0,10.0,20.0,27.0,2.0
+filtered_comments_deidentified.csv,0.31,589,,,,,,,,,,,,,,,,,,,,,,
