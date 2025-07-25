@@ -59,6 +59,7 @@ def main():
     default_n_process = max(1, multiprocessing.cpu_count() - 1)
     parser.add_argument('--type', choices=['reddit', 'x', 'news', 'meeting_minutes', 'all'], default='all', help='Type of data to deidentify (reddit, x, news, meeting_minutes, or all)')
     parser.add_argument('--n_process', type=int, default=default_n_process, help='Number of processes for spaCy nlp.pipe (parallelism)')
+    parser.add_argument('--cities', type=str, default=None, help='Comma-separated list of cities to process (e.g., baltimore,portland)')
     args = parser.parse_args()
 
     print(f"Loading spaCy model... Using n_process={args.n_process}")
@@ -66,6 +67,9 @@ def main():
 
     data_dir = "data"
     cities = [d for d in os.listdir(data_dir) if os.path.isdir(os.path.join(data_dir, d))]
+    if args.cities:
+        selected_cities = [c.strip().lower() for c in args.cities.split(',')]
+        cities = [c for c in cities if c.lower() in selected_cities]
 
     # Configuration for each data type
     file_configs = [
