@@ -7,8 +7,8 @@ This repository contains a comprehensive data collection and analysis pipeline f
 The project focuses on collecting and analyzing data related to homelessness and housing issues from multiple sources across various cities. Data is collected from:
 
 - **Reddit**: Comments and submissions from city-specific subreddits
-- **X (Twitter)**: Posts containing relevant keywords
-- **News Articles**: Articles from LexisNexis and News API
+- **X (Twitter)**: Posts from the X API
+- **News Articles**: Articles from LexisNexis API
 - **Meeting Minutes**: City council meeting transcripts
 
 ## Data Structure
