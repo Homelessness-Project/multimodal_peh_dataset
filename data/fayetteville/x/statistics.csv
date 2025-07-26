@@ -1,6 +1,6 @@
 file,file_size_mb,total_rows,text_homeless_count,text_homelessness_count,text_housing crisis_count,text_affordable housing_count,text_unhoused_count,text_houseless_count,text_housing insecurity_count,text_beggar_count,text_squatter_count,text_panhandler_count,text_soup kitchen_count
 posts_english_2015-2025_rt_deidentified.csv,0.02,97,,,,,,,,,,,
-statistics.csv,0.0,5,,,,,,,,,,,
+statistics.csv,0.0,6,,,,,,,,,,,
 posts_english_2015-2025_rt.csv,0.03,97,52.0,8.0,11.0,12.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0
 statistics_twitter_english_2015-2025.csv,0.0,1,,,,,,,,,,,
 statistics_twitter_by_day_english_2015-2025.csv,0.0,54,,,,,,,,,,,

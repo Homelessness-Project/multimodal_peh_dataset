@@ -161,7 +161,7 @@ def sample_newspaper_articles(base_data_dir='data', samples_per_city=50, output_
     all_samples = []
     for city, city_dir in CITY_MAP.items():
         news_dir = os.path.join(base_data_dir, city_dir, 'newspaper')
-        news_path = os.path.join(news_dir, f'{city_dir}_filtered_deidentified.csv')
+        news_path = os.path.join(news_dir, f'{city_dir}_processed_articles_deidentified.csv')
         if not os.path.isfile(news_path):
             print(f"File not found: {news_path}")
             continue
@@ -264,7 +264,7 @@ def copy_all_data(base_data_dir='data', output_dir='all_data'):
     newspaper_all = []
     for city, city_dir in CITY_MAP.items():
         news_dir = os.path.join(base_data_dir, city_dir, 'newspaper')
-        news_path = os.path.join(news_dir, f'{city_dir}_filtered_deidentified.csv')
+        news_path = os.path.join(news_dir, f'{city_dir}_processed_articles_deidentified.csv')
         if os.path.isfile(news_path):
             try:
                 df = pd.read_csv(news_path)
@@ -405,7 +405,7 @@ def create_combined_sample(base_data_dir='data', samples_per_city=50, output_fil
     # Newspaper articles
     for city, city_dir in CITY_MAP.items():
         news_dir = os.path.join(base_data_dir, city_dir, 'newspaper')
-        news_path = os.path.join(news_dir, f'{city_dir}_filtered_deidentified.csv')
+        news_path = os.path.join(news_dir, f'{city_dir}_processed_articles_deidentified.csv')
         if os.path.isfile(news_path):
             try:
                 df = pd.read_csv(news_path)
@@ -442,13 +442,20 @@ def parse_arguments():
     parser.add_argument('--data-dir', default='data',
                        help='Base data directory (default: data)')
     
-    parser.add_argument('--output-dir', default='gold_standard',
-                       help='Output directory (default: gold_standard for samples, all_data for all data)')
+    parser.add_argument('--output-dir', default=None,
+                       help='Output directory (default: gold_standard for samples, complete_dataset for all data)')
     
     return parser.parse_args()
 
 if __name__ == '__main__':
     args = parse_arguments()
+    
+    # Set default output directory based on mode
+    if args.output_dir is None:
+        if args.mode == 'all':
+            args.output_dir = 'complete_dataset'
+        else:
+            args.output_dir = 'gold_standard'
     
     print("=== Data Processing Script ===")
     print(f"Mode: {args.mode}")

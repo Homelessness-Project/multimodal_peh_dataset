@@ -1,5 +1,7 @@
 file,file_size_mb,total_rows,article_title_homeless_count,article_title_homelessness_count,article_title_housing crisis_count,article_title_affordable housing_count,article_title_unhoused_count,article_title_houseless_count,article_title_housing insecurity_count,article_title_beggar_count,article_title_squatter_count,article_title_panhandler_count,article_title_soup kitchen_count,paragraph_text_homeless_count,paragraph_text_homelessness_count,paragraph_text_housing crisis_count,paragraph_text_affordable housing_count,paragraph_text_unhoused_count,paragraph_text_houseless_count,paragraph_text_housing insecurity_count,paragraph_text_beggar_count,paragraph_text_squatter_count,paragraph_text_panhandler_count,paragraph_text_soup kitchen_count
 baltimore_filtered_deidentified.csv,1.5,142,,,,,,,,,,,,,,,,,,,,,,
-statistics.csv,0.0,3,,,,,,,,,,,,,,,,,,,,,,
+baltimore_processed_articles_deidentified.csv,0.09,156,,,,,,,,,,,,,,,,,,,,,,
+baltimore_processed_articles.csv,0.09,156,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,92.0,38.0,8.0,55.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0
+statistics.csv,0.0,4,,,,,,,,,,,,,,,,,,,,,,
 lexisnexis.csv,8.62,142,,,,,,,,,,,,,,,,,,,,,,
 baltimore_filtered.csv,1.46,142,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,87.0,37.0,6.0,52.0,2.0,0.0,0.0,0.0,4.0,1.0,1.0

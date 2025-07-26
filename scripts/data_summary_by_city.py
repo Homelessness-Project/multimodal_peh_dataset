@@ -67,7 +67,7 @@ def main():
         # News
         news_dir = os.path.join(base_dir, city_dir, 'newspaper')
         lexisnexis = os.path.join(news_dir, 'lexisnexis.csv')
-        filtered_news = os.path.join(news_dir, f'{city_dir}_filtered.csv')
+        filtered_news = os.path.join(news_dir, f'{city_dir}_processed_articles.csv')
         city_row['Total News Articles'] = count_csv_records(lexisnexis)
         city_row['Total News Paragraphs'] = count_csv_records(filtered_news)
         # X (Twitter)

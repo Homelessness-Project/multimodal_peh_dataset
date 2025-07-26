@@ -156,6 +156,31 @@ python scripts/get_news_api_data.py
 - Filters for relevant keywords
 - Outputs: `lexisnexis.csv`, filtered news files
 
+#### News Processing and Filtering
+```bash
+# Filter news articles by paragraph and keywords
+python scripts/filter_lexisnexis_by_paragraph.py
+
+# Filter specific cities
+python scripts/filter_lexisnexis_by_paragraph.py --cities southbend portland
+
+# Process long articles (shorten around keywords)
+python scripts/process_long_articles.py --max-paragraphs 1
+
+# Process specific cities with custom parameters
+python scripts/process_long_articles.py --cities baltimore,portland --max-paragraphs 2 --max-sentences 10
+
+# Sample news articles with processed data
+python scripts/sample_news_with_processed_articles.py --samples-per-city 50
+
+# Sample specific cities with custom output
+python scripts/sample_news_with_processed_articles.py --cities baltimore,portland --output-dir custom_samples
+```
+- **Filtering**: Filters news articles by paragraph and keyword matches
+- **Processing**: Shortens long articles around relevant keywords using paragraph context detection
+- **Sampling**: Creates manageable samples from processed articles while preserving few-shot examples
+- Outputs: `{city}_filtered.csv`, `{city}_processed_articles.csv`, `sampled_lexisnexis_news.csv`
+
 #### Meeting Minutes Processing
 ```bash
 # Process meeting minutes for specific city
@@ -206,16 +231,30 @@ python scripts/data_summary_by_city.py
 - Generates summary statistics across all cities
 - Outputs: `data_summary_by_city.csv`
 
-#### News Filtering
+#### News Processing and Analysis
 ```bash
-# Filter news articles by paragraph
+# Filter news articles by paragraph and keywords
 python scripts/filter_lexisnexis_by_paragraph.py
 
 # Filter specific cities
 python scripts/filter_lexisnexis_by_paragraph.py --cities southbend portland
+
+# Process long articles (shorten around keywords)
+python scripts/process_long_articles.py --max-paragraphs 1
+
+# Process specific cities with custom parameters
+python scripts/process_long_articles.py --cities baltimore,portland --max-paragraphs 2 --max-sentences 10
+
+# Sample news articles with processed data
+python scripts/sample_news_with_processed_articles.py --samples-per-city 50
+
+# Sample specific cities with custom output
+python scripts/sample_news_with_processed_articles.py --cities baltimore,portland --output-dir custom_samples
 ```
-- Filters news articles by paragraph and keywords
-- Outputs: `{city}_filtered.csv` files
+- **Filtering**: Filters news articles by paragraph and keyword matches
+- **Processing**: Shortens long articles around relevant keywords using paragraph context detection and sentence segmentation
+- **Sampling**: Creates manageable samples from processed articles while preserving few-shot examples
+- Outputs: `{city}_filtered.csv`, `{city}_processed_articles.csv`, `sampled_lexisnexis_news.csv`
 
 #### Keyword Analysis
 ```bash
@@ -266,8 +305,8 @@ python scripts/sample_all_data.py --samples-per-city 25 --output-dir small_sampl
 | Twitter Posts | 10 | 4,282 |
 | Meeting Minutes | 8 | 9,181 |
 | Reddit Comments | 10 | 32,413 |
-| Newspaper Articles | 10 | 2,84 |
-| **Total** | **10** | **48,020** |
+| Newspaper Articles | 10 | 2,577 |
+| **Total** | **10** | **48,453** |
 
 *Note: Actual numbers vary by city and data availability. Meeting minutes are only available for cities with public transcripts.*
 
@@ -291,10 +330,35 @@ KEYWORDS = [
 3. **News Articles**: LexisNexis and News API articles
 4. **Meeting Minutes**: City council meeting transcripts
 
+## News Processing Features
+
+### Article Filtering
+- **Paragraph-based filtering**: Extracts paragraphs containing relevant keywords
+- **Duplicate detection**: Removes duplicate paragraphs across articles
+- **Content validation**: Ensures articles contain meaningful content
+
+### Long Article Processing
+- **Paragraph context detection**: Identifies natural paragraph breaks in articles
+- **Sentence segmentation fallback**: Uses spaCy for sentence-level processing when paragraphs aren't detected
+- **Keyword-focused shortening**: Creates focused versions around relevant keywords
+- **Configurable limits**: Set maximum paragraphs or sentences per processed article
+
+### Processing Methods
+1. **Paragraph Method**: Detects paragraph breaks using multiple regex patterns
+2. **Sentence Method**: Falls back to spaCy sentence segmentation when paragraphs aren't found
+3. **Context Preservation**: Maintains surrounding context around keyword matches
+4. **Segment Creation**: Creates separate segments for articles with multiple keyword locations
+
+### Sampling with Few-Shot Preservation
+- **Few-shot example detection**: Automatically finds and preserves specific examples from the original dataset
+- **Balanced sampling**: Ensures representation across cities and sources
+- **Quality preservation**: Maintains article metadata and processing information
+
 ## File Naming Conventions
 
 - `all_*.csv`: Raw collected data
 - `filtered_*.csv`: Data filtered for relevant keywords
+- `*_processed_articles.csv`: News articles processed and shortened around keywords
 - `*_deidentified.csv`: Data with PII removed
 - `*_lexicon_matches.csv`: Meeting minutes with keyword matches
 - `statistics.csv`: Summary statistics for each subfolder
@@ -305,10 +369,11 @@ KEYWORDS = [
 
 1. **Collection**: Raw data collected from various sources
 2. **Filtering**: Data filtered for relevant keywords
-3. **Deidentification**: PII removed for privacy protection
-4. **Analysis**: Statistics and keyword analysis generated
-5. **Summary**: Cross-city analysis and reporting
-6. **Sampling**: Create manageable datasets for analysis (50 samples per city by default)
+3. **News Processing**: Articles shortened around keywords using paragraph context detection
+4. **Deidentification**: PII removed for privacy protection
+5. **Analysis**: Statistics and keyword analysis generated
+6. **Summary**: Cross-city analysis and reporting
+7. **Sampling**: Create manageable datasets for analysis (50 samples per city by default)
 
 ## Privacy and Ethics
 
@@ -332,16 +397,20 @@ python scripts/get_twitter_data.py
 # 3. Collect news data
 python scripts/get_lexisnexis_data.py
 
-# 4. Process meeting minutes (if available)
+# 4. Filter and process news articles
+python scripts/filter_lexisnexis_by_paragraph.py
+python scripts/process_long_articles.py --max-paragraphs 1
+
+# 5. Process meeting minutes (if available)
 python scripts/get_meeting_minute_paragraphs.py
 
-# 5. Deidentify all data
+# 6. Deidentify all data
 python scripts/deidentify_text.py
 
-# 6. Generate statistics
+# 7. Generate statistics
 python scripts/generate_statistics.py
 
-# 7. Create samples for analysis
+# 8. Create samples for analysis
 python scripts/sample_all_data.py --samples-per-city 100
 ```
 
@@ -369,6 +438,13 @@ cat data/southbend/reddit/statistics.csv
 2. **API rate limits**: Check API credentials and wait between requests
 3. **Memory issues**: Process cities individually for large datasets
 4. **File not found errors**: Ensure data directories exist before processing
+
+### News Processing Issues
+
+1. **Long article processing**: Use `--max-paragraphs` and `--max-sentences` parameters to control article length
+2. **Paragraph detection failures**: The script automatically falls back to sentence-based processing
+3. **Memory usage**: Process cities individually for large news datasets
+4. **Few-shot examples not found**: Check that processed articles contain the expected examples
 
 ### Performance Tips
 

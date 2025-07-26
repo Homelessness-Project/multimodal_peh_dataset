@@ -8,15 +8,17 @@ import argparse
 import multiprocessing
 import math
 
-def deidentify_file(input_file, output_file, columns_to_deidentify, nlp, n_process=None, exclude_columns=None):
+def deidentify_file(input_file, output_file, columns_to_deidentify, nlp, n_process=None, exclude_columns=None, force=False):
     if n_process is None:
         n_process = max(1, multiprocessing.cpu_count() - 1)
     if not os.path.exists(input_file):
         print(f"Skipping {input_file} - file not found")
         return
-    if os.path.exists(output_file):
+    if os.path.exists(output_file) and not force:
         print(f"Skipping {input_file} - deidentified file already exists at {output_file}")
         return
+    if os.path.exists(output_file) and force:
+        print(f"Overwriting existing deidentified file: {output_file}")
     print(f"\nProcessing {input_file}...")
     df = pd.read_csv(input_file)
     deidentified_df = pd.DataFrame()
@@ -57,9 +59,10 @@ def deidentify_file(input_file, output_file, columns_to_deidentify, nlp, n_proce
 def main():
     parser = argparse.ArgumentParser(description="Deidentify comments for specified data types.")
     default_n_process = max(1, multiprocessing.cpu_count() - 1)
-    parser.add_argument('--type', choices=['reddit', 'x', 'news', 'meeting_minutes', 'all'], default='all', help='Type of data to deidentify (reddit, x, news, meeting_minutes, or all)')
+    parser.add_argument('--type', choices=['reddit', 'x', 'news', 'processed_news', 'meeting_minutes', 'all'], default='all', help='Type of data to deidentify (reddit, x, news, processed_news, meeting_minutes, or all)')
     parser.add_argument('--n_process', type=int, default=default_n_process, help='Number of processes for spaCy nlp.pipe (parallelism)')
     parser.add_argument('--cities', type=str, default=None, help='Comma-separated list of cities to process (e.g., baltimore,portland)')
+    parser.add_argument('--force', action='store_true', help='Force overwriting of existing deidentified files')
     args = parser.parse_args()
 
     print(f"Loading spaCy model... Using n_process={args.n_process}")
@@ -92,6 +95,12 @@ def main():
             'exclude_columns': []
         },
         {
+            'name': 'processed_news',
+            'input_pattern': "data/{city}/newspaper/{city}_processed_articles.csv",
+            'columns': ['article_title', 'paragraph_text'],
+            'exclude_columns': []
+        },
+        {
             'name': 'meeting_minutes',
             'input_pattern': "data/{city}/meeting_minutes/meeting_minutes_lexicon_matches.csv",
             'columns': ['paragraph'],
@@ -117,12 +126,12 @@ def main():
                 config['input_pattern'] == "data/sanfrancisco/meeting_minutes/meeting_minutes_paragraphs.csv"):
                 input_file = config['input_pattern']
                 output_file = input_file.replace('.csv', '_deidentified.csv')
-                deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process, exclude_columns=config.get('exclude_columns', []))
+                deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process, exclude_columns=config.get('exclude_columns', []), force=args.force)
                 continue
             # Normal pattern
             input_file = config['input_pattern'].format(city=city)
             output_file = input_file.replace('.csv', '_deidentified.csv')
-            deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process, exclude_columns=config.get('exclude_columns', []))
+            deidentify_file(input_file, output_file, config['columns'], nlp, n_process=args.n_process, exclude_columns=config.get('exclude_columns', []), force=args.force)
 
 if __name__ == "__main__":
     """

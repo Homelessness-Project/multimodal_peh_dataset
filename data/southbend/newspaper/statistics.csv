@@ -1,5 +1,7 @@
 file,file_size_mb,total_rows,article_title_homeless_count,article_title_homelessness_count,article_title_housing crisis_count,article_title_affordable housing_count,article_title_unhoused_count,article_title_houseless_count,article_title_housing insecurity_count,article_title_beggar_count,article_title_squatter_count,article_title_panhandler_count,article_title_soup kitchen_count,paragraph_text_homeless_count,paragraph_text_homelessness_count,paragraph_text_housing crisis_count,paragraph_text_affordable housing_count,paragraph_text_unhoused_count,paragraph_text_houseless_count,paragraph_text_housing insecurity_count,paragraph_text_beggar_count,paragraph_text_squatter_count,paragraph_text_panhandler_count,paragraph_text_soup kitchen_count
-statistics.csv,0.0,3,,,,,,,,,,,,,,,,,,,,,,
+southbend_processed_articles_deidentified.csv,0.03,49,,,,,,,,,,,,,,,,,,,,,,
+southbend_processed_articles.csv,0.03,49,4.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.0,8.0,3.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+statistics.csv,0.0,4,,,,,,,,,,,,,,,,,,,,,,
 southbend_filtered_deidentified.csv,0.26,38,,,,,,,,,,,,,,,,,,,,,,
 lexisnexis.csv,1.78,36,,,,,,,,,,,,,,,,,,,,,,
 southbend_filtered.csv,0.25,38,4.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.0,5.0,2.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
