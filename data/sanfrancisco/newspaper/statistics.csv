@@ -1,6 +1,6 @@
 file,file_size_mb,total_rows,article_title_homeless_count,article_title_homelessness_count,article_title_housing crisis_count,article_title_affordable housing_count,article_title_unhoused_count,article_title_houseless_count,article_title_housing insecurity_count,article_title_beggar_count,article_title_squatter_count,article_title_panhandler_count,article_title_soup kitchen_count,paragraph_text_homeless_count,paragraph_text_homelessness_count,paragraph_text_housing crisis_count,paragraph_text_affordable housing_count,paragraph_text_unhoused_count,paragraph_text_houseless_count,paragraph_text_housing insecurity_count,paragraph_text_beggar_count,paragraph_text_squatter_count,paragraph_text_panhandler_count,paragraph_text_soup kitchen_count
 sanfrancisco_filtered.csv,7.49,1238,286.0,105.0,61.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,990.0,468.0,136.0,269.0,54.0,4.0,5.0,2.0,8.0,1.0,1.0
-statistics.csv,0.0,4,,,,,,,,,,,,,,,,,,,,,,
+statistics.csv,0.0,6,,,,,,,,,,,,,,,,,,,,,,
 sanfrancisco_processed_articles_deidentified.csv,1.16,1537,,,,,,,,,,,,,,,,,,,,,,
 lexisnexis.csv,46.52,1181,,,,,,,,,,,,,,,,,,,,,,
 sanfrancisco_processed_articles.csv,1.2,1537,371.0,151.0,86.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1175.0,522.0,153.0,303.0,55.0,5.0,5.0,1.0,4.0,1.0,1.0

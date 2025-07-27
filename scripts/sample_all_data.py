@@ -65,6 +65,98 @@ def create_output_directories(output_dirs):
             os.makedirs(dir_path)
             print(f"Created directory: {dir_path}")
 
+def calculate_similarity(text1, text2):
+    """Calculate similarity between two texts using word-based comparison."""
+    if pd.isna(text1) or pd.isna(text2):
+        return 0
+    
+    text1 = str(text1).strip()
+    text2 = str(text2).strip()
+    
+    if not text1 or not text2:
+        return 0
+    
+    # Convert to lowercase and split into words
+    text1_lower = text1.lower()
+    text2_lower = text2.lower()
+    
+    # Remove common placeholders that don't contribute to meaningful similarity
+    placeholders = ['[organization]', '[user]', '[url]', '[person]', '[location]', '[time]', '[date]', '[address]', '[street]']
+    for placeholder in placeholders:
+        text1_lower = text1_lower.replace(placeholder, '')
+        text2_lower = text2_lower.replace(placeholder, '')
+    
+    # Split into words and remove empty strings
+    words1 = [w for w in text1_lower.split() if w]
+    words2 = [w for w in text2_lower.split() if w]
+    
+    if not words1 or not words2:
+        return 0
+    
+    # Calculate word-level similarity
+    common_words = set(words1) & set(words2)
+    total_unique_words = len(set(words1) | set(words2))
+    
+    if total_unique_words == 0:
+        return 0
+    
+    return len(common_words) / total_unique_words
+
+def remove_twitter_duplicates(df, similarity_threshold=0.4):
+    """Remove duplicate tweets that are not retweets using fuzzy matching."""
+    if df.empty:
+        return df
+    
+    # For tweets that are not retweets, we want to remove similar duplicates
+    # For retweets, we'll keep them as they represent different instances
+    # Handle both string and boolean values for is_retweet
+    non_retweet_mask = df['is_retweet'].isin([False, 'False'])
+    
+    # Find duplicates among non-retweets
+    non_retweet_df = df[non_retweet_mask].copy()
+    retweet_df = df[~non_retweet_mask].copy()
+    
+    if non_retweet_df.empty:
+        return df
+    
+    # First, remove exact duplicates based on Deidentified_text
+    print(f"Before exact deduplication: {len(non_retweet_df)} non-retweets")
+    non_retweet_df = non_retweet_df.drop_duplicates(subset=['Deidentified_text'], keep='first')
+    print(f"After exact deduplication: {len(non_retweet_df)} non-retweets")
+    
+    # Remove fuzzy duplicates from non-retweets
+    to_keep = []
+    to_remove = set()
+    
+    for i, row1 in non_retweet_df.iterrows():
+        if i in to_remove:
+            continue
+            
+        # Check if this tweet is similar to any we've already decided to keep
+        should_keep = True
+        for keep_idx in to_keep:
+            row2 = non_retweet_df.loc[keep_idx]
+            similarity = calculate_similarity(row1['Deidentified_text'], row2['Deidentified_text'])
+            if similarity >= similarity_threshold:
+                should_keep = False
+                break
+        
+        if should_keep:
+            to_keep.append(i)
+        else:
+            to_remove.add(i)
+    
+    # Keep only the first occurrence of each similar group
+    non_retweet_deduplicated = non_retweet_df.loc[to_keep].copy()
+    
+    # Combine retweets and deduplicated non-retweets
+    deduplicated_df = pd.concat([retweet_df, non_retweet_deduplicated], ignore_index=True)
+    
+    # Sort by created_at to maintain chronological order
+    deduplicated_df = deduplicated_df.sort_values('created_at')
+    
+    return deduplicated_df
+
 def sample_twitter_posts(base_data_dir='data', samples_per_city=50, output_file='gold_standard/sampled_twitter_posts.csv'):
     """Sample Twitter posts from each city."""
     all_samples = []
@@ -79,7 +171,8 @@ def sample_twitter_posts(base_data_dir='data', samples_per_city=50, output_file=
             if 'is_retweet' not in df.columns:
                 print(f"'is_retweet' column not found in {posts_path}. Skipping.")
                 continue
-            non_rt = df[df['is_retweet'] == False]
+            # Handle both string and boolean values for is_retweet
+            non_rt = df[df['is_retweet'].isin([False, 'False'])]
             if non_rt.empty:
                 print(f"No non-retweet tweets in {posts_path}.")
                 continue
@@ -91,6 +184,16 @@ def sample_twitter_posts(base_data_dir='data', samples_per_city=50, output_file=
             print(f"Error processing {posts_path}: {e}")
     if all_samples:
         combined = pd.concat(all_samples, ignore_index=True)
+        
+        # Remove duplicates before saving
+        original_count = len(combined)
+        combined = remove_twitter_duplicates(combined)
+        deduplicated_count = len(combined)
+        removed_count = original_count - deduplicated_count
+        
+        if removed_count > 0:
+            print(f"Removed {removed_count} duplicate tweets from sample")
+        
         combined.to_csv(output_file, index=False)
         print(f"Twitter sample saved to {output_file} ({len(combined)} total samples)")
     else:
@@ -201,7 +304,9 @@ def copy_all_data(base_data_dir='data', output_dir='all_data'):
             try:
                 df = pd.read_csv(posts_path)
                 if 'is_retweet' in df.columns:
-                    non_rt = df[df['is_retweet'] == False]
+                    # Convert is_retweet to string to handle boolean values properly
+                    df['is_retweet'] = df['is_retweet'].astype(str)
+                    non_rt = df[df['is_retweet'] != 'True']
                     if not non_rt.empty:
                         non_rt['city'] = city
                         twitter_all.append(non_rt)
@@ -211,6 +316,16 @@ def copy_all_data(base_data_dir='data', output_dir='all_data'):
     
     if twitter_all:
         twitter_combined = pd.concat(twitter_all, ignore_index=True)
+        
+        # Remove duplicates before saving
+        original_count = len(twitter_combined)
+        twitter_combined = remove_twitter_duplicates(twitter_combined)
+        deduplicated_count = len(twitter_combined)
+        removed_count = original_count - deduplicated_count
+        
+        if removed_count > 0:
+            print(f"Removed {removed_count} duplicate tweets from complete dataset")
+        
         twitter_output = os.path.join(output_dir, 'all_twitter_posts.csv')
         twitter_combined.to_csv(twitter_output, index=False)
         print(f"Twitter posts saved to {twitter_output} ({len(twitter_combined)} total)")
@@ -363,7 +478,9 @@ def create_combined_sample(base_data_dir='data', samples_per_city=50, output_fil
             try:
                 df = pd.read_csv(posts_path)
                 if 'is_retweet' in df.columns:
-                    non_rt = df[df['is_retweet'] == False]
+                    # Convert is_retweet to string to handle boolean values properly
+                    df['is_retweet'] = df['is_retweet'].astype(str)
+                    non_rt = df[df['is_retweet'] != 'True']
                     if not non_rt.empty:
                         sample = non_rt.sample(n=min(samples_per_data_type, len(non_rt)), random_state=42)
                         sample['city'] = city

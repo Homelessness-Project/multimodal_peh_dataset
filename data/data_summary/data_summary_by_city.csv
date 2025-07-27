@@ -1,12 +1,12 @@
 City,Total Filtered Reddit Posts,Total Filtered Reddit Comments,Total News Articles,Total News Paragraphs,Total X Tweets,Total X Geolocated Tweets,Total X Non-Retweets,Total Meeting Minutes Results,Total Meetings
-southbend,0,0,36,49,96,6,65,330,86
-rockford,0,0,6,9,98,0,43,243,344
-kzoo,0,0,8,11,99,1,40,0,0
-scranton,0,0,108,159,92,2,56,514,431
-fayetteville,0,0,28,32,97,3,81,1043,233
-sanfrancisco,0,0,1181,1537,9168,23,2330,14,25
-portland,0,0,322,397,5574,39,1215,6618,372
-buffalo,0,0,176,196,685,1,115,135,211
-baltimore,0,0,142,156,464,7,244,0,0
-elpaso,0,0,28,31,99,1,53,284,74
-Grand Total,0,0,2035,2577,16472,83,4242,9181,3552
+southbend,62,196,36,49,96,6,65,330,86
+rockford,43,188,6,9,98,0,43,243,344
+kzoo,209,1885,8,11,99,1,40,0,0
+scranton,13,79,108,159,92,2,56,514,431
+fayetteville,34,102,28,32,97,3,81,1043,233
+sanfrancisco,714,14777,1181,1537,9168,23,2330,14,25
+portland,751,15301,322,397,5574,39,1215,6618,372
+buffalo,151,589,176,196,685,1,115,135,211
+baltimore,246,1215,142,156,464,7,244,0,0
+elpaso,40,154,28,31,99,1,53,284,74
+Grand Total,2263,34486,2035,2577,16472,83,4242,9181,3552

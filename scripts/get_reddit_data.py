@@ -7,7 +7,7 @@ import praw
 from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
 from utils import KEYWORDS
 
-subreddit_name = "southbend"
+subreddit_name = "kzoo"
 
 # Prepare the output directory
 output_dir = f'data/{subreddit_name.lower()}/reddit'

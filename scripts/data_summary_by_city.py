@@ -3,17 +3,26 @@ import csv
 csv.field_size_limit(2147483647)
 from utils import CITY_MAP
 
-def get_reddit_stats(stat_path):
+def get_reddit_stats(reddit_dir):
+    """Get Reddit statistics by counting the actual filtered files."""
     stats = {'Total Filtered Reddit Posts': 0, 'Total Filtered Reddit Comments': 0}
-    if not os.path.exists(stat_path):
-        return stats
-    with open(stat_path, 'r', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        for row in reader:
-            if row[0] == 'Total Keyword Posts':
-                stats['Total Filtered Reddit Posts'] = int(row[1])
-            elif row[0] == 'Total Filtered Comments':
-                stats['Total Filtered Reddit Comments'] = int(row[1])
+    
+    # Count filtered comments (excluding header)
+    filtered_comments_path = os.path.join(reddit_dir, 'filtered_comments.csv')
+    if os.path.exists(filtered_comments_path):
+        # Count total comments (excluding header)
+        stats['Total Filtered Reddit Comments'] = count_csv_records(filtered_comments_path)
+        
+        # Count unique posts by counting unique submission URLs
+        unique_posts = set()
+        with open(filtered_comments_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if 'Submission URL' in row and row['Submission URL']:
+                    unique_posts.add(row['Submission URL'])
+        
+        stats['Total Filtered Reddit Posts'] = len(unique_posts)
+    
     return stats
 
 def count_csv_records(filepath):
@@ -62,7 +71,7 @@ def main():
         # Reddit
         reddit_dir = os.path.join(base_dir, city_dir, 'reddit')
         stat_path = os.path.join(reddit_dir, 'statistics.csv')
-        reddit_stats = get_reddit_stats(stat_path)
+        reddit_stats = get_reddit_stats(reddit_dir)
         city_row.update(reddit_stats)
         # News
         news_dir = os.path.join(base_dir, city_dir, 'newspaper')

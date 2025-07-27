@@ -2,6 +2,6 @@ file,file_size_mb,total_rows,article_title_homeless_count,article_title_homeless
 baltimore_filtered_deidentified.csv,1.5,142,,,,,,,,,,,,,,,,,,,,,,
 baltimore_processed_articles_deidentified.csv,0.09,156,,,,,,,,,,,,,,,,,,,,,,
 baltimore_processed_articles.csv,0.09,156,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,92.0,38.0,8.0,55.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0
-statistics.csv,0.0,4,,,,,,,,,,,,,,,,,,,,,,
+statistics.csv,0.0,6,,,,,,,,,,,,,,,,,,,,,,
 lexisnexis.csv,8.62,142,,,,,,,,,,,,,,,,,,,,,,
 baltimore_filtered.csv,1.46,142,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,87.0,37.0,6.0,52.0,2.0,0.0,0.0,0.0,4.0,1.0,1.0
