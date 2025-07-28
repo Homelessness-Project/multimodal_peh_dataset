@@ -19,6 +19,7 @@ The script will:
 import os
 import pandas as pd
 import argparse
+from tqdm import tqdm
 from utils import CITY_MAP
 
 # The 5 few-shot examples to preserve
@@ -91,7 +92,8 @@ def remove_twitter_duplicates(df, similarity_threshold=0.4):
     to_keep = []
     to_remove = set()
     
-    for i, row1 in non_retweet_df.iterrows():
+    print("Removing fuzzy duplicates...")
+    for i, row1 in tqdm(non_retweet_df.iterrows(), total=len(non_retweet_df), desc="Deduplicating tweets"):
         if i in to_remove:
             continue
             
@@ -173,7 +175,7 @@ def resample_twitter_with_fewshot(base_data_dir='data', samples_per_city=50,
     city_data_mapping = {}  # Track which data belongs to which city
     
     print("Collecting all non-retweet data...")
-    for city, city_dir in CITY_MAP.items():
+    for city, city_dir in tqdm(CITY_MAP.items(), desc="Processing cities"):
         x_dir = os.path.join(base_data_dir, city_dir, 'x')
         posts_path = os.path.join(x_dir, 'posts_english_2015-2025_rt_deidentified.csv')
         
@@ -211,6 +213,20 @@ def resample_twitter_with_fewshot(base_data_dir='data', samples_per_city=50,
     all_data = pd.concat(all_non_rt_data, ignore_index=True)
     print(f"\nTotal non-retweet posts across all cities: {len(all_data)}")
     
+    # Apply fuzzy deduplication FIRST to the entire dataset
+    print("\nApplying fuzzy deduplication to entire dataset (threshold: 0.8)...")
+    original_count = len(all_data)
+    all_data = remove_twitter_duplicates(all_data, similarity_threshold=0.8)
+    deduplicated_count = len(all_data)
+    removed_count = original_count - deduplicated_count
+    
+    if removed_count > 0:
+        print(f"✓ Removed {removed_count} duplicate tweets from entire dataset")
+    else:
+        print("No duplicates found with current threshold")
+    
+    print(f"Remaining posts after deduplication: {len(all_data)}")
+    
     # Find few-shot examples globally
     print("\nFinding few-shot examples globally...")
     few_shot_indices, found_texts = find_few_shot_examples(all_data, few_shot_examples, similarity_threshold)
@@ -228,20 +244,43 @@ def resample_twitter_with_fewshot(base_data_dir='data', samples_per_city=50,
     remaining_data = all_data.drop(few_shot_indices)
     print(f"Remaining posts after removing few-shot examples: {len(remaining_data)}")
     
-    # Sample per city from remaining data
+    # Sample per city from remaining data, accounting for few-shot examples
     all_samples = []
-    for city, city_dir in CITY_MAP.items():
+    few_shot_by_city = {}
+    
+    # Count few-shot examples per city
+    if few_shot_indices:
+        few_shot_data = all_data.loc[few_shot_indices].copy()
+        few_shot_by_city = few_shot_data['city'].value_counts().to_dict()
+        print(f"\nFew-shot examples by city:")
+        for city, count in few_shot_by_city.items():
+            print(f"  {city}: {count} few-shot examples")
+    
+    print("\nSampling per city...")
+    for city, city_dir in tqdm(CITY_MAP.items(), desc="Sampling cities"):
         if city not in city_data_mapping:
             continue
             
         # Get data for this city (excluding few-shot examples)
         city_data = remaining_data[remaining_data['city'] == city]
         
-        if len(city_data) > 0:
+        # Calculate how many additional samples we can take
+        few_shot_count = few_shot_by_city.get(city, 0)
+        available_slots = samples_per_city - few_shot_count
+        
+        if len(city_data) > 0 and available_slots > 0:
+            sample_size = min(available_slots, len(city_data))
+            sample = city_data.sample(n=sample_size, random_state=42)
+            all_samples.append(sample)
+            print(f"  {city}: {len(sample)} sampled posts + {few_shot_count} few-shot = {len(sample) + few_shot_count} total")
+        elif few_shot_count > 0:
+            print(f"  {city}: 0 sampled posts + {few_shot_count} few-shot = {few_shot_count} total")
+        elif len(city_data) > 0:
+            # If we have data but no few-shot examples, sample up to the limit
             sample_size = min(samples_per_city, len(city_data))
             sample = city_data.sample(n=sample_size, random_state=42)
             all_samples.append(sample)
-            print(f"  {city}: {len(sample)} sampled posts")
+            print(f"  {city}: {len(sample)} sampled posts (no few-shot examples)")
         else:
             print(f"  {city}: No data available for sampling")
     
@@ -266,18 +305,6 @@ def resample_twitter_with_fewshot(base_data_dir='data', samples_per_city=50,
     
     # Save to file
     if not final_combined.empty:
-        # Remove duplicates from final output with lower threshold for testing
-        original_count = len(final_combined)
-        print(f"\nApplying fuzzy deduplication (threshold: 0.8)...")
-        final_combined = remove_twitter_duplicates(final_combined, similarity_threshold=0.8)
-        deduplicated_count = len(final_combined)
-        removed_count = original_count - deduplicated_count
-        
-        if removed_count > 0:
-            print(f"✓ Removed {removed_count} duplicate tweets from final output")
-        else:
-            print("No duplicates found with current threshold")
-        
         final_combined.to_csv(output_file, index=False)
         print(f"\nResampled Twitter data saved to {output_file}")
         print(f"Total posts: {len(final_combined)}")
@@ -287,7 +314,15 @@ def resample_twitter_with_fewshot(base_data_dir='data', samples_per_city=50,
         # Show distribution
         if 'city' in final_combined.columns:
             print("\nCity distribution:")
-            print(final_combined['city'].value_counts())
+            city_counts = final_combined['city'].value_counts()
+            print(city_counts)
+            
+            # Verify max per city
+            max_per_city = city_counts.max()
+            if max_per_city > samples_per_city:
+                print(f"⚠ Warning: {city_counts.idxmax()} has {max_per_city} posts (exceeds limit of {samples_per_city})")
+            else:
+                print(f"✓ All cities have ≤ {samples_per_city} posts")
         
         # Show few-shot summary
         if few_shot_indices:

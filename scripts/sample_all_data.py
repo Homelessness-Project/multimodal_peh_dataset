@@ -56,6 +56,7 @@ For help: python scripts/sample_all_data.py --help
 import os
 import pandas as pd
 import argparse
+from tqdm import tqdm
 from utils import CITY_MAP
 
 def create_output_directories(output_dirs):
@@ -128,7 +129,8 @@ def remove_twitter_duplicates(df, similarity_threshold=0.4):
     to_keep = []
     to_remove = set()
     
-    for i, row1 in non_retweet_df.iterrows():
+    print("Removing fuzzy duplicates...")
+    for i, row1 in tqdm(non_retweet_df.iterrows(), total=len(non_retweet_df), desc="Deduplicating tweets"):
         if i in to_remove:
             continue
             
@@ -160,7 +162,7 @@ def remove_twitter_duplicates(df, similarity_threshold=0.4):
 def sample_twitter_posts(base_data_dir='data', samples_per_city=50, output_file='gold_standard/sampled_twitter_posts.csv'):
     """Sample Twitter posts from each city."""
     all_samples = []
-    for city, city_dir in CITY_MAP.items():
+    for city, city_dir in tqdm(CITY_MAP.items(), desc="Processing cities"):
         x_dir = os.path.join(base_data_dir, city_dir, 'x')
         posts_path = os.path.join(x_dir, 'posts_english_2015-2025_rt_deidentified.csv')
         if not os.path.isfile(posts_path):
@@ -187,7 +189,7 @@ def sample_twitter_posts(base_data_dir='data', samples_per_city=50, output_file=
         
         # Remove duplicates before saving
         original_count = len(combined)
-        combined = remove_twitter_duplicates(combined)
+        combined = remove_twitter_duplicates(combined, similarity_threshold=0.8)
         deduplicated_count = len(combined)
         removed_count = original_count - deduplicated_count
         
@@ -319,7 +321,7 @@ def copy_all_data(base_data_dir='data', output_dir='all_data'):
         
         # Remove duplicates before saving
         original_count = len(twitter_combined)
-        twitter_combined = remove_twitter_duplicates(twitter_combined)
+        twitter_combined = remove_twitter_duplicates(twitter_combined, similarity_threshold=0.8)
         deduplicated_count = len(twitter_combined)
         removed_count = original_count - deduplicated_count
         
